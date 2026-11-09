@@ -1,0 +1,28 @@
+# dependencias y builds
+node_modules/
+dist/
+build/
+.expo/
+web-build/
+*.apk
+*.aab
+
+# secretos y configuración local
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+google-services.json
+
+# Supabase CLI local
+supabase/.branches/
+supabase/.temp/
+
+# sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.log
