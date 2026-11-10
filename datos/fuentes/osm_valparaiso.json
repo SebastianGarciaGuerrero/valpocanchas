@@ -1,0 +1,6749 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-10T01:20:48Z",
+    "timestamp_areas_base": "2026-11-09T23:39:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 214196951,
+  "lat": -33.0284486,
+  "lon": -71.6378657,
+  "tags": {
+    "is_in": "Chile, Latin America",
+    "name": "Playa Ancha",
+    "place": "suburb",
+    "wikidata": "Q6078291",
+    "wikipedia": "es:Playa Ancha"
+  }
+},
+{
+  "type": "node",
+  "id": 214197850,
+  "lat": -33.0821993,
+  "lon": -71.6478938,
+  "tags": {
+    "is_in": "Chile, Latin America",
+    "name": "Quebrada Verde",
+    "place": "hamlet",
+    "population": "95",
+    "population:date": "2017",
+    "source:population": "INE"
+  }
+},
+{
+  "type": "node",
+  "id": 214204207,
+  "lat": -33.0408421,
+  "lon": -71.6006672,
+  "tags": {
+    "name": "Cerro Barón",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 214228110,
+  "lat": -33.1045621,
+  "lon": -71.6675632,
+  "tags": {
+    "name": "Laguna Verde",
+    "place": "village",
+    "population": "3686",
+    "population:date": "2017",
+    "source:population": "INE",
+    "wikidata": "Q15241276",
+    "wikipedia": "es:Laguna Verde (pueblo)"
+  }
+},
+{
+  "type": "node",
+  "id": 214234405,
+  "lat": -33.0860478,
+  "lon": -71.6289071,
+  "tags": {
+    "name": "Cerro Colorado",
+    "place": "hamlet",
+    "population": "21",
+    "population:date": "2017",
+    "source:population": "INE"
+  }
+},
+{
+  "type": "node",
+  "id": 259141073,
+  "lat": -33.0354421,
+  "lon": -71.5829808,
+  "tags": {
+    "name": "Cerro Esperanza",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 259141088,
+  "lat": -33.0434064,
+  "lon": -71.6298435,
+  "tags": {
+    "name": "Cerro Alegre",
+    "place": "neighbourhood",
+    "wikidata": "Q5480350",
+    "wikipedia": "es:Cerro Alegre"
+  }
+},
+{
+  "type": "node",
+  "id": 259141093,
+  "lat": -33.0422635,
+  "lon": -71.6264954,
+  "tags": {
+    "name": "Cerro Concepción",
+    "place": "neighbourhood",
+    "wikidata": "Q5762961",
+    "wikipedia": "es:Cerro Concepción"
+  }
+},
+{
+  "type": "node",
+  "id": 271954383,
+  "lat": -33.0529492,
+  "lon": -71.6154000,
+  "tags": {
+    "name": "Cerro Monjas",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 271954454,
+  "lat": -33.0582570,
+  "lon": -71.6128734,
+  "tags": {
+    "name": "Cerro La Cruz",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 278613126,
+  "lat": -33.0451536,
+  "lon": -71.6253704,
+  "tags": {
+    "name": "Cerro Panteón",
+    "place": "neighbourhood",
+    "wikidata": "Q5763169",
+    "wikipedia": "es:Cerro Panteón"
+  }
+},
+{
+  "type": "node",
+  "id": 297450411,
+  "lat": -33.0466039,
+  "lon": -71.6283050,
+  "tags": {
+    "name": "Cerro Cárcel",
+    "place": "quarter",
+    "wikidata": "Q28662735",
+    "wikipedia": "es:Cerro Cárcel"
+  }
+},
+{
+  "type": "node",
+  "id": 297450510,
+  "lat": -33.0460668,
+  "lon": -71.6317015,
+  "tags": {
+    "name": "Cerro Miraflores",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 297452458,
+  "lat": -33.0512031,
+  "lon": -71.6231412,
+  "tags": {
+    "name": "Cerro Yungay",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 297452595,
+  "lat": -33.0545375,
+  "lon": -71.6229342,
+  "tags": {
+    "name": "Cerro Florida",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 297454357,
+  "lat": -33.0534395,
+  "lon": -71.6188080,
+  "tags": {
+    "name": "Cerro Mariposa",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 297458429,
+  "lat": -33.0590427,
+  "lon": -71.5929471,
+  "tags": {
+    "name": "Barrio O'Higgins",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 297460073,
+  "lat": -33.0511961,
+  "lon": -71.5987260,
+  "tags": {
+    "name": "Cerro Molino",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 297460083,
+  "lat": -33.0498292,
+  "lon": -71.5971387,
+  "tags": {
+    "name": "Cerro Polanco",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 297460158,
+  "lat": -33.0487459,
+  "lon": -71.5989704,
+  "tags": {
+    "name": "Cerro Rodríguez",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 297460455,
+  "lat": -33.0461919,
+  "lon": -71.5988202,
+  "tags": {
+    "name": "Cerro Larraín",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 297460493,
+  "lat": -33.0439400,
+  "lon": -71.6022180,
+  "tags": {
+    "name": "Cerro Lecheros",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 298106309,
+  "lat": -33.0329179,
+  "lon": -71.6314496,
+  "tags": {
+    "name": "Cerro Artillería",
+    "place": "neighbourhood",
+    "wikidata": "Q5762863",
+    "wikipedia": "es:Cerro Artillería"
+  }
+},
+{
+  "type": "node",
+  "id": 302169913,
+  "lat": -33.0362886,
+  "lon": -71.6360537,
+  "tags": {
+    "name": "Cerro Perdices",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 302169949,
+  "lat": -33.0376557,
+  "lon": -71.6350238,
+  "tags": {
+    "name": "Cerro Toro",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 302170690,
+  "lat": -33.0351297,
+  "lon": -71.6321555,
+  "tags": {
+    "name": "Cerro Arrayán",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 302170815,
+  "lat": -33.0334464,
+  "lon": -71.6345002,
+  "tags": {
+    "name": "Cerro Mesilla",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 302170936,
+  "lat": -33.0404331,
+  "lon": -71.6366031,
+  "tags": {
+    "name": "Cerro Locera",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 302171004,
+  "lat": -33.0437499,
+  "lon": -71.6375987,
+  "tags": {
+    "name": "Cerro Chaparro",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 316884136,
+  "lat": -33.1274190,
+  "lon": -71.5696552,
+  "tags": {
+    "name": "Curauma",
+    "place": "suburb",
+    "wikidata": "Q5794885"
+  }
+},
+{
+  "type": "node",
+  "id": 316884343,
+  "lat": -33.1359742,
+  "lon": -71.5744364,
+  "tags": {
+    "name": "La Foresta de Curauma",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 316884344,
+  "lat": -33.1389796,
+  "lon": -71.5693638,
+  "tags": {
+    "name": "Jardines del Lago",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 316884350,
+  "lat": -33.1436032,
+  "lon": -71.5663487,
+  "tags": {
+    "name": "Lomas de Curauma",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 316884393,
+  "lat": -33.1250137,
+  "lon": -71.5735572,
+  "tags": {
+    "name": "Llanos de Curauma",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 316884398,
+  "lat": -33.1167829,
+  "lon": -71.5801035,
+  "tags": {
+    "alt_name": "Invica",
+    "name": "Villa Cardenal Samoré",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 384844829,
+  "lat": -33.0314634,
+  "lon": -71.5838880,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Stadio Italiano"
+  }
+},
+{
+  "type": "node",
+  "id": 643887833,
+  "lat": -33.0406607,
+  "lon": -71.6334327,
+  "tags": {
+    "name": "Cerro Cordillera",
+    "place": "quarter",
+    "wikidata": "Q42604582",
+    "wikipedia": "es:Cerro Cordillera"
+  }
+},
+{
+  "type": "node",
+  "id": 1832651818,
+  "lat": -33.0577113,
+  "lon": -71.5763674,
+  "tags": {
+    "name": "Rodelillo",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 1832651820,
+  "lat": -33.0655091,
+  "lon": -71.5664164,
+  "tags": {
+    "name": "Lomas de Rodelillo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2106142241,
+  "lat": -33.0610167,
+  "lon": -71.5591870,
+  "tags": {
+    "name": "Población Juan Pablo II",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2191969888,
+  "lat": -33.1171421,
+  "lon": -71.5796403,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Gimnasio"
+  }
+},
+{
+  "type": "node",
+  "id": 2195191799,
+  "lat": -33.1219630,
+  "lon": -71.5684984,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Gimnasio"
+  }
+},
+{
+  "type": "node",
+  "id": 2786977833,
+  "lat": -33.0620277,
+  "lon": -71.6078482,
+  "tags": {
+    "name": "Cerro Las Cañas",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 2788594361,
+  "lat": -33.0558678,
+  "lon": -71.6043530,
+  "tags": {
+    "name": "Cerro La Virgen",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2788970836,
+  "lat": -33.0566297,
+  "lon": -71.6105221,
+  "tags": {
+    "name": "Cerro El Litre",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2789034799,
+  "lat": -33.0546222,
+  "lon": -71.5983771,
+  "tags": {
+    "name": "Cerro Ramaditas",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2789034801,
+  "lat": -33.0572914,
+  "lon": -71.6001014,
+  "tags": {
+    "name": "Cerro Santa Elena",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2789051258,
+  "lat": -33.0657737,
+  "lon": -71.5931451,
+  "tags": {
+    "name": "Rocuant",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 2862225841,
+  "lat": -33.0377808,
+  "lon": -71.6032941,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:street": "Paseo Wheelwright",
+    "email": "contacto@tornamesavalpo.cl",
+    "leisure": "pitch",
+    "name": "Palestra Climbing Tornamesa",
+    "opening_hours": "Mo-Fr 10:00-14:00, 16:00-22:00; Sa 16:00-22:00",
+    "phone": "+56 9 846 67636",
+    "sport": "climbing",
+    "website": "https://www.tornamesavalpo.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2890305501,
+  "lat": -33.0501278,
+  "lon": -71.6222731,
+  "tags": {
+    "name": "Cerro Bellavista",
+    "place": "neighbourhood",
+    "wikidata": "Q18285616",
+    "wikipedia": "es:Cerro Bellavista"
+  }
+},
+{
+  "type": "node",
+  "id": 2890305746,
+  "lat": -33.0496604,
+  "lon": -71.6266801,
+  "tags": {
+    "name": "Cerro San Juan de Dios",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2890305797,
+  "lat": -33.0486734,
+  "lon": -71.6291960,
+  "tags": {
+    "name": "Cerro La Loma",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2911615911,
+  "lat": -33.1423574,
+  "lon": -71.5775719,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Centro Deportivo y Eventos Regatas Curauma"
+  }
+},
+{
+  "type": "node",
+  "id": 3029110269,
+  "lat": -33.0347051,
+  "lon": -71.5951390,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Gimnasio 3"
+  }
+},
+{
+  "type": "node",
+  "id": 3304781724,
+  "lat": -33.0650199,
+  "lon": -71.6247502,
+  "tags": {
+    "name": "Manzana H",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 3393341463,
+  "lat": -33.0484417,
+  "lon": -71.6134978,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "SportValp"
+  }
+},
+{
+  "type": "node",
+  "id": 3393341969,
+  "lat": -33.0387836,
+  "lon": -71.6265193,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Sportlife"
+  }
+},
+{
+  "type": "node",
+  "id": 3393355043,
+  "lat": -33.0453934,
+  "lon": -71.6044756,
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "node",
+  "id": 3418288332,
+  "lat": -33.0356367,
+  "lon": -71.6338844,
+  "tags": {
+    "name": "Cerro Santo Domingo",
+    "place": "neighbourhood",
+    "wikidata": "Q65486250",
+    "wikipedia": "es:Cerro Santo Domingo (Valparaíso)"
+  }
+},
+{
+  "type": "node",
+  "id": 3446946413,
+  "lat": -33.0447504,
+  "lon": -71.6197641,
+  "tags": {
+    "leisure": "pitch",
+    "name": "Skate",
+    "sport": "skateboard"
+  }
+},
+{
+  "type": "node",
+  "id": 3460538668,
+  "lat": -33.0478888,
+  "lon": -71.6158157,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Club Deportivo Wanders"
+  }
+},
+{
+  "type": "node",
+  "id": 3629947478,
+  "lat": -33.0414904,
+  "lon": -71.6081705,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Puerto Deportivo"
+  }
+},
+{
+  "type": "node",
+  "id": 3631833816,
+  "lat": -33.0385184,
+  "lon": -71.6271730,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housename": "Estación Puerto",
+    "addr:housenumber": "629",
+    "addr:street": "Avenida Errázuriz",
+    "leisure": "sports_centre",
+    "name": "Sportlife Gym"
+  }
+},
+{
+  "type": "node",
+  "id": 3833211477,
+  "lat": -33.0943532,
+  "lon": -71.7222332,
+  "tags": {
+    "name": "Caleta Grande",
+    "place": "hamlet",
+    "population": "18",
+    "population:date": "2017",
+    "source:population": "INE"
+  }
+},
+{
+  "type": "node",
+  "id": 4396899861,
+  "lat": -33.0625990,
+  "lon": -71.5902505,
+  "tags": {
+    "name": "Las Violetas",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396899862,
+  "lat": -33.0635988,
+  "lon": -71.5892558,
+  "tags": {
+    "name": "El Mercurio",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396899874,
+  "lat": -33.0726354,
+  "lon": -71.5835562,
+  "tags": {
+    "name": "Manuel Rodríguez",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396913834,
+  "lat": -33.0516884,
+  "lon": -71.5910912,
+  "tags": {
+    "name": "Villa Portuaria",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396913840,
+  "lat": -33.0532755,
+  "lon": -71.5918038,
+  "tags": {
+    "name": "Cerro Las Delicias",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396924828,
+  "lat": -33.0658624,
+  "lon": -71.5879020,
+  "tags": {
+    "name": "Chilectra",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396964029,
+  "lat": -33.0797918,
+  "lon": -71.5839747,
+  "tags": {
+    "name": "La Isla",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396964030,
+  "lat": -33.0781661,
+  "lon": -71.5834111,
+  "tags": {
+    "name": "Andorra",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396964031,
+  "lat": -33.0635723,
+  "lon": -71.5940221,
+  "tags": {
+    "name": "Villa Spencer",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396964032,
+  "lat": -33.0555143,
+  "lon": -71.5951264,
+  "tags": {
+    "name": "Blanco Encalada",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396964033,
+  "lat": -33.0539091,
+  "lon": -71.5982336,
+  "tags": {
+    "name": "Teniente Merino",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396964034,
+  "lat": -33.0595476,
+  "lon": -71.5929938,
+  "tags": {
+    "name": "Chilena de Tabacos",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396964035,
+  "lat": -33.0676331,
+  "lon": -71.5972600,
+  "tags": {
+    "name": "Cuesta Colorada",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396964036,
+  "lat": -33.0730695,
+  "lon": -71.5934860,
+  "tags": {
+    "name": "Las Torres",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396964037,
+  "lat": -33.0544422,
+  "lon": -71.5869942,
+  "tags": {
+    "name": "Villa Franklin",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396964038,
+  "lat": -33.0580521,
+  "lon": -71.5887787,
+  "tags": {
+    "name": "Jardín Suizo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396964040,
+  "lat": -33.0559561,
+  "lon": -71.5867061,
+  "tags": {
+    "name": "Parque Los Ingleses",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396964041,
+  "lat": -33.0591541,
+  "lon": -71.5861042,
+  "tags": {
+    "name": "Bosque Inglés",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396964043,
+  "lat": -33.0681950,
+  "lon": -71.5877456,
+  "tags": {
+    "name": "Villa Real",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396964044,
+  "lat": -33.0706501,
+  "lon": -71.5842687,
+  "tags": {
+    "name": "Pequeña Industria",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396964045,
+  "lat": -33.0875529,
+  "lon": -71.5841176,
+  "tags": {
+    "is_in:city": "Valparaíso",
+    "name": "Alto del Puerto",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4396969599,
+  "lat": -33.0630884,
+  "lon": -71.5861336,
+  "tags": {
+    "name": "San Roque",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4399508528,
+  "lat": -33.0722960,
+  "lon": -71.5851903,
+  "tags": {
+    "name": "Hernán Mery",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4400506484,
+  "lat": -33.0553471,
+  "lon": -71.5858517,
+  "tags": {
+    "name": "Edwards",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4474371155,
+  "lat": -33.0599679,
+  "lon": -71.5880617,
+  "tags": {
+    "name": "Jardín Suizo IV",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4511211389,
+  "lat": -33.0575763,
+  "lon": -71.6048660,
+  "tags": {
+    "name": "Cerro Merced",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4947730312,
+  "lat": -33.0650319,
+  "lon": -71.5699107,
+  "tags": {
+    "name": "Condominio Santa Teresita de los Andes",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 5109751192,
+  "lat": -33.0347489,
+  "lon": -71.5895834,
+  "tags": {
+    "name": "Población Cuatro Luces",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 5235754509,
+  "lat": -33.1035973,
+  "lon": -71.6733999,
+  "tags": {
+    "name": "Villa Edén Alto",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 5497596799,
+  "lat": -33.0469276,
+  "lon": -71.5778714,
+  "tags": {
+    "name": "Villa Berlín",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6023223823,
+  "lat": -33.1384850,
+  "lon": -71.5669378,
+  "tags": {
+    "name": "Pinares de Curauma",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6154344167,
+  "lat": -33.0449535,
+  "lon": -71.6058785,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Gimnasio Casa Central Pontificia Universidad Católica de Valparaíso"
+  }
+},
+{
+  "type": "node",
+  "id": 6212102302,
+  "lat": -33.1700310,
+  "lon": -71.5475392,
+  "tags": {
+    "name": "Las Tablas",
+    "place": "hamlet",
+    "population": "45",
+    "population:date": "2017",
+    "source:population": "INE"
+  }
+},
+{
+  "type": "node",
+  "id": 6212102304,
+  "lat": -33.1192760,
+  "lon": -71.7018414,
+  "tags": {
+    "name": "Curaumilla",
+    "place": "hamlet",
+    "population": "113",
+    "population:date": "2017",
+    "source:population": "INE"
+  }
+},
+{
+  "type": "node",
+  "id": 6345850136,
+  "lat": -33.0576075,
+  "lon": -71.5597236,
+  "tags": {
+    "name": "Población Las Palmas II",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6345850137,
+  "lat": -33.0562738,
+  "lon": -71.5687415,
+  "tags": {
+    "name": "Población La Laguna",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6345850138,
+  "lat": -33.0593154,
+  "lon": -71.5596378,
+  "tags": {
+    "name": "Lomas del Parque",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6345850139,
+  "lat": -33.0583149,
+  "lon": -71.5622611,
+  "tags": {
+    "name": "Las Palmas",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 6345850140,
+  "lat": -33.0583831,
+  "lon": -71.5610237,
+  "tags": {
+    "name": "Población Las Palmas I",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6345997570,
+  "lat": -33.0565095,
+  "lon": -71.5625997,
+  "tags": {
+    "name": "Población Dr. Israel Roizblatt Stramwasser",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6346024373,
+  "lat": -33.0580282,
+  "lon": -71.5644516,
+  "tags": {
+    "name": "Población Las Palmas II Bajo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6346183163,
+  "lat": -33.0530373,
+  "lon": -71.5647316,
+  "tags": {
+    "name": "Cabrales",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6346183164,
+  "lat": -33.0535910,
+  "lon": -71.5612342,
+  "tags": {
+    "name": "Héroes del Mar",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6346183165,
+  "lat": -33.0542998,
+  "lon": -71.5655998,
+  "tags": {
+    "name": "La Isla",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6346183166,
+  "lat": -33.0523956,
+  "lon": -71.5702903,
+  "tags": {
+    "name": "El Esfuerzo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6346183167,
+  "lat": -33.0447095,
+  "lon": -71.5839401,
+  "tags": {
+    "name": "María Eislers",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6346183168,
+  "lat": -33.0391578,
+  "lon": -71.5913582,
+  "tags": {
+    "name": "Placeres Bajo",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 6346183169,
+  "lat": -33.0479675,
+  "lon": -71.5811880,
+  "tags": {
+    "name": "Cincel",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6346183170,
+  "lat": -33.0362628,
+  "lon": -71.5975700,
+  "tags": {
+    "name": "La Puntilla",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6346183176,
+  "lat": -33.0420425,
+  "lon": -71.5768507,
+  "tags": {
+    "name": "Población Villa América",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6346183182,
+  "lat": -33.0588291,
+  "lon": -71.5710660,
+  "tags": {
+    "name": "Población Básica",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6346183183,
+  "lat": -33.0589937,
+  "lon": -71.5798035,
+  "tags": {
+    "name": "La Planchada",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6346183184,
+  "lat": -33.0627197,
+  "lon": -71.5780363,
+  "tags": {
+    "name": "Villa Rapa Nui",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6346188986,
+  "lat": -33.0468741,
+  "lon": -71.6129442,
+  "tags": {
+    "name": "Almendral",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6346188987,
+  "lat": -33.0275220,
+  "lon": -71.6345345,
+  "tags": {
+    "name": "Población Bueras",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6346188988,
+  "lat": -33.0322009,
+  "lon": -71.6484947,
+  "tags": {
+    "name": "Porvenir",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 6346463650,
+  "lat": -33.0328538,
+  "lon": -71.6411978,
+  "tags": {
+    "name": "Pacífico",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6346463651,
+  "lat": -33.0346876,
+  "lon": -71.6430714,
+  "tags": {
+    "name": "Población Marina Mercante",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6346463652,
+  "lat": -33.0383244,
+  "lon": -71.6283724,
+  "tags": {
+    "name": "Barrio Puerto",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 6346463654,
+  "lat": -33.0567123,
+  "lon": -71.5953885,
+  "tags": {
+    "name": "Cerro O'Higgins",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 6346463674,
+  "lat": -33.0373424,
+  "lon": -71.5989206,
+  "tags": {
+    "name": "Remodelación Balmaceda",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6346493001,
+  "lat": -33.0471600,
+  "lon": -71.5784124,
+  "tags": {
+    "name": "Placeres",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6347450101,
+  "lat": -33.0524639,
+  "lon": -71.5674862,
+  "tags": {
+    "name": "Placeres Alto",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 6347502188,
+  "lat": -33.0616582,
+  "lon": -71.6188512,
+  "tags": {
+    "name": "El Vergel Alto",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 6347521881,
+  "lat": -33.0583631,
+  "lon": -71.6440774,
+  "tags": {
+    "name": "Puertas Negras",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 6347521882,
+  "lat": -33.0555665,
+  "lon": -71.6401453,
+  "tags": {
+    "name": "Montedónico",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 6347521883,
+  "lat": -33.0561150,
+  "lon": -71.6438199,
+  "tags": {
+    "name": "Valle Verde",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6347521884,
+  "lat": -33.0585069,
+  "lon": -71.6405798,
+  "tags": {
+    "name": "Joaquín Lepeley",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6347521985,
+  "lat": -33.0531476,
+  "lon": -71.6465665,
+  "tags": {
+    "name": "El Molino",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6347521986,
+  "lat": -33.0506836,
+  "lon": -71.6485192,
+  "tags": {
+    "name": "Tercer Sector",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6347521987,
+  "lat": -33.0469964,
+  "lon": -71.6489269,
+  "tags": {
+    "name": "Cuarto Sector",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6347521988,
+  "lat": -33.0482015,
+  "lon": -71.6527463,
+  "tags": {
+    "name": "Quinto Sector",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6347521989,
+  "lat": -33.0337035,
+  "lon": -71.6519095,
+  "tags": {
+    "name": "Porvenir Bajo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6347521990,
+  "lat": -33.0404492,
+  "lon": -71.6532398,
+  "tags": {
+    "name": "Primer Sector",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6347521991,
+  "lat": -33.0447301,
+  "lon": -71.6521670,
+  "tags": {
+    "name": "Segundo Sector",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6347555092,
+  "lat": -33.0607868,
+  "lon": -71.6411215,
+  "tags": {
+    "name": "Pueblo Hundido",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6347555093,
+  "lat": -33.0613730,
+  "lon": -71.6386025,
+  "tags": {
+    "name": "La Copa",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6347555094,
+  "lat": -33.0588174,
+  "lon": -71.6314070,
+  "tags": {
+    "name": "Campamento Violeta Parra",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6347555095,
+  "lat": -33.0652337,
+  "lon": -71.6276738,
+  "tags": {
+    "name": "Mesana",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6347555096,
+  "lat": -33.0641538,
+  "lon": -71.6209086,
+  "tags": {
+    "name": "Manuel Rodríguez",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6347555097,
+  "lat": -33.0695374,
+  "lon": -71.6108460,
+  "tags": {
+    "name": "El Vergel",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6347555098,
+  "lat": -33.0662818,
+  "lon": -71.5904745,
+  "tags": {
+    "name": "San Jorge",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6401771216,
+  "lat": -33.1174788,
+  "lon": -71.5380979,
+  "tags": {
+    "name": "Las Mercedes",
+    "place": "hamlet",
+    "population": "40",
+    "population:date": "2017",
+    "source:population": "INE"
+  }
+},
+{
+  "type": "node",
+  "id": 6401771217,
+  "lat": -33.1421867,
+  "lon": -71.6515017,
+  "tags": {
+    "name": "El Sauce",
+    "place": "hamlet",
+    "population": "104",
+    "population:date": "2017",
+    "source:population": "INE"
+  }
+},
+{
+  "type": "node",
+  "id": 6401771218,
+  "lat": -33.1381261,
+  "lon": -71.6510725,
+  "tags": {
+    "name": "Tierra Roja",
+    "place": "hamlet",
+    "population": "64",
+    "population:date": "2017",
+    "source:population": "INE"
+  }
+},
+{
+  "type": "node",
+  "id": 6401771219,
+  "lat": -33.1457441,
+  "lon": -71.6743219,
+  "tags": {
+    "name": "Curauma",
+    "place": "hamlet",
+    "population": "30",
+    "population:date": "2017",
+    "source:population": "INE"
+  }
+},
+{
+  "type": "node",
+  "id": 6401771220,
+  "lat": -33.1284949,
+  "lon": -71.6888380,
+  "tags": {
+    "name": "Curaumilla Central",
+    "place": "hamlet",
+    "population": "20",
+    "population:date": "2017",
+    "source:population": "INE"
+  }
+},
+{
+  "type": "node",
+  "id": 6401771221,
+  "lat": -33.0927820,
+  "lon": -71.7297578,
+  "tags": {
+    "name": "Las Gaviotas",
+    "place": "hamlet",
+    "population": "7",
+    "population:date": "2017",
+    "source:population": "INE"
+  }
+},
+{
+  "type": "node",
+  "id": 7682891901,
+  "lat": -33.0947414,
+  "lon": -71.6019344,
+  "tags": {
+    "name": "Parque Industrial Valparaíso",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 8728722878,
+  "lat": -33.0545584,
+  "lon": -71.6195741,
+  "tags": {
+    "name": "Villa Adolfo Ibáñez",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 8901888853,
+  "lat": -33.0613429,
+  "lon": -71.6093158,
+  "tags": {
+    "name": "El Caleuche",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9011154787,
+  "lat": -33.1320148,
+  "lon": -71.5555043,
+  "tags": {
+    "name": "Parque Industrial Curauma",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 9641187278,
+  "lat": -33.1033704,
+  "lon": -71.6671552,
+  "tags": {
+    "name": "El Edén",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 9641187279,
+  "lat": -33.0996541,
+  "lon": -71.6634948,
+  "tags": {
+    "name": "Otaegui",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 9641187280,
+  "lat": -33.1245753,
+  "lon": -71.6681113,
+  "tags": {
+    "name": "La Virgen",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 11004966870,
+  "lat": -33.0572725,
+  "lon": -71.5849748,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Canchas Santos Ossa"
+  }
+},
+{
+  "type": "node",
+  "id": 11407544632,
+  "lat": -33.0305237,
+  "lon": -71.6474515,
+  "tags": {
+    "name": "Poblacion Miramar",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11495930109,
+  "lat": -33.0507508,
+  "lon": -71.6078460,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Club Deportivo Árabe"
+  }
+},
+{
+  "type": "node",
+  "id": 11503938137,
+  "lat": -33.0865532,
+  "lon": -71.6578221,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Muro de Escalada",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "node",
+  "id": 11821159663,
+  "lat": -33.1347822,
+  "lon": -71.5681435,
+  "tags": {
+    "addr:city": "Curauma",
+    "addr:country": "CL",
+    "name": "Portal de Curauma",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11821159676,
+  "lat": -33.1323957,
+  "lon": -71.5727230,
+  "tags": {
+    "addr:city": "Curauma",
+    "addr:country": "CL",
+    "name": "Jardines del Bosque",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11821159677,
+  "lat": -33.1220663,
+  "lon": -71.5806821,
+  "tags": {
+    "addr:city": "Curauma",
+    "addr:country": "CL",
+    "name": "Puerta del Sol",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11821159678,
+  "lat": -33.1178934,
+  "lon": -71.5764428,
+  "tags": {
+    "addr:city": "Curauma",
+    "addr:country": "CL",
+    "name": "Villa Mauricio Rugendas",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11821159679,
+  "lat": -33.1228414,
+  "lon": -71.5681009,
+  "tags": {
+    "addr:city": "Curauma",
+    "addr:country": "CL",
+    "name": "Villa Fundadores",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12256519600,
+  "lat": -33.1293746,
+  "lon": -71.5704497,
+  "tags": {
+    "description": "El vecindario corresponde al polígono formado por las avenidas Colina Verde y Curauma Sur, y los condominios Cumbres de Curauma VI y Toromiro.",
+    "name": "Brisas de Curauma VI",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12256789601,
+  "lat": -33.1285267,
+  "lon": -71.5694942,
+  "tags": {
+    "description": "El vecindario corresponde al polígono formado por las avenidas Colina Verde, Curauma Sur, Cardenal Samoré y Boulevard Curauma.",
+    "name": "Brisas de Curauma IV",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12256789602,
+  "lat": -33.1275328,
+  "lon": -71.5705590,
+  "tags": {
+    "description": "El vecindario corresponde al polígono formado por las avenidas Colina Verde, Curauma Sur, Cardenal Samoré y el colegio Siglo XXI.",
+    "name": "Brisas de Curauma III",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12256789603,
+  "lat": -33.1276172,
+  "lon": -71.5676106,
+  "tags": {
+    "description": "El vecindario corresponde al polígono formado por las avenidas Curauma Norte, Boulevard Curauma, Cardenal Samoré, el condominio Cumbres de Curauma IV, el vecindario Brisas de Curauma V al noroeste y la Villa Fundadores al norte y noreste.",
+    "name": "Brisas de Curauma II",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12256789604,
+  "lat": -33.1261292,
+  "lon": -71.5690189,
+  "tags": {
+    "description": "El vecindario corresponde al polígono formado por la avenida Curauma Norte, el condominio Parque Curauma II, la calle Felipe II y el vecindario Brisas de Curauma II al sureste.",
+    "name": "Brisas de Curauma V",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12256789605,
+  "lat": -33.1283671,
+  "lon": -71.5650064,
+  "tags": {
+    "description": "El vecindario corresponde al polígono formado por las avenidas Boulevard Curauma y Curauma Norte, la villa Fundadores al norte y el Strip Center Puerto Curauma y la Copec al este.",
+    "name": "Brisas de Curauma I",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12262755896,
+  "lat": -33.0483362,
+  "lon": -71.5981713,
+  "tags": {
+    "name": "Cerro Recreo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12323982982,
+  "lat": -33.0378452,
+  "lon": -71.5978307,
+  "tags": {
+    "name": "Yolanda",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12344725386,
+  "lat": -33.0646772,
+  "lon": -71.5678382,
+  "tags": {
+    "name": "Conjunto Habitacional San Nicolás",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12344725387,
+  "lat": -33.0654886,
+  "lon": -71.5676960,
+  "tags": {
+    "name": "Conjunto Habitacional San Guillermo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12436919650,
+  "lat": -33.0617482,
+  "lon": -71.5581259,
+  "tags": {
+    "name": "Población San Benito",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12469900862,
+  "lat": -33.0556970,
+  "lon": -71.6331233,
+  "tags": {
+    "name": "Cerro Jiménez",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 12610411182,
+  "lat": -33.1152883,
+  "lon": -71.5537720,
+  "tags": {
+    "alt_name": "Placilla Oriente",
+    "name": "Nuevo Placilla",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12682584919,
+  "lat": -33.1412255,
+  "lon": -71.5672770,
+  "tags": {
+    "name": "Faldeos de Curauma",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12703914089,
+  "lat": -33.1224862,
+  "lon": -71.5618284,
+  "tags": {
+    "leisure": "pitch",
+    "name": "Club Pádel 68",
+    "sport": "padel"
+  }
+},
+{
+  "type": "node",
+  "id": 13468421082,
+  "lat": -33.0427738,
+  "lon": -71.6236871,
+  "tags": {
+    "name": "Centro Cívico Valparaíso",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14029297237,
+  "lat": -33.0628484,
+  "lon": -71.5635014,
+  "tags": {
+    "name": "Juan Pablo II",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14042413411,
+  "lat": -33.1139603,
+  "lon": -71.5778770,
+  "tags": {
+    "addr:city": "Curauma",
+    "addr:country": "CL",
+    "instagram": "https://www.instagram.com/multiespaciopadel/",
+    "leisure": "pitch",
+    "name": "Multiespacio Pádel Center",
+    "phone": "+56942299967",
+    "sport": "padel"
+  }
+},
+{
+  "type": "node",
+  "id": 14273264329,
+  "lat": -33.0406488,
+  "lon": -71.6280120,
+  "tags": {
+    "heritage:operator": "whc",
+    "heritage:website": "https://whc.unesco.org/en/list/959",
+    "name": "Barrio Histórico de la Ciudad Portuaria de Valparaíso",
+    "name:en": "Historic Quarter of the Seaport City of Valparaíso",
+    "name:fr": "Quartier Historique de la Ville Portuaire de Valparaiso",
+    "place": "quarter",
+    "ref:whc": "959",
+    "whc:criteria": "(iii)",
+    "whc:inscription_date": "2003",
+    "wikidata": "Q16333721"
+  }
+},
+{
+  "type": "way",
+  "id": 27126039,
+  "bounds": {
+    "minlat": -33.0239444,
+    "minlon": -71.6391419,
+    "maxlat": -33.0228621,
+    "maxlon": -71.6378800
+  },
+  "geometry": [
+    { "lat": -33.0235566, "lon": -71.6391419 },
+    { "lat": -33.0239444, "lon": -71.6386335 },
+    { "lat": -33.0232500, "lon": -71.6378800 },
+    { "lat": -33.0228621, "lon": -71.6383885 },
+    { "lat": -33.0235566, "lon": -71.6391419 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "name": "Playa Ancha",
+    "sport": "soccer",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 27126040,
+  "bounds": {
+    "minlat": -33.0245107,
+    "minlon": -71.6402113,
+    "maxlat": -33.0234370,
+    "maxlon": -71.6388828
+  },
+  "geometry": [
+    { "lat": -33.0240469, "lon": -71.6402113 },
+    { "lat": -33.0245107, "lon": -71.6397442 },
+    { "lat": -33.0239008, "lon": -71.6388828 },
+    { "lat": -33.0234370, "lon": -71.6393499 },
+    { "lat": -33.0240469, "lon": -71.6402113 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "name": "Playa Ancha",
+    "sport": "soccer",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 27126304,
+  "bounds": {
+    "minlat": -33.0319424,
+    "minlon": -71.6329046,
+    "maxlat": -33.0310181,
+    "maxlon": -71.6318461
+  },
+  "geometry": [
+    { "lat": -33.0310181, "lon": -71.6322933 },
+    { "lat": -33.0313339, "lon": -71.6318461 },
+    { "lat": -33.0319424, "lon": -71.6324574 },
+    { "lat": -33.0316266, "lon": -71.6329046 },
+    { "lat": -33.0310181, "lon": -71.6322933 }
+  ],
+  "tags": {
+    "layer": "5",
+    "leisure": "pitch",
+    "name": "Habivalp",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 28656212,
+  "bounds": {
+    "minlat": -33.0599333,
+    "minlon": -71.5960987,
+    "maxlat": -33.0573131,
+    "maxlon": -71.5938907
+  },
+  "geometry": [
+    { "lat": -33.0581534, "lon": -71.5960987 },
+    { "lat": -33.0579433, "lon": -71.5958414 },
+    { "lat": -33.0576061, "lon": -71.5952602 },
+    { "lat": -33.0574443, "lon": -71.5953659 },
+    { "lat": -33.0573131, "lon": -71.5950809 },
+    { "lat": -33.0591546, "lon": -71.5939585 },
+    { "lat": -33.0593094, "lon": -71.5938907 },
+    { "lat": -33.0593580, "lon": -71.5939453 },
+    { "lat": -33.0594824, "lon": -71.5940576 },
+    { "lat": -33.0599331, "lon": -71.5945140 },
+    { "lat": -33.0599333, "lon": -71.5945852 },
+    { "lat": -33.0598501, "lon": -71.5946382 },
+    { "lat": -33.0594943, "lon": -71.5948651 },
+    { "lat": -33.0595471, "lon": -71.5950200 },
+    { "lat": -33.0587139, "lon": -71.5956217 },
+    { "lat": -33.0583626, "lon": -71.5957978 },
+    { "lat": -33.0581534, "lon": -71.5960987 }
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Estadio O'Higgins"
+  }
+},
+{
+  "type": "way",
+  "id": 50592791,
+  "bounds": {
+    "minlat": -33.0198798,
+    "minlon": -71.6404500,
+    "maxlat": -33.0189300,
+    "maxlon": -71.6392093
+  },
+  "geometry": [
+    { "lat": -33.0194058, "lon": -71.6404500 },
+    { "lat": -33.0195697, "lon": -71.6403346 },
+    { "lat": -33.0195967, "lon": -71.6403132 },
+    { "lat": -33.0198798, "lon": -71.6401156 },
+    { "lat": -33.0193770, "lon": -71.6392093 },
+    { "lat": -33.0189300, "lon": -71.6395290 },
+    { "lat": -33.0194058, "lon": -71.6404500 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Escuela Naval Arturo Prat",
+    "sport": "soccer",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 55291935,
+  "bounds": {
+    "minlat": -33.1002335,
+    "minlon": -71.6629688,
+    "maxlat": -33.0999799,
+    "maxlon": -71.6625709
+  },
+  "geometry": [
+    { "lat": -33.1001720, "lon": -71.6629688 },
+    { "lat": -33.1002335, "lon": -71.6626190 },
+    { "lat": -33.1000413, "lon": -71.6625709 },
+    { "lat": -33.0999799, "lon": -71.6629208 },
+    { "lat": -33.1001720, "lon": -71.6629688 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 78603025,
+  "bounds": {
+    "minlat": -33.0389695,
+    "minlon": -71.6311078,
+    "maxlat": -33.0386916,
+    "maxlon": -71.6307671
+  },
+  "geometry": [
+    { "lat": -33.0386916, "lon": -71.6309943 },
+    { "lat": -33.0387962, "lon": -71.6311078 },
+    { "lat": -33.0389695, "lon": -71.6308806 },
+    { "lat": -33.0388650, "lon": -71.6307671 },
+    { "lat": -33.0386916, "lon": -71.6309943 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Cancha Michelet",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 91653985,
+  "bounds": {
+    "minlat": -33.0646269,
+    "minlon": -71.5717456,
+    "maxlat": -33.0644000,
+    "maxlon": -71.5714263
+  },
+  "geometry": [
+    { "lat": -33.0645228, "lon": -71.5717456 },
+    { "lat": -33.0646269, "lon": -71.5715006 },
+    { "lat": -33.0645040, "lon": -71.5714263 },
+    { "lat": -33.0644000, "lon": -71.5716713 },
+    { "lat": -33.0645228, "lon": -71.5717456 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "source": "Kaart Ground Survey 2017",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 91654025,
+  "bounds": {
+    "minlat": -33.0659237,
+    "minlon": -71.5695975,
+    "maxlat": -33.0656563,
+    "maxlon": -71.5692730
+  },
+  "geometry": [
+    { "lat": -33.0657766, "lon": -71.5695975 },
+    { "lat": -33.0659237, "lon": -71.5694018 },
+    { "lat": -33.0658034, "lon": -71.5692730 },
+    { "lat": -33.0656563, "lon": -71.5694687 },
+    { "lat": -33.0657766, "lon": -71.5695975 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 91832891,
+  "bounds": {
+    "minlat": -33.0644176,
+    "minlon": -71.5775403,
+    "maxlat": -33.0641971,
+    "maxlon": -71.5771711
+  },
+  "geometry": [
+    { "lat": -33.0643365, "lon": -71.5775403 },
+    { "lat": -33.0644176, "lon": -71.5772216 },
+    { "lat": -33.0642782, "lon": -71.5771711 },
+    { "lat": -33.0641971, "lon": -71.5774897 },
+    { "lat": -33.0643365, "lon": -71.5775403 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 96300612,
+  "bounds": {
+    "minlat": -33.0296514,
+    "minlon": -71.6433918,
+    "maxlat": -33.0292837,
+    "maxlon": -71.6428956
+  },
+  "geometry": [
+    { "lat": -33.0295563, "lon": -71.6428956 },
+    { "lat": -33.0296514, "lon": -71.6433008 },
+    { "lat": -33.0293789, "lon": -71.6433918 },
+    { "lat": -33.0292837, "lon": -71.6429866 },
+    { "lat": -33.0295563, "lon": -71.6428956 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "La Cancha",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 128369452,
+  "bounds": {
+    "minlat": -33.0482347,
+    "minlon": -71.6518042,
+    "maxlat": -33.0479118,
+    "maxlon": -71.6514440
+  },
+  "geometry": [
+    { "lat": -33.0480090, "lon": -71.6514440 },
+    { "lat": -33.0482347, "lon": -71.6516592 },
+    { "lat": -33.0481375, "lon": -71.6518042 },
+    { "lat": -33.0479118, "lon": -71.6515891 },
+    { "lat": -33.0480090, "lon": -71.6514440 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 128370181,
+  "bounds": {
+    "minlat": -33.0355595,
+    "minlon": -71.5970062,
+    "maxlat": -33.0352658,
+    "maxlon": -71.5966246
+  },
+  "geometry": [
+    { "lat": -33.0354404, "lon": -71.5966246 },
+    { "lat": -33.0355595, "lon": -71.5967329 },
+    { "lat": -33.0353849, "lon": -71.5970062 },
+    { "lat": -33.0352658, "lon": -71.5968980 },
+    { "lat": -33.0354404, "lon": -71.5966246 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis",
+    "surface": "clay"
+  }
+},
+{
+  "type": "way",
+  "id": 150152797,
+  "bounds": {
+    "minlat": -33.0425415,
+    "minlon": -71.5981855,
+    "maxlat": -33.0421661,
+    "maxlon": -71.5975912
+  },
+  "geometry": [
+    { "lat": -33.0421661, "lon": -71.5980838 },
+    { "lat": -33.0423478, "lon": -71.5981855 },
+    { "lat": -33.0425415, "lon": -71.5976929 },
+    { "lat": -33.0423598, "lon": -71.5975912 },
+    { "lat": -33.0421661, "lon": -71.5980838 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 165671864,
+  "bounds": {
+    "minlat": -33.0607664,
+    "minlon": -71.5932959,
+    "maxlat": -33.0574473,
+    "maxlon": -71.5908140
+  },
+  "geometry": [
+    { "lat": -33.0581441, "lon": -71.5932166 },
+    { "lat": -33.0577935, "lon": -71.5932959 },
+    { "lat": -33.0574473, "lon": -71.5925768 },
+    { "lat": -33.0576556, "lon": -71.5922946 },
+    { "lat": -33.0579119, "lon": -71.5920796 },
+    { "lat": -33.0578753, "lon": -71.5918996 },
+    { "lat": -33.0584711, "lon": -71.5914897 },
+    { "lat": -33.0585903, "lon": -71.5914679 },
+    { "lat": -33.0587562, "lon": -71.5916562 },
+    { "lat": -33.0594239, "lon": -71.5908140 },
+    { "lat": -33.0597790, "lon": -71.5912915 },
+    { "lat": -33.0602354, "lon": -71.5910527 },
+    { "lat": -33.0605591, "lon": -71.5910123 },
+    { "lat": -33.0607664, "lon": -71.5913294 },
+    { "lat": -33.0602349, "lon": -71.5919038 },
+    { "lat": -33.0602020, "lon": -71.5919790 },
+    { "lat": -33.0601068, "lon": -71.5922198 },
+    { "lat": -33.0600162, "lon": -71.5922600 },
+    { "lat": -33.0599415, "lon": -71.5922549 },
+    { "lat": -33.0599233, "lon": -71.5923169 },
+    { "lat": -33.0597466, "lon": -71.5923599 },
+    { "lat": -33.0592972, "lon": -71.5925956 },
+    { "lat": -33.0583861, "lon": -71.5932017 },
+    { "lat": -33.0582944, "lon": -71.5932244 },
+    { "lat": -33.0581441, "lon": -71.5932166 }
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Parque Jack Davis"
+  }
+},
+{
+  "type": "way",
+  "id": 169347629,
+  "bounds": {
+    "minlat": -33.0522706,
+    "minlon": -71.6515715,
+    "maxlat": -33.0516218,
+    "maxlon": -71.6505166
+  },
+  "geometry": [
+    { "lat": -33.0516218, "lon": -71.6506493 },
+    { "lat": -33.0518073, "lon": -71.6515715 },
+    { "lat": -33.0522706, "lon": -71.6514388 },
+    { "lat": -33.0520851, "lon": -71.6505166 },
+    { "lat": -33.0516218, "lon": -71.6506493 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Cancha Fútbol"
+  }
+},
+{
+  "type": "way",
+  "id": 172349676,
+  "bounds": {
+    "minlat": -33.0448124,
+    "minlon": -71.5990596,
+    "maxlat": -33.0441592,
+    "maxlon": -71.5979483
+  },
+  "geometry": [
+    { "lat": -33.0443858, "lon": -71.5990596 },
+    { "lat": -33.0448124, "lon": -71.5989176 },
+    { "lat": -33.0445858, "lon": -71.5979483 },
+    { "lat": -33.0441592, "lon": -71.5980902 },
+    { "lat": -33.0443858, "lon": -71.5990596 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Cancha La Laguna",
+    "sport": "soccer",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 173081196,
+  "bounds": {
+    "minlat": -33.0439637,
+    "minlon": -71.5840356,
+    "maxlat": -33.0429996,
+    "maxlon": -71.5831657
+  },
+  "geometry": [
+    { "lat": -33.0439637, "lon": -71.5837519 },
+    { "lat": -33.0438215, "lon": -71.5831657 },
+    { "lat": -33.0429996, "lon": -71.5834494 },
+    { "lat": -33.0431419, "lon": -71.5840356 },
+    { "lat": -33.0439637, "lon": -71.5837519 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Auditorio Benito Parraguez",
+    "sport": "soccer",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 196347396,
+  "bounds": {
+    "minlat": -33.0453999,
+    "minlon": -71.6375792,
+    "maxlat": -33.0448215,
+    "maxlon": -71.6365689
+  },
+  "geometry": [
+    { "lat": -33.0450109, "lon": -71.6375792 },
+    { "lat": -33.0453999, "lon": -71.6374618 },
+    { "lat": -33.0452105, "lon": -71.6365689 },
+    { "lat": -33.0448215, "lon": -71.6366863 },
+    { "lat": -33.0450109, "lon": -71.6375792 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Guillermo Bravo",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 200648875,
+  "bounds": {
+    "minlat": -33.0604749,
+    "minlon": -71.5592933,
+    "maxlat": -33.0601799,
+    "maxlon": -71.5590071
+  },
+  "geometry": [
+    { "lat": -33.0604138, "lon": -71.5592933 },
+    { "lat": -33.0604749, "lon": -71.5591380 },
+    { "lat": -33.0602409, "lon": -71.5590071 },
+    { "lat": -33.0601799, "lon": -71.5591624 },
+    { "lat": -33.0604138, "lon": -71.5592933 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 201055150,
+  "bounds": {
+    "minlat": -33.0647809,
+    "minlon": -71.5735121,
+    "maxlat": -33.0644183,
+    "maxlon": -71.5730986
+  },
+  "geometry": [
+    { "lat": -33.0645462, "lon": -71.5735121 },
+    { "lat": -33.0647809, "lon": -71.5733084 },
+    { "lat": -33.0646531, "lon": -71.5730986 },
+    { "lat": -33.0644183, "lon": -71.5733023 },
+    { "lat": -33.0645462, "lon": -71.5735121 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 201658909,
+  "bounds": {
+    "minlat": -33.0379338,
+    "minlon": -71.6352549,
+    "maxlat": -33.0373799,
+    "maxlon": -71.6347624
+  },
+  "geometry": [
+    { "lat": -33.0374678, "lon": -71.6352549 },
+    { "lat": -33.0373799, "lon": -71.6350571 },
+    { "lat": -33.0378459, "lon": -71.6347624 },
+    { "lat": -33.0379338, "lon": -71.6349603 },
+    { "lat": -33.0374678, "lon": -71.6352549 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Cancha La Campana",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 201850082,
+  "bounds": {
+    "minlat": -33.0383574,
+    "minlon": -71.6355581,
+    "maxlat": -33.0381685,
+    "maxlon": -71.6353838
+  },
+  "geometry": [
+    { "lat": -33.0383259, "lon": -71.6355581 },
+    { "lat": -33.0383574, "lon": -71.6354321 },
+    { "lat": -33.0381865, "lon": -71.6353838 },
+    { "lat": -33.0381685, "lon": -71.6355099 },
+    { "lat": -33.0383259, "lon": -71.6355581 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 218940654,
+  "bounds": {
+    "minlat": -33.0327621,
+    "minlon": -71.5838638,
+    "maxlat": -33.0318741,
+    "maxlon": -71.5828525
+  },
+  "geometry": [
+    { "lat": -33.0321421, "lon": -71.5838638 },
+    { "lat": -33.0327621, "lon": -71.5832194 },
+    { "lat": -33.0324940, "lon": -71.5828525 },
+    { "lat": -33.0318741, "lon": -71.5834969 },
+    { "lat": -33.0321421, "lon": -71.5838638 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Stadio Italiano",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 220341639,
+  "bounds": {
+    "minlat": -33.1267355,
+    "minlon": -71.5731293,
+    "maxlat": -33.1265894,
+    "maxlon": -71.5728516
+  },
+  "geometry": [
+    { "lat": -33.1266381, "lon": -71.5731293 },
+    { "lat": -33.1267355, "lon": -71.5731023 },
+    { "lat": -33.1266868, "lon": -71.5728516 },
+    { "lat": -33.1265894, "lon": -71.5728786 },
+    { "lat": -33.1266381, "lon": -71.5731293 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Cancha de fútbol",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 242991020,
+  "bounds": {
+    "minlat": -33.0658540,
+    "minlon": -71.5846901,
+    "maxlat": -33.0616785,
+    "maxlon": -71.5815497
+  },
+  "geometry": [
+    { "lat": -33.0618426, "lon": -71.5839610 },
+    { "lat": -33.0620730, "lon": -71.5840372 },
+    { "lat": -33.0621852, "lon": -71.5840002 },
+    { "lat": -33.0625039, "lon": -71.5841636 },
+    { "lat": -33.0624834, "lon": -71.5843550 },
+    { "lat": -33.0625733, "lon": -71.5844009 },
+    { "lat": -33.0627013, "lon": -71.5843882 },
+    { "lat": -33.0627642, "lon": -71.5846901 },
+    { "lat": -33.0633548, "lon": -71.5843046 },
+    { "lat": -33.0637638, "lon": -71.5842016 },
+    { "lat": -33.0638944, "lon": -71.5841246 },
+    { "lat": -33.0641051, "lon": -71.5840077 },
+    { "lat": -33.0645264, "lon": -71.5833199 },
+    { "lat": -33.0645218, "lon": -71.5832609 },
+    { "lat": -33.0644635, "lon": -71.5830663 },
+    { "lat": -33.0655400, "lon": -71.5819600 },
+    { "lat": -33.0656525, "lon": -71.5818079 },
+    { "lat": -33.0658540, "lon": -71.5815998 },
+    { "lat": -33.0657539, "lon": -71.5815497 },
+    { "lat": -33.0639651, "lon": -71.5824751 },
+    { "lat": -33.0636863, "lon": -71.5825609 },
+    { "lat": -33.0634661, "lon": -71.5826038 },
+    { "lat": -33.0632098, "lon": -71.5826306 },
+    { "lat": -33.0628182, "lon": -71.5825904 },
+    { "lat": -33.0616785, "lon": -71.5822336 },
+    { "lat": -33.0619258, "lon": -71.5826923 },
+    { "lat": -33.0619393, "lon": -71.5828854 },
+    { "lat": -33.0618314, "lon": -71.5833173 },
+    { "lat": -33.0618426, "lon": -71.5839610 }
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Club de Campo Don Elías Figueroa"
+  }
+},
+{
+  "type": "way",
+  "id": 273899026,
+  "bounds": {
+    "minlat": -33.0602268,
+    "minlon": -71.6127747,
+    "maxlat": -33.0597508,
+    "maxlon": -71.6117539
+  },
+  "geometry": [
+    { "lat": -33.0597508, "lon": -71.6117661 },
+    { "lat": -33.0597697, "lon": -71.6127747 },
+    { "lat": -33.0602268, "lon": -71.6127624 },
+    { "lat": -33.0602079, "lon": -71.6117539 },
+    { "lat": -33.0597508, "lon": -71.6117661 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 274036804,
+  "bounds": {
+    "minlat": -33.0558489,
+    "minlon": -71.6206691,
+    "maxlat": -33.0549457,
+    "maxlon": -71.6198452
+  },
+  "geometry": [
+    { "lat": -33.0550954, "lon": -71.6206691 },
+    { "lat": -33.0551657, "lon": -71.6206402 },
+    { "lat": -33.0553505, "lon": -71.6205664 },
+    { "lat": -33.0558489, "lon": -71.6203529 },
+    { "lat": -33.0556992, "lon": -71.6198452 },
+    { "lat": -33.0549457, "lon": -71.6201615 },
+    { "lat": -33.0550954, "lon": -71.6206691 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Auditorio Osmán Pérez Freire",
+    "sport": "soccer",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 274203683,
+  "bounds": {
+    "minlat": -33.0588360,
+    "minlon": -71.6151362,
+    "maxlat": -33.0586069,
+    "maxlon": -71.6149067
+  },
+  "geometry": [
+    { "lat": -33.0588360, "lon": -71.6150270 },
+    { "lat": -33.0587838, "lon": -71.6149067 },
+    { "lat": -33.0586069, "lon": -71.6150159 },
+    { "lat": -33.0586591, "lon": -71.6151362 },
+    { "lat": -33.0588360, "lon": -71.6150270 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 274241621,
+  "bounds": {
+    "minlat": -33.0584254,
+    "minlon": -71.6252750,
+    "maxlat": -33.0581854,
+    "maxlon": -71.6250341
+  },
+  "geometry": [
+    { "lat": -33.0584254, "lon": -71.6251673 },
+    { "lat": -33.0582397, "lon": -71.6250341 },
+    { "lat": -33.0581854, "lon": -71.6251418 },
+    { "lat": -33.0583711, "lon": -71.6252750 },
+    { "lat": -33.0584254, "lon": -71.6251673 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 274294824,
+  "bounds": {
+    "minlat": -33.0539834,
+    "minlon": -71.6222798,
+    "maxlat": -33.0536468,
+    "maxlon": -71.6217066
+  },
+  "geometry": [
+    { "lat": -33.0538048, "lon": -71.6222798 },
+    { "lat": -33.0539834, "lon": -71.6217759 },
+    { "lat": -33.0538223, "lon": -71.6217066 },
+    { "lat": -33.0537486, "lon": -71.6218930 },
+    { "lat": -33.0536468, "lon": -71.6221820 },
+    { "lat": -33.0538048, "lon": -71.6222798 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Canchas Tennis Cerro Florida",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 274332982,
+  "bounds": {
+    "minlat": -33.0543379,
+    "minlon": -71.6102591,
+    "maxlat": -33.0541251,
+    "maxlon": -71.6099746
+  },
+  "geometry": [
+    { "lat": -33.0541251, "lon": -71.6101811 },
+    { "lat": -33.0542295, "lon": -71.6099746 },
+    { "lat": -33.0543379, "lon": -71.6100527 },
+    { "lat": -33.0542334, "lon": -71.6102591 },
+    { "lat": -33.0541251, "lon": -71.6101811 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 274419419,
+  "bounds": {
+    "minlat": -33.0642213,
+    "minlon": -71.5982342,
+    "maxlat": -33.0639667,
+    "maxlon": -71.5979954
+  },
+  "geometry": [
+    { "lat": -33.0639667, "lon": -71.5981444 },
+    { "lat": -33.0641765, "lon": -71.5982342 },
+    { "lat": -33.0642213, "lon": -71.5980852 },
+    { "lat": -33.0640114, "lon": -71.5979954 },
+    { "lat": -33.0639667, "lon": -71.5981444 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 274631621,
+  "bounds": {
+    "minlat": -33.0719997,
+    "minlon": -71.5960645,
+    "maxlat": -33.0717211,
+    "maxlon": -71.5955537
+  },
+  "geometry": [
+    { "lat": -33.0719160, "lon": -71.5960645 },
+    { "lat": -33.0719997, "lon": -71.5956042 },
+    { "lat": -33.0718048, "lon": -71.5955537 },
+    { "lat": -33.0717211, "lon": -71.5960140 },
+    { "lat": -33.0719160, "lon": -71.5960645 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 274651437,
+  "bounds": {
+    "minlat": -33.0540650,
+    "minlon": -71.5952822,
+    "maxlat": -33.0537776,
+    "maxlon": -71.5949729
+  },
+  "geometry": [
+    { "lat": -33.0540650, "lon": -71.5951067 },
+    { "lat": -33.0538569, "lon": -71.5952822 },
+    { "lat": -33.0537776, "lon": -71.5951484 },
+    { "lat": -33.0539858, "lon": -71.5949729 },
+    { "lat": -33.0540650, "lon": -71.5951067 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "soccer",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 274663548,
+  "bounds": {
+    "minlat": -33.0590877,
+    "minlon": -71.5955085,
+    "maxlat": -33.0580346,
+    "maxlon": -71.5944767
+  },
+  "geometry": [
+    { "lat": -33.0590877, "lon": -71.5949990 },
+    { "lat": -33.0582606, "lon": -71.5955085 },
+    { "lat": -33.0580346, "lon": -71.5949861 },
+    { "lat": -33.0588617, "lon": -71.5944767 },
+    { "lat": -33.0590877, "lon": -71.5949990 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "source": "Kaart Ground Survey 2017",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 274835811,
+  "bounds": {
+    "minlat": -33.0535628,
+    "minlon": -71.6053683,
+    "maxlat": -33.0532730,
+    "maxlon": -71.6050963
+  },
+  "geometry": [
+    { "lat": -33.0535111, "lon": -71.6053683 },
+    { "lat": -33.0535628, "lon": -71.6052011 },
+    { "lat": -33.0533247, "lon": -71.6050963 },
+    { "lat": -33.0532730, "lon": -71.6052635 },
+    { "lat": -33.0535111, "lon": -71.6053683 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 274847373,
+  "bounds": {
+    "minlat": -33.1012303,
+    "minlon": -71.5825434,
+    "maxlat": -33.1008598,
+    "maxlon": -71.5819405
+  },
+  "geometry": [
+    { "lat": -33.1009792, "lon": -71.5825434 },
+    { "lat": -33.1012303, "lon": -71.5824614 },
+    { "lat": -33.1011108, "lon": -71.5819405 },
+    { "lat": -33.1008598, "lon": -71.5820226 },
+    { "lat": -33.1009792, "lon": -71.5825434 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 274847375,
+  "bounds": {
+    "minlat": -33.1016784,
+    "minlon": -71.5816256,
+    "maxlat": -33.1014385,
+    "maxlon": -71.5813849
+  },
+  "geometry": [
+    { "lat": -33.1014918, "lon": -71.5816256 },
+    { "lat": -33.1016784, "lon": -71.5814881 },
+    { "lat": -33.1016251, "lon": -71.5813849 },
+    { "lat": -33.1014385, "lon": -71.5815224 },
+    { "lat": -33.1014918, "lon": -71.5816256 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 274847376,
+  "bounds": {
+    "minlat": -33.1014921,
+    "minlon": -71.5812650,
+    "maxlat": -33.1012584,
+    "maxlon": -71.5810364
+  },
+  "geometry": [
+    { "lat": -33.1013055, "lon": -71.5812650 },
+    { "lat": -33.1014921, "lon": -71.5811275 },
+    { "lat": -33.1014450, "lon": -71.5810364 },
+    { "lat": -33.1012584, "lon": -71.5811738 },
+    { "lat": -33.1013055, "lon": -71.5812650 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 274847379,
+  "bounds": {
+    "minlat": -33.1015885,
+    "minlon": -71.5814515,
+    "maxlat": -33.1013539,
+    "maxlon": -71.5812213
+  },
+  "geometry": [
+    { "lat": -33.1014018, "lon": -71.5814515 },
+    { "lat": -33.1015885, "lon": -71.5813141 },
+    { "lat": -33.1015405, "lon": -71.5812213 },
+    { "lat": -33.1013539, "lon": -71.5813588 },
+    { "lat": -33.1014018, "lon": -71.5814515 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 274847381,
+  "bounds": {
+    "minlat": -33.1009435,
+    "minlon": -71.5827339,
+    "maxlat": -33.1004614,
+    "maxlon": -71.5820087
+  },
+  "geometry": [
+    { "lat": -33.1009435, "lon": -71.5826219 },
+    { "lat": -33.1008020, "lon": -71.5820087 },
+    { "lat": -33.1004614, "lon": -71.5821208 },
+    { "lat": -33.1006028, "lon": -71.5827339 },
+    { "lat": -33.1009435, "lon": -71.5826219 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 274886662,
+  "bounds": {
+    "minlat": -33.0590919,
+    "minlon": -71.5931147,
+    "maxlat": -33.0578735,
+    "maxlon": -71.5918483
+  },
+  "geometry": [
+    { "lat": -33.0581836, "lon": -71.5931147 },
+    { "lat": -33.0590919, "lon": -71.5924817 },
+    { "lat": -33.0587817, "lon": -71.5918483 },
+    { "lat": -33.0578735, "lon": -71.5924813 },
+    { "lat": -33.0581836, "lon": -71.5931147 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 274887111,
+  "bounds": {
+    "minlat": -33.0609844,
+    "minlon": -71.5906906,
+    "maxlat": -33.0607808,
+    "maxlon": -71.5905367
+  },
+  "geometry": [
+    { "lat": -33.0607821, "lon": -71.5906906 },
+    { "lat": -33.0609844, "lon": -71.5906881 },
+    { "lat": -33.0609831, "lon": -71.5905367 },
+    { "lat": -33.0607808, "lon": -71.5905391 },
+    { "lat": -33.0607821, "lon": -71.5906906 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 274983838,
+  "bounds": {
+    "minlat": -33.0611399,
+    "minlon": -71.5944526,
+    "maxlat": -33.0608854,
+    "maxlon": -71.5941004
+  },
+  "geometry": [
+    { "lat": -33.0608854, "lon": -71.5943660 },
+    { "lat": -33.0610085, "lon": -71.5944526 },
+    { "lat": -33.0611399, "lon": -71.5941872 },
+    { "lat": -33.0610169, "lon": -71.5941004 },
+    { "lat": -33.0608854, "lon": -71.5943660 }
+  ],
+  "tags": {
+    "addr:street": "Jorge Hunneus",
+    "leisure": "pitch",
+    "source": "Kaart Ground Survey 2017",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 275093329,
+  "bounds": {
+    "minlat": -33.0547564,
+    "minlon": -71.6217715,
+    "maxlat": -33.0544965,
+    "maxlon": -71.6215183
+  },
+  "geometry": [
+    { "lat": -33.0547039, "lon": -71.6217715 },
+    { "lat": -33.0547564, "lon": -71.6216220 },
+    { "lat": -33.0545490, "lon": -71.6215183 },
+    { "lat": -33.0544965, "lon": -71.6216678 },
+    { "lat": -33.0547039, "lon": -71.6217715 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 280078193,
+  "bounds": {
+    "minlat": -33.0229589,
+    "minlon": -71.6404192,
+    "maxlat": -33.0217961,
+    "maxlon": -71.6391199
+  },
+  "geometry": [
+    { "lat": -33.0218246, "lon": -71.6397246 },
+    { "lat": -33.0217961, "lon": -71.6396699 },
+    { "lat": -33.0221586, "lon": -71.6391199 },
+    { "lat": -33.0222071, "lon": -71.6391386 },
+    { "lat": -33.0229589, "lon": -71.6398268 },
+    { "lat": -33.0225749, "lon": -71.6404192 },
+    { "lat": -33.0218246, "lon": -71.6397246 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "soccer",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 287540598,
+  "bounds": {
+    "minlat": -33.1428269,
+    "minlon": -71.5773702,
+    "maxlat": -33.1426952,
+    "maxlon": -71.5769985
+  },
+  "geometry": [
+    { "lat": -33.1426952, "lon": -71.5773605 },
+    { "lat": -33.1428044, "lon": -71.5773702 },
+    { "lat": -33.1428269, "lon": -71.5770081 },
+    { "lat": -33.1427177, "lon": -71.5769985 },
+    { "lat": -33.1426952, "lon": -71.5773605 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 287540601,
+  "bounds": {
+    "minlat": -33.1437339,
+    "minlon": -71.5773270,
+    "maxlat": -33.1434347,
+    "maxlon": -71.5771479
+  },
+  "geometry": [
+    { "lat": -33.1437255, "lon": -71.5773270 },
+    { "lat": -33.1437339, "lon": -71.5771701 },
+    { "lat": -33.1434431, "lon": -71.5771479 },
+    { "lat": -33.1434347, "lon": -71.5773048 },
+    { "lat": -33.1437255, "lon": -71.5773270 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 287540602,
+  "bounds": {
+    "minlat": -33.1433832,
+    "minlon": -71.5774986,
+    "maxlat": -33.1432394,
+    "maxlon": -71.5771152
+  },
+  "geometry": [
+    { "lat": -33.1432394, "lon": -71.5774946 },
+    { "lat": -33.1433753, "lon": -71.5774986 },
+    { "lat": -33.1433832, "lon": -71.5771192 },
+    { "lat": -33.1432473, "lon": -71.5771152 },
+    { "lat": -33.1432394, "lon": -71.5774946 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 287540603,
+  "bounds": {
+    "minlat": -33.1431004,
+    "minlon": -71.5774564,
+    "maxlat": -33.1429630,
+    "maxlon": -71.5770715
+  },
+  "geometry": [
+    { "lat": -33.1429630, "lon": -71.5774477 },
+    { "lat": -33.1430808, "lon": -71.5774564 },
+    { "lat": -33.1431004, "lon": -71.5770802 },
+    { "lat": -33.1429826, "lon": -71.5770715 },
+    { "lat": -33.1429630, "lon": -71.5774477 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 287540604,
+  "bounds": {
+    "minlat": -33.1429658,
+    "minlon": -71.5773916,
+    "maxlat": -33.1428270,
+    "maxlon": -71.5770031
+  },
+  "geometry": [
+    { "lat": -33.1428270, "lon": -71.5773831 },
+    { "lat": -33.1429471, "lon": -71.5773916 },
+    { "lat": -33.1429658, "lon": -71.5770116 },
+    { "lat": -33.1428456, "lon": -71.5770031 },
+    { "lat": -33.1428270, "lon": -71.5773831 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 287540606,
+  "bounds": {
+    "minlat": -33.1432418,
+    "minlon": -71.5774794,
+    "maxlat": -33.1430988,
+    "maxlon": -71.5770850
+  },
+  "geometry": [
+    { "lat": -33.1430988, "lon": -71.5774738 },
+    { "lat": -33.1432302, "lon": -71.5774794 },
+    { "lat": -33.1432418, "lon": -71.5770906 },
+    { "lat": -33.1431104, "lon": -71.5770850 },
+    { "lat": -33.1430988, "lon": -71.5774738 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 287540610,
+  "bounds": {
+    "minlat": -33.1426968,
+    "minlon": -71.5774619,
+    "maxlat": -33.1425572,
+    "maxlon": -71.5770728
+  },
+  "geometry": [
+    { "lat": -33.1425572, "lon": -71.5774499 },
+    { "lat": -33.1426682, "lon": -71.5774619 },
+    { "lat": -33.1426968, "lon": -71.5770848 },
+    { "lat": -33.1425857, "lon": -71.5770728 },
+    { "lat": -33.1425572, "lon": -71.5774499 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 288716359,
+  "bounds": {
+    "minlat": -33.0357209,
+    "minlon": -71.5929603,
+    "maxlat": -33.0353352,
+    "maxlon": -71.5925856
+  },
+  "geometry": [
+    { "lat": -33.0354124, "lon": -71.5929603 },
+    { "lat": -33.0353352, "lon": -71.5927190 },
+    { "lat": -33.0356416, "lon": -71.5925856 },
+    { "lat": -33.0357209, "lon": -71.5928089 },
+    { "lat": -33.0354124, "lon": -71.5929603 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "sport_1": "handball",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 288716360,
+  "bounds": {
+    "minlat": -33.0354429,
+    "minlon": -71.5931471,
+    "maxlat": -33.0351853,
+    "maxlon": -71.5927301
+  },
+  "geometry": [
+    { "lat": -33.0352974, "lon": -71.5931471 },
+    { "lat": -33.0354429, "lon": -71.5930809 },
+    { "lat": -33.0353309, "lon": -71.5927301 },
+    { "lat": -33.0351853, "lon": -71.5927962 },
+    { "lat": -33.0352974, "lon": -71.5931471 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball",
+    "sport_1": "soccer",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 288961887,
+  "bounds": {
+    "minlat": -33.0382906,
+    "minlon": -71.6513739,
+    "maxlat": -33.0374017,
+    "maxlon": -71.6505950
+  },
+  "geometry": [
+    { "lat": -33.0374017, "lon": -71.6509633 },
+    { "lat": -33.0375440, "lon": -71.6513739 },
+    { "lat": -33.0382906, "lon": -71.6510057 },
+    { "lat": -33.0381483, "lon": -71.6505950 },
+    { "lat": -33.0374017, "lon": -71.6509633 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 312811541,
+  "bounds": {
+    "minlat": -33.1494929,
+    "minlon": -71.5578723,
+    "maxlat": -33.1483342,
+    "maxlon": -71.5566780
+  },
+  "geometry": [
+    { "lat": -33.1486191, "lon": -71.5578723 },
+    { "lat": -33.1494929, "lon": -71.5573127 },
+    { "lat": -33.1492079, "lon": -71.5566780 },
+    { "lat": -33.1483342, "lon": -71.5572376 },
+    { "lat": -33.1486191, "lon": -71.5578723 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 313512912,
+  "bounds": {
+    "minlat": -33.0323027,
+    "minlon": -71.5882428,
+    "maxlat": -33.0321724,
+    "maxlon": -71.5880608
+  },
+  "geometry": [
+    { "lat": -33.0323027, "lon": -71.5882013 },
+    { "lat": -33.0322252, "lon": -71.5880608 },
+    { "lat": -33.0321724, "lon": -71.5881022 },
+    { "lat": -33.0322499, "lon": -71.5882428 },
+    { "lat": -33.0323027, "lon": -71.5882013 }
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Gimnasio Numancia"
+  }
+},
+{
+  "type": "way",
+  "id": 332224112,
+  "bounds": {
+    "minlat": -33.0470752,
+    "minlon": -71.6076544,
+    "maxlat": -33.0467006,
+    "maxlon": -71.6069045
+  },
+  "geometry": [
+    { "lat": -33.0467527, "lon": -71.6076530 },
+    { "lat": -33.0467538, "lon": -71.6073218 },
+    { "lat": -33.0467467, "lon": -71.6071125 },
+    { "lat": -33.0467214, "lon": -71.6071165 },
+    { "lat": -33.0467006, "lon": -71.6070019 },
+    { "lat": -33.0467400, "lon": -71.6069912 },
+    { "lat": -33.0470600, "lon": -71.6069045 },
+    { "lat": -33.0470633, "lon": -71.6070657 },
+    { "lat": -33.0470674, "lon": -71.6072614 },
+    { "lat": -33.0470702, "lon": -71.6073969 },
+    { "lat": -33.0470720, "lon": -71.6074827 },
+    { "lat": -33.0470743, "lon": -71.6075940 },
+    { "lat": -33.0470752, "lon": -71.6076395 },
+    { "lat": -33.0469076, "lon": -71.6076492 },
+    { "lat": -33.0467808, "lon": -71.6076544 },
+    { "lat": -33.0467527, "lon": -71.6076530 }
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Fortín Prat"
+  }
+},
+{
+  "type": "way",
+  "id": 338516841,
+  "bounds": {
+    "minlat": -33.0772668,
+    "minlon": -71.5842663,
+    "maxlat": -33.0769426,
+    "maxlon": -71.5840196
+  },
+  "geometry": [
+    { "lat": -33.0769553, "lon": -71.5842663 },
+    { "lat": -33.0769426, "lon": -71.5840451 },
+    { "lat": -33.0772541, "lon": -71.5840196 },
+    { "lat": -33.0772668, "lon": -71.5842409 },
+    { "lat": -33.0769553, "lon": -71.5842663 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 366233670,
+  "bounds": {
+    "minlat": -33.0859612,
+    "minlon": -71.6573912,
+    "maxlat": -33.0848662,
+    "maxlon": -71.6562002
+  },
+  "geometry": [
+    { "lat": -33.0851876, "lon": -71.6573912 },
+    { "lat": -33.0848662, "lon": -71.6567764 },
+    { "lat": -33.0856398, "lon": -71.6562002 },
+    { "lat": -33.0859612, "lon": -71.6568150 },
+    { "lat": -33.0851876, "lon": -71.6573912 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Explanada"
+  }
+},
+{
+  "type": "way",
+  "id": 370523647,
+  "bounds": {
+    "minlat": -33.0867036,
+    "minlon": -71.6581815,
+    "maxlat": -33.0858714,
+    "maxlon": -71.6573783
+  },
+  "geometry": [
+    { "lat": -33.0858714, "lon": -71.6576317 },
+    { "lat": -33.0861778, "lon": -71.6581427 },
+    { "lat": -33.0862954, "lon": -71.6581815 },
+    { "lat": -33.0865336, "lon": -71.6580527 },
+    { "lat": -33.0867036, "lon": -71.6578101 },
+    { "lat": -33.0864272, "lon": -71.6573783 },
+    { "lat": -33.0858714, "lon": -71.6576317 }
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Gimnasio al Aire Libre"
+  }
+},
+{
+  "type": "way",
+  "id": 370523659,
+  "bounds": {
+    "minlat": -33.0818884,
+    "minlon": -71.6584004,
+    "maxlat": -33.0815535,
+    "maxlon": -71.6581000
+  },
+  "geometry": [
+    { "lat": -33.0816052, "lon": -71.6584004 },
+    { "lat": -33.0815535, "lon": -71.6582234 },
+    { "lat": -33.0818322, "lon": -71.6581000 },
+    { "lat": -33.0818884, "lon": -71.6582744 },
+    { "lat": -33.0816052, "lon": -71.6584004 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "volleyball"
+  }
+},
+{
+  "type": "way",
+  "id": 380074235,
+  "bounds": {
+    "minlat": -33.1047355,
+    "minlon": -71.6825524,
+    "maxlat": -33.1045089,
+    "maxlon": -71.6824047
+  },
+  "geometry": [
+    { "lat": -33.1047214, "lon": -71.6825524 },
+    { "lat": -33.1047355, "lon": -71.6824441 },
+    { "lat": -33.1045230, "lon": -71.6824047 },
+    { "lat": -33.1045089, "lon": -71.6825129 },
+    { "lat": -33.1047214, "lon": -71.6825524 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 381514505,
+  "bounds": {
+    "minlat": -33.0979803,
+    "minlon": -71.6636391,
+    "maxlat": -33.0977653,
+    "maxlon": -71.6633977
+  },
+  "geometry": [
+    { "lat": -33.0978225, "lon": -71.6636391 },
+    { "lat": -33.0979803, "lon": -71.6634770 },
+    { "lat": -33.0979232, "lon": -71.6633977 },
+    { "lat": -33.0977653, "lon": -71.6635598 },
+    { "lat": -33.0978225, "lon": -71.6636391 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 399137569,
+  "bounds": {
+    "minlat": -33.0197157,
+    "minlon": -71.6413106,
+    "maxlat": -33.0194096,
+    "maxlon": -71.6409458
+  },
+  "geometry": [
+    { "lat": -33.0197157, "lon": -71.6411926 },
+    { "lat": -33.0195084, "lon": -71.6409458 },
+    { "lat": -33.0194096, "lon": -71.6410638 },
+    { "lat": -33.0196169, "lon": -71.6413106 },
+    { "lat": -33.0197157, "lon": -71.6411926 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 399137573,
+  "bounds": {
+    "minlat": -33.0202312,
+    "minlon": -71.6406807,
+    "maxlat": -33.0200118,
+    "maxlon": -71.6404088
+  },
+  "geometry": [
+    { "lat": -33.0200118, "lon": -71.6405978 },
+    { "lat": -33.0200896, "lon": -71.6406807 },
+    { "lat": -33.0202312, "lon": -71.6404918 },
+    { "lat": -33.0201533, "lon": -71.6404088 },
+    { "lat": -33.0200118, "lon": -71.6405978 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 399137577,
+  "bounds": {
+    "minlat": -33.0205370,
+    "minlon": -71.6401430,
+    "maxlat": -33.0202032,
+    "maxlon": -71.6398171
+  },
+  "geometry": [
+    { "lat": -33.0202726, "lon": -71.6398171 },
+    { "lat": -33.0205370, "lon": -71.6399589 },
+    { "lat": -33.0204676, "lon": -71.6401430 },
+    { "lat": -33.0202032, "lon": -71.6400012 },
+    { "lat": -33.0202726, "lon": -71.6398171 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 399137579,
+  "bounds": {
+    "minlat": -33.0204430,
+    "minlon": -71.6403133,
+    "maxlat": -33.0201319,
+    "maxlon": -71.6400300
+  },
+  "geometry": [
+    { "lat": -33.0201319, "lon": -71.6401677 },
+    { "lat": -33.0201869, "lon": -71.6400300 },
+    { "lat": -33.0204430, "lon": -71.6401755 },
+    { "lat": -33.0203879, "lon": -71.6403133 },
+    { "lat": -33.0201319, "lon": -71.6401677 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 399137583,
+  "bounds": {
+    "minlat": -33.0199801,
+    "minlon": -71.6409947,
+    "maxlat": -33.0197590,
+    "maxlon": -71.6407252
+  },
+  "geometry": [
+    { "lat": -33.0197590, "lon": -71.6409098 },
+    { "lat": -33.0198350, "lon": -71.6409947 },
+    { "lat": -33.0199801, "lon": -71.6408101 },
+    { "lat": -33.0199042, "lon": -71.6407252 },
+    { "lat": -33.0197590, "lon": -71.6409098 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 399137589,
+  "bounds": {
+    "minlat": -33.0206061,
+    "minlon": -71.6399186,
+    "maxlat": -33.0202826,
+    "maxlon": -71.6396153
+  },
+  "geometry": [
+    { "lat": -33.0202826, "lon": -71.6397779 },
+    { "lat": -33.0203439, "lon": -71.6396153 },
+    { "lat": -33.0206061, "lon": -71.6397560 },
+    { "lat": -33.0205448, "lon": -71.6399186 },
+    { "lat": -33.0202826, "lon": -71.6397779 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 405142131,
+  "bounds": {
+    "minlat": -33.1471508,
+    "minlon": -71.5683684,
+    "maxlat": -33.1468616,
+    "maxlon": -71.5679651
+  },
+  "geometry": [
+    { "lat": -33.1471508, "lon": -71.5680623 },
+    { "lat": -33.1470123, "lon": -71.5683684 },
+    { "lat": -33.1468616, "lon": -71.5682712 },
+    { "lat": -33.1470001, "lon": -71.5679651 },
+    { "lat": -33.1471508, "lon": -71.5680623 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 415840841,
+  "bounds": {
+    "minlat": -33.0264260,
+    "minlon": -71.6386344,
+    "maxlat": -33.0261890,
+    "maxlon": -71.6384795
+  },
+  "geometry": [
+    { "lat": -33.0261890, "lon": -71.6385850 },
+    { "lat": -33.0262056, "lon": -71.6384795 },
+    { "lat": -33.0264260, "lon": -71.6385289 },
+    { "lat": -33.0264094, "lon": -71.6386344 },
+    { "lat": -33.0261890, "lon": -71.6385850 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 428800762,
+  "bounds": {
+    "minlat": -33.0267153,
+    "minlon": -71.6348495,
+    "maxlat": -33.0260532,
+    "maxlon": -71.6340727
+  },
+  "geometry": [
+    { "lat": -33.0264774, "lon": -71.6340727 },
+    { "lat": -33.0267153, "lon": -71.6344362 },
+    { "lat": -33.0262843, "lon": -71.6348495 },
+    { "lat": -33.0260532, "lon": -71.6345223 },
+    { "lat": -33.0264774, "lon": -71.6340727 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 430273290,
+  "bounds": {
+    "minlat": -33.0276439,
+    "minlon": -71.6418731,
+    "maxlat": -33.0274100,
+    "maxlon": -71.6415379
+  },
+  "geometry": [
+    { "lat": -33.0275289, "lon": -71.6418731 },
+    { "lat": -33.0274100, "lon": -71.6417984 },
+    { "lat": -33.0275251, "lon": -71.6415379 },
+    { "lat": -33.0276439, "lon": -71.6416125 },
+    { "lat": -33.0275289, "lon": -71.6418731 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "3° Juzgado de Menores Playa Ancha"
+  }
+},
+{
+  "type": "way",
+  "id": 430273295,
+  "bounds": {
+    "minlat": -33.0235811,
+    "minlon": -71.6363560,
+    "maxlat": -33.0234366,
+    "maxlon": -71.6360290
+  },
+  "geometry": [
+    { "lat": -33.0234403, "lon": -71.6363560 },
+    { "lat": -33.0235811, "lon": -71.6363537 },
+    { "lat": -33.0235774, "lon": -71.6360290 },
+    { "lat": -33.0234366, "lon": -71.6360313 },
+    { "lat": -33.0234403, "lon": -71.6363560 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 430351935,
+  "bounds": {
+    "minlat": -33.0638279,
+    "minlon": -71.5839071,
+    "maxlat": -33.0634443,
+    "maxlon": -71.5835911
+  },
+  "geometry": [
+    { "lat": -33.0638279, "lon": -71.5837951 },
+    { "lat": -33.0637802, "lon": -71.5835911 },
+    { "lat": -33.0634443, "lon": -71.5837031 },
+    { "lat": -33.0634921, "lon": -71.5839071 },
+    { "lat": -33.0638279, "lon": -71.5837951 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 430351939,
+  "bounds": {
+    "minlat": -33.0636172,
+    "minlon": -71.5833079,
+    "maxlat": -33.0633901,
+    "maxlon": -71.5831418
+  },
+  "geometry": [
+    { "lat": -33.0636172, "lon": -71.5832458 },
+    { "lat": -33.0635951, "lon": -71.5831418 },
+    { "lat": -33.0633901, "lon": -71.5832038 },
+    { "lat": -33.0634123, "lon": -71.5833079 },
+    { "lat": -33.0636172, "lon": -71.5832458 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 430351942,
+  "bounds": {
+    "minlat": -33.0633189,
+    "minlon": -71.5834076,
+    "maxlat": -33.0630899,
+    "maxlon": -71.5832415
+  },
+  "geometry": [
+    { "lat": -33.0633189, "lon": -71.5833498 },
+    { "lat": -33.0632978, "lon": -71.5832415 },
+    { "lat": -33.0630899, "lon": -71.5832993 },
+    { "lat": -33.0631111, "lon": -71.5834076 },
+    { "lat": -33.0633189, "lon": -71.5833498 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 430392418,
+  "bounds": {
+    "minlat": -33.0311285,
+    "minlon": -71.6516204,
+    "maxlat": -33.0308695,
+    "maxlon": -71.6512108
+  },
+  "geometry": [
+    { "lat": -33.0309607, "lon": -71.6512108 },
+    { "lat": -33.0311285, "lon": -71.6512736 },
+    { "lat": -33.0310373, "lon": -71.6516204 },
+    { "lat": -33.0308695, "lon": -71.6515576 },
+    { "lat": -33.0309607, "lon": -71.6512108 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 438670230,
+  "bounds": {
+    "minlat": -33.0319756,
+    "minlon": -71.6331403,
+    "maxlat": -33.0317405,
+    "maxlon": -71.6328595
+  },
+  "geometry": [
+    { "lat": -33.0319756, "lon": -71.6329577 },
+    { "lat": -33.0318928, "lon": -71.6328595 },
+    { "lat": -33.0317405, "lon": -71.6330421 },
+    { "lat": -33.0318233, "lon": -71.6331403 },
+    { "lat": -33.0319756, "lon": -71.6329577 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Habivalp",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 438670231,
+  "bounds": {
+    "minlat": -33.0321504,
+    "minlon": -71.6329102,
+    "maxlat": -33.0319188,
+    "maxlon": -71.6326259
+  },
+  "geometry": [
+    { "lat": -33.0321504, "lon": -71.6327196 },
+    { "lat": -33.0320640, "lon": -71.6326259 },
+    { "lat": -33.0319188, "lon": -71.6328165 },
+    { "lat": -33.0320052, "lon": -71.6329102 },
+    { "lat": -33.0320507, "lon": -71.6328505 },
+    { "lat": -33.0321342, "lon": -71.6327408 },
+    { "lat": -33.0321504, "lon": -71.6327196 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Habivalp",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 438899649,
+  "bounds": {
+    "minlat": -33.0320069,
+    "minlon": -71.6338706,
+    "maxlat": -33.0316000,
+    "maxlon": -71.6334011
+  },
+  "geometry": [
+    { "lat": -33.0318741, "lon": -71.6338706 },
+    { "lat": -33.0320069, "lon": -71.6336933 },
+    { "lat": -33.0317328, "lon": -71.6334011 },
+    { "lat": -33.0316000, "lon": -71.6335784 },
+    { "lat": -33.0318447, "lon": -71.6338393 },
+    { "lat": -33.0318741, "lon": -71.6338706 }
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Complejo Deportivo Habivalp"
+  }
+},
+{
+  "type": "way",
+  "id": 441999009,
+  "bounds": {
+    "minlat": -33.0576155,
+    "minlon": -71.5952655,
+    "maxlat": -33.0573725,
+    "maxlon": -71.5950206
+  },
+  "geometry": [
+    { "lat": -33.0574312, "lon": -71.5952655 },
+    { "lat": -33.0573725, "lon": -71.5951406 },
+    { "lat": -33.0575631, "lon": -71.5950206 },
+    { "lat": -33.0576155, "lon": -71.5951505 },
+    { "lat": -33.0574312, "lon": -71.5952655 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 441999329,
+  "bounds": {
+    "minlat": -33.0738997,
+    "minlon": -71.5935427,
+    "maxlat": -33.0736351,
+    "maxlon": -71.5933975
+  },
+  "geometry": [
+    { "lat": -33.0736358, "lon": -71.5935427 },
+    { "lat": -33.0736351, "lon": -71.5933992 },
+    { "lat": -33.0738991, "lon": -71.5933975 },
+    { "lat": -33.0738997, "lon": -71.5935410 },
+    { "lat": -33.0736358, "lon": -71.5935427 }
+  ],
+  "tags": {
+    "access": "yes",
+    "leisure": "pitch",
+    "name": "Nueva Plaza Las Torres",
+    "sport": "soccer",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 442138883,
+  "bounds": {
+    "minlat": -33.0546537,
+    "minlon": -71.6001208,
+    "maxlat": -33.0544821,
+    "maxlon": -71.5999602
+  },
+  "geometry": [
+    { "lat": -33.0545114, "lon": -71.6001208 },
+    { "lat": -33.0544821, "lon": -71.6000182 },
+    { "lat": -33.0546243, "lon": -71.5999602 },
+    { "lat": -33.0546537, "lon": -71.6000628 },
+    { "lat": -33.0545114, "lon": -71.6001208 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 442363520,
+  "bounds": {
+    "minlat": -33.0361454,
+    "minlon": -71.6322931,
+    "maxlat": -33.0358933,
+    "maxlon": -71.6320622
+  },
+  "geometry": [
+    { "lat": -33.0361416, "lon": -71.6322931 },
+    { "lat": -33.0361454, "lon": -71.6320683 },
+    { "lat": -33.0358971, "lon": -71.6320622 },
+    { "lat": -33.0358933, "lon": -71.6322870 },
+    { "lat": -33.0361416, "lon": -71.6322931 }
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 443674348,
+  "bounds": {
+    "minlat": -33.0463183,
+    "minlon": -71.6030469,
+    "maxlat": -33.0460333,
+    "maxlon": -71.6028262
+  },
+  "geometry": [
+    { "lat": -33.0460474, "lon": -71.6030469 },
+    { "lat": -33.0460333, "lon": -71.6028546 },
+    { "lat": -33.0463041, "lon": -71.6028262 },
+    { "lat": -33.0463183, "lon": -71.6030185 },
+    { "lat": -33.0460474, "lon": -71.6030469 }
+  ],
+  "tags": {
+    "addr:street": "Eusebio Lillo",
+    "leisure": "pitch",
+    "lit": "yes",
+    "source": "Kaart Ground Survey 2017",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 448963906,
+  "bounds": {
+    "minlat": -33.1375376,
+    "minlon": -71.5645652,
+    "maxlat": -33.1369550,
+    "maxlon": -71.5640809
+  },
+  "geometry": [
+    { "lat": -33.1374672, "lon": -71.5645652 },
+    { "lat": -33.1375376, "lon": -71.5642382 },
+    { "lat": -33.1370254, "lon": -71.5640809 },
+    { "lat": -33.1369550, "lon": -71.5644079 },
+    { "lat": -33.1374672, "lon": -71.5645652 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 448964072,
+  "bounds": {
+    "minlat": -33.1211136,
+    "minlon": -71.5715852,
+    "maxlat": -33.1207555,
+    "maxlon": -71.5711037
+  },
+  "geometry": [
+    { "lat": -33.1209526, "lon": -71.5715852 },
+    { "lat": -33.1211136, "lon": -71.5714572 },
+    { "lat": -33.1209165, "lon": -71.5711037 },
+    { "lat": -33.1207555, "lon": -71.5712317 },
+    { "lat": -33.1209526, "lon": -71.5715852 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 454572497,
+  "bounds": {
+    "minlat": -33.0575318,
+    "minlon": -71.6051570,
+    "maxlat": -33.0573168,
+    "maxlon": -71.6049412
+  },
+  "geometry": [
+    { "lat": -33.0573691, "lon": -71.6051570 },
+    { "lat": -33.0575318, "lon": -71.6050491 },
+    { "lat": -33.0574806, "lon": -71.6049412 },
+    { "lat": -33.0573168, "lon": -71.6050286 },
+    { "lat": -33.0573691, "lon": -71.6051570 }
+  ],
+  "tags": {
+    "addr:housenumber": "803",
+    "addr:street": "Quilacura",
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Club Deportivo Juventud Pajonal",
+    "sport": "soccer",
+    "sport_1": "martial_arts"
+  }
+},
+{
+  "type": "way",
+  "id": 463340839,
+  "bounds": {
+    "minlat": -33.1023871,
+    "minlon": -71.6628303,
+    "maxlat": -33.1020601,
+    "maxlon": -71.6624414
+  },
+  "geometry": [
+    { "lat": -33.1023308, "lon": -71.6627835 },
+    { "lat": -33.1022868, "lon": -71.6628159 },
+    { "lat": -33.1022365, "lon": -71.6628303 },
+    { "lat": -33.1021850, "lon": -71.6628252 },
+    { "lat": -33.1021373, "lon": -71.6628013 },
+    { "lat": -33.1020983, "lon": -71.6627608 },
+    { "lat": -33.1020702, "lon": -71.6627030 },
+    { "lat": -33.1020601, "lon": -71.6626373 },
+    { "lat": -33.1020691, "lon": -71.6625714 },
+    { "lat": -33.1020961, "lon": -71.6625129 },
+    { "lat": -33.1021380, "lon": -71.6624687 },
+    { "lat": -33.1021900, "lon": -71.6624439 },
+    { "lat": -33.1022459, "lon": -71.6624414 },
+    { "lat": -33.1022993, "lon": -71.6624615 },
+    { "lat": -33.1023439, "lon": -71.6625019 },
+    { "lat": -33.1023744, "lon": -71.6625579 },
+    { "lat": -33.1023871, "lon": -71.6626177 },
+    { "lat": -33.1023836, "lon": -71.6626793 },
+    { "lat": -33.1023642, "lon": -71.6627364 },
+    { "lat": -33.1023308, "lon": -71.6627835 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Media Luna"
+  }
+},
+{
+  "type": "way",
+  "id": 463340860,
+  "bounds": {
+    "minlat": -33.1079623,
+    "minlon": -71.6951706,
+    "maxlat": -33.1076418,
+    "maxlon": -71.6947877
+  },
+  "geometry": [
+    { "lat": -33.1079159, "lon": -71.6951164 },
+    { "lat": -33.1078727, "lon": -71.6951528 },
+    { "lat": -33.1078219, "lon": -71.6951706 },
+    { "lat": -33.1077691, "lon": -71.6951677 },
+    { "lat": -33.1077199, "lon": -71.6951446 },
+    { "lat": -33.1076796, "lon": -71.6951037 },
+    { "lat": -33.1076526, "lon": -71.6950494 },
+    { "lat": -33.1076418, "lon": -71.6949873 },
+    { "lat": -33.1076485, "lon": -71.6949244 },
+    { "lat": -33.1076720, "lon": -71.6948675 },
+    { "lat": -33.1077097, "lon": -71.6948228 },
+    { "lat": -33.1077576, "lon": -71.6947952 },
+    { "lat": -33.1078103, "lon": -71.6947877 },
+    { "lat": -33.1078623, "lon": -71.6948012 },
+    { "lat": -33.1079077, "lon": -71.6948341 },
+    { "lat": -33.1079417, "lon": -71.6948828 },
+    { "lat": -33.1079605, "lon": -71.6949418 },
+    { "lat": -33.1079623, "lon": -71.6950049 },
+    { "lat": -33.1079468, "lon": -71.6950653 },
+    { "lat": -33.1079159, "lon": -71.6951164 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Media Luna Los Copihues"
+  }
+},
+{
+  "type": "way",
+  "id": 486191872,
+  "bounds": {
+    "minlat": -33.0216040,
+    "minlon": -71.6412601,
+    "maxlat": -33.0203106,
+    "maxlon": -71.6390453
+  },
+  "geometry": [
+    { "lat": -33.0203106, "lon": -71.6404670 },
+    { "lat": -33.0203556, "lon": -71.6403852 },
+    { "lat": -33.0204818, "lon": -71.6401461 },
+    { "lat": -33.0208710, "lon": -71.6390453 },
+    { "lat": -33.0208473, "lon": -71.6391947 },
+    { "lat": -33.0208532, "lon": -71.6393752 },
+    { "lat": -33.0208829, "lon": -71.6395770 },
+    { "lat": -33.0209304, "lon": -71.6397486 },
+    { "lat": -33.0209971, "lon": -71.6398937 },
+    { "lat": -33.0210847, "lon": -71.6400194 },
+    { "lat": -33.0211989, "lon": -71.6401592 },
+    { "lat": -33.0216040, "lon": -71.6406016 },
+    { "lat": -33.0215802, "lon": -71.6407537 },
+    { "lat": -33.0213325, "lon": -71.6409714 },
+    { "lat": -33.0210476, "lon": -71.6411961 },
+    { "lat": -33.0209364, "lon": -71.6412601 },
+    { "lat": -33.0203106, "lon": -71.6404670 }
+  ],
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "193",
+    "addr:street": "Leopoldo Carvallo",
+    "building": "no",
+    "leisure": "sports_centre",
+    "name": "Polideportivo Renato Raggio"
+  }
+},
+{
+  "type": "way",
+  "id": 490516533,
+  "bounds": {
+    "minlat": -33.1171182,
+    "minlon": -71.5720462,
+    "maxlat": -33.1164828,
+    "maxlon": -71.5709683
+  },
+  "geometry": [
+    { "lat": -33.1166850, "lon": -71.5720462 },
+    { "lat": -33.1171182, "lon": -71.5719313 },
+    { "lat": -33.1169212, "lon": -71.5709683 },
+    { "lat": -33.1164828, "lon": -71.5710783 },
+    { "lat": -33.1166850, "lon": -71.5720462 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "soccer",
+    "surface": "artificial_turf"
+  }
+},
+{
+  "type": "way",
+  "id": 503440455,
+  "bounds": {
+    "minlat": -33.0968954,
+    "minlon": -71.6622813,
+    "maxlat": -33.0965484,
+    "maxlon": -71.6620036
+  },
+  "geometry": [
+    { "lat": -33.0968954, "lon": -71.6621947 },
+    { "lat": -33.0968587, "lon": -71.6620036 },
+    { "lat": -33.0965484, "lon": -71.6620902 },
+    { "lat": -33.0965872, "lon": -71.6622813 },
+    { "lat": -33.0968954, "lon": -71.6621947 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 531275394,
+  "bounds": {
+    "minlat": -33.0844827,
+    "minlon": -71.6504012,
+    "maxlat": -33.0842005,
+    "maxlon": -71.6500333
+  },
+  "geometry": [
+    { "lat": -33.0843603, "lon": -71.6504012 },
+    { "lat": -33.0844827, "lon": -71.6502945 },
+    { "lat": -33.0843229, "lon": -71.6500333 },
+    { "lat": -33.0842005, "lon": -71.6501400 },
+    { "lat": -33.0843603, "lon": -71.6504012 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 545761732,
+  "bounds": {
+    "minlat": -33.1219695,
+    "minlon": -71.5676988,
+    "maxlat": -33.1217830,
+    "maxlon": -71.5675138
+  },
+  "geometry": [
+    { "lat": -33.1218324, "lon": -71.5676988 },
+    { "lat": -33.1217830, "lon": -71.5676505 },
+    { "lat": -33.1219155, "lon": -71.5675138 },
+    { "lat": -33.1219695, "lon": -71.5675754 },
+    { "lat": -33.1218324, "lon": -71.5676988 }
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Gimnasio 24 bike",
+    "sport": "gymnastics"
+  }
+},
+{
+  "type": "way",
+  "id": 549856714,
+  "bounds": {
+    "minlat": -33.0619780,
+    "minlon": -71.6081669,
+    "maxlat": -33.0617880,
+    "maxlon": -71.6078812
+  },
+  "geometry": [
+    { "lat": -33.0617880, "lon": -71.6079304 },
+    { "lat": -33.0618537, "lon": -71.6081669 },
+    { "lat": -33.0619780, "lon": -71.6081177 },
+    { "lat": -33.0619123, "lon": -71.6078812 },
+    { "lat": -33.0617880, "lon": -71.6079304 }
+  ],
+  "tags": {
+    "addr:street": "Pasaje 2",
+    "hoops": "2",
+    "leisure": "pitch",
+    "source": "Reconocimiento terrestre por Kaart 2017",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 550263571,
+  "bounds": {
+    "minlat": -33.0474650,
+    "minlon": -71.6323930,
+    "maxlat": -33.0472093,
+    "maxlon": -71.6320443
+  },
+  "geometry": [
+    { "lat": -33.0473364, "lon": -71.6323930 },
+    { "lat": -33.0474650, "lon": -71.6323031 },
+    { "lat": -33.0473379, "lon": -71.6320443 },
+    { "lat": -33.0472093, "lon": -71.6321342 },
+    { "lat": -33.0473364, "lon": -71.6323930 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 550771730,
+  "bounds": {
+    "minlat": -33.0476675,
+    "minlon": -71.5806277,
+    "maxlat": -33.0473812,
+    "maxlon": -71.5802478
+  },
+  "geometry": [
+    { "lat": -33.0475550, "lon": -71.5806277 },
+    { "lat": -33.0473812, "lon": -71.5805287 },
+    { "lat": -33.0474937, "lon": -71.5802478 },
+    { "lat": -33.0476675, "lon": -71.5803468 },
+    { "lat": -33.0475550, "lon": -71.5806277 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 552409913,
+  "bounds": {
+    "minlat": -33.0290980,
+    "minlon": -71.6395247,
+    "maxlat": -33.0277825,
+    "maxlon": -71.6380009
+  },
+  "geometry": [
+    { "lat": -33.0277825, "lon": -71.6387203 },
+    { "lat": -33.0284179, "lon": -71.6395247 },
+    { "lat": -33.0290980, "lon": -71.6387977 },
+    { "lat": -33.0284714, "lon": -71.6380009 },
+    { "lat": -33.0277825, "lon": -71.6387203 }
+  ],
+  "tags": {
+    "addr:housenumber": "451",
+    "addr:street": "Avenida Playa Ancha",
+    "leisure": "sports_centre",
+    "name": "Club Deportivo De Playa Ancha",
+    "source": "Kaart Ground Survey 2017"
+  }
+},
+{
+  "type": "way",
+  "id": 554311520,
+  "bounds": {
+    "minlat": -33.0553806,
+    "minlon": -71.5813132,
+    "maxlat": -33.0549578,
+    "maxlon": -71.5809257
+  },
+  "geometry": [
+    { "lat": -33.0553806, "lon": -71.5810601 },
+    { "lat": -33.0550250, "lon": -71.5809257 },
+    { "lat": -33.0549578, "lon": -71.5811788 },
+    { "lat": -33.0553133, "lon": -71.5813132 },
+    { "lat": -33.0553806, "lon": -71.5810601 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 561842808,
+  "bounds": {
+    "minlat": -33.0495751,
+    "minlon": -71.6269897,
+    "maxlat": -33.0494038,
+    "maxlon": -71.6268515
+  },
+  "geometry": [
+    { "lat": -33.0494149, "lon": -71.6269897 },
+    { "lat": -33.0494038, "lon": -71.6268983 },
+    { "lat": -33.0495572, "lon": -71.6268515 },
+    { "lat": -33.0495751, "lon": -71.6269440 },
+    { "lat": -33.0494149, "lon": -71.6269897 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 572192455,
+  "bounds": {
+    "minlat": -33.0458274,
+    "minlon": -71.5772663,
+    "maxlat": -33.0455143,
+    "maxlon": -71.5769560
+  },
+  "geometry": [
+    { "lat": -33.0457597, "lon": -71.5772663 },
+    { "lat": -33.0458274, "lon": -71.5770911 },
+    { "lat": -33.0455821, "lon": -71.5769560 },
+    { "lat": -33.0455143, "lon": -71.5771313 },
+    { "lat": -33.0457597, "lon": -71.5772663 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 573377231,
+  "bounds": {
+    "minlat": -33.0449289,
+    "minlon": -71.5778690,
+    "maxlat": -33.0447318,
+    "maxlon": -71.5775315
+  },
+  "geometry": [
+    { "lat": -33.0448117, "lon": -71.5778690 },
+    { "lat": -33.0449289, "lon": -71.5778234 },
+    { "lat": -33.0448490, "lon": -71.5775315 },
+    { "lat": -33.0447318, "lon": -71.5775771 },
+    { "lat": -33.0448117, "lon": -71.5778690 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Multicancha",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 573385338,
+  "bounds": {
+    "minlat": -33.0447843,
+    "minlon": -71.6521772,
+    "maxlat": -33.0444651,
+    "maxlon": -71.6516601
+  },
+  "geometry": [
+    { "lat": -33.0444651, "lon": -71.6517249 },
+    { "lat": -33.0446123, "lon": -71.6516601 },
+    { "lat": -33.0446491, "lon": -71.6516643 },
+    { "lat": -33.0446750, "lon": -71.6516768 },
+    { "lat": -33.0446838, "lon": -71.6516858 },
+    { "lat": -33.0447843, "lon": -71.6519764 },
+    { "lat": -33.0447165, "lon": -71.6520049 },
+    { "lat": -33.0447604, "lon": -71.6521563 },
+    { "lat": -33.0447064, "lon": -71.6521772 },
+    { "lat": -33.0446625, "lon": -71.6520334 },
+    { "lat": -33.0445764, "lon": -71.6520702 },
+    { "lat": -33.0444651, "lon": -71.6517249 }
+  ],
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:street": "José Serey",
+    "building": "service",
+    "club": "sport",
+    "leisure": "sports_centre",
+    "name": "Club Deportivo Carlos Dittborn"
+  }
+},
+{
+  "type": "way",
+  "id": 590007940,
+  "bounds": {
+    "minlat": -33.0346272,
+    "minlon": -71.5867297,
+    "maxlat": -33.0343336,
+    "maxlon": -71.5865375
+  },
+  "geometry": [
+    { "lat": -33.0346272, "lon": -71.5867174 },
+    { "lat": -33.0346218, "lon": -71.5865375 },
+    { "lat": -33.0343336, "lon": -71.5865498 },
+    { "lat": -33.0343390, "lon": -71.5867297 },
+    { "lat": -33.0346272, "lon": -71.5867174 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 592454699,
+  "bounds": {
+    "minlat": -33.0295535,
+    "minlon": -71.6508880,
+    "maxlat": -33.0292936,
+    "maxlon": -71.6506645
+  },
+  "geometry": [
+    { "lat": -33.0292936, "lon": -71.6508275 },
+    { "lat": -33.0295234, "lon": -71.6508880 },
+    { "lat": -33.0295535, "lon": -71.6507251 },
+    { "lat": -33.0293237, "lon": -71.6506645 },
+    { "lat": -33.0292936, "lon": -71.6508275 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 599043376,
+  "bounds": {
+    "minlat": -33.0370250,
+    "minlon": -71.6003950,
+    "maxlat": -33.0365206,
+    "maxlon": -71.5998337
+  },
+  "geometry": [
+    { "lat": -33.0366745, "lon": -71.6003950 },
+    { "lat": -33.0365206, "lon": -71.6001594 },
+    { "lat": -33.0368710, "lon": -71.5998337 },
+    { "lat": -33.0370250, "lon": -71.6000694 },
+    { "lat": -33.0366745, "lon": -71.6003950 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 604410855,
+  "bounds": {
+    "minlat": -33.0379159,
+    "minlon": -71.5836921,
+    "maxlat": -33.0376965,
+    "maxlon": -71.5835199
+  },
+  "geometry": [
+    { "lat": -33.0379045, "lon": -71.5836921 },
+    { "lat": -33.0379159, "lon": -71.5835424 },
+    { "lat": -33.0377079, "lon": -71.5835199 },
+    { "lat": -33.0376965, "lon": -71.5836695 },
+    { "lat": -33.0379045, "lon": -71.5836921 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Cancha del San Pedro"
+  }
+},
+{
+  "type": "way",
+  "id": 605428721,
+  "bounds": {
+    "minlat": -33.1318678,
+    "minlon": -71.5616010,
+    "maxlat": -33.1315640,
+    "maxlon": -71.5612628
+  },
+  "geometry": [
+    { "lat": -33.1316562, "lon": -71.5616010 },
+    { "lat": -33.1315640, "lon": -71.5614597 },
+    { "lat": -33.1317755, "lon": -71.5612628 },
+    { "lat": -33.1318678, "lon": -71.5614041 },
+    { "lat": -33.1316562, "lon": -71.5616010 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 605638545,
+  "bounds": {
+    "minlat": -33.0401353,
+    "minlon": -71.5905987,
+    "maxlat": -33.0398718,
+    "maxlon": -71.5902544
+  },
+  "geometry": [
+    { "lat": -33.0399718, "lon": -71.5905987 },
+    { "lat": -33.0401353, "lon": -71.5905174 },
+    { "lat": -33.0400453, "lon": -71.5902758 },
+    { "lat": -33.0400342, "lon": -71.5902629 },
+    { "lat": -33.0400207, "lon": -71.5902548 },
+    { "lat": -33.0400049, "lon": -71.5902544 },
+    { "lat": -33.0398718, "lon": -71.5903287 },
+    { "lat": -33.0399718, "lon": -71.5905987 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Multicancha Plaza La Conquista",
+    "sport": "basketball;soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 605754634,
+  "bounds": {
+    "minlat": -33.0590249,
+    "minlon": -71.6393426,
+    "maxlat": -33.0586328,
+    "maxlon": -71.6389130
+  },
+  "geometry": [
+    { "lat": -33.0590249, "lon": -71.6391107 },
+    { "lat": -33.0589078, "lon": -71.6389130 },
+    { "lat": -33.0586328, "lon": -71.6391448 },
+    { "lat": -33.0587499, "lon": -71.6393426 },
+    { "lat": -33.0590249, "lon": -71.6391107 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 605754650,
+  "bounds": {
+    "minlat": -33.0565295,
+    "minlon": -71.6426657,
+    "maxlat": -33.0563400,
+    "maxlon": -71.6423410
+  },
+  "geometry": [
+    { "lat": -33.0565295, "lon": -71.6423755 },
+    { "lat": -33.0563907, "lon": -71.6423410 },
+    { "lat": -33.0563400, "lon": -71.6426312 },
+    { "lat": -33.0564788, "lon": -71.6426657 },
+    { "lat": -33.0565295, "lon": -71.6423755 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 605754652,
+  "bounds": {
+    "minlat": -33.0572742,
+    "minlon": -71.6434594,
+    "maxlat": -33.0570396,
+    "maxlon": -71.6432836
+  },
+  "geometry": [
+    { "lat": -33.0572742, "lon": -71.6434209 },
+    { "lat": -33.0572571, "lon": -71.6432836 },
+    { "lat": -33.0570396, "lon": -71.6433220 },
+    { "lat": -33.0570567, "lon": -71.6434594 },
+    { "lat": -33.0572742, "lon": -71.6434209 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 605754684,
+  "bounds": {
+    "minlat": -33.0534396,
+    "minlon": -71.6515206,
+    "maxlat": -33.0532353,
+    "maxlon": -71.6513733
+  },
+  "geometry": [
+    { "lat": -33.0534396, "lon": -71.6515039 },
+    { "lat": -33.0534318, "lon": -71.6513733 },
+    { "lat": -33.0532353, "lon": -71.6513901 },
+    { "lat": -33.0532431, "lon": -71.6515206 },
+    { "lat": -33.0534396, "lon": -71.6515039 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 605759291,
+  "bounds": {
+    "minlat": -33.0484287,
+    "minlon": -71.6502604,
+    "maxlat": -33.0482819,
+    "maxlon": -71.6499670
+  },
+  "geometry": [
+    { "lat": -33.0484152, "lon": -71.6502604 },
+    { "lat": -33.0484287, "lon": -71.6499761 },
+    { "lat": -33.0482955, "lon": -71.6499670 },
+    { "lat": -33.0482819, "lon": -71.6502514 },
+    { "lat": -33.0484152, "lon": -71.6502604 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 605759292,
+  "bounds": {
+    "minlat": -33.0460176,
+    "minlon": -71.6492904,
+    "maxlat": -33.0457380,
+    "maxlon": -71.6488769
+  },
+  "geometry": [
+    { "lat": -33.0460176, "lon": -71.6492066 },
+    { "lat": -33.0458898, "lon": -71.6488769 },
+    { "lat": -33.0457380, "lon": -71.6489607 },
+    { "lat": -33.0458659, "lon": -71.6492904 },
+    { "lat": -33.0460176, "lon": -71.6492066 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 605759340,
+  "bounds": {
+    "minlat": -33.0377090,
+    "minlon": -71.6407993,
+    "maxlat": -33.0375676,
+    "maxlon": -71.6405265
+  },
+  "geometry": [
+    { "lat": -33.0377090, "lon": -71.6407904 },
+    { "lat": -33.0376963, "lon": -71.6405265 },
+    { "lat": -33.0375676, "lon": -71.6405354 },
+    { "lat": -33.0375803, "lon": -71.6407993 },
+    { "lat": -33.0377090, "lon": -71.6407904 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 605759344,
+  "bounds": {
+    "minlat": -33.0365200,
+    "minlon": -71.6367935,
+    "maxlat": -33.0363386,
+    "maxlon": -71.6366006
+  },
+  "geometry": [
+    { "lat": -33.0365200, "lon": -71.6367027 },
+    { "lat": -33.0364707, "lon": -71.6366006 },
+    { "lat": -33.0363386, "lon": -71.6366914 },
+    { "lat": -33.0363878, "lon": -71.6367935 },
+    { "lat": -33.0365200, "lon": -71.6367027 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 605759356,
+  "bounds": {
+    "minlat": -33.0348406,
+    "minlon": -71.6332071,
+    "maxlat": -33.0346130,
+    "maxlon": -71.6330177
+  },
+  "geometry": [
+    { "lat": -33.0348406, "lon": -71.6331325 },
+    { "lat": -33.0348100, "lon": -71.6330177 },
+    { "lat": -33.0346130, "lon": -71.6330923 },
+    { "lat": -33.0346436, "lon": -71.6332071 },
+    { "lat": -33.0348406, "lon": -71.6331325 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 605759369,
+  "bounds": {
+    "minlat": -33.0436049,
+    "minlon": -71.6018127,
+    "maxlat": -33.0433538,
+    "maxlon": -71.6016084
+  },
+  "geometry": [
+    { "lat": -33.0436049, "lon": -71.6017626 },
+    { "lat": -33.0435810, "lon": -71.6016084 },
+    { "lat": -33.0433538, "lon": -71.6016586 },
+    { "lat": -33.0433777, "lon": -71.6018127 },
+    { "lat": -33.0436049, "lon": -71.6017626 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 605759382,
+  "bounds": {
+    "minlat": -33.0489475,
+    "minlon": -71.5775571,
+    "maxlat": -33.0487798,
+    "maxlon": -71.5772806
+  },
+  "geometry": [
+    { "lat": -33.0489475, "lon": -71.5773075 },
+    { "lat": -33.0488155, "lon": -71.5772806 },
+    { "lat": -33.0487798, "lon": -71.5775302 },
+    { "lat": -33.0489118, "lon": -71.5775571 },
+    { "lat": -33.0489475, "lon": -71.5773075 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "netball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 605760749,
+  "bounds": {
+    "minlat": -33.0625402,
+    "minlon": -71.5648317,
+    "maxlat": -33.0623178,
+    "maxlon": -71.5644554
+  },
+  "geometry": [
+    { "lat": -33.0625402, "lon": -71.5644990 },
+    { "lat": -33.0623821, "lon": -71.5644554 },
+    { "lat": -33.0623178, "lon": -71.5647882 },
+    { "lat": -33.0624758, "lon": -71.5648317 },
+    { "lat": -33.0625402, "lon": -71.5644990 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 605763873,
+  "bounds": {
+    "minlat": -33.0611587,
+    "minlon": -71.5625959,
+    "maxlat": -33.0608780,
+    "maxlon": -71.5624035
+  },
+  "geometry": [
+    { "lat": -33.0611475, "lon": -71.5625959 },
+    { "lat": -33.0611587, "lon": -71.5624346 },
+    { "lat": -33.0608900, "lon": -71.5624035 },
+    { "lat": -33.0608780, "lon": -71.5625620 },
+    { "lat": -33.0611475, "lon": -71.5625959 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 605954188,
+  "bounds": {
+    "minlat": -33.1030094,
+    "minlon": -71.6638591,
+    "maxlat": -33.1026471,
+    "maxlon": -71.6634733
+  },
+  "geometry": [
+    { "lat": -33.1030094, "lon": -71.6636218 },
+    { "lat": -33.1029183, "lon": -71.6634733 },
+    { "lat": -33.1026471, "lon": -71.6637106 },
+    { "lat": -33.1027383, "lon": -71.6638591 },
+    { "lat": -33.1030094, "lon": -71.6636218 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 607771070,
+  "bounds": {
+    "minlat": -33.0266849,
+    "minlon": -71.6408171,
+    "maxlat": -33.0264250,
+    "maxlon": -71.6405870
+  },
+  "geometry": [
+    { "lat": -33.0264250, "lon": -71.6407678 },
+    { "lat": -33.0264519, "lon": -71.6405870 },
+    { "lat": -33.0266849, "lon": -71.6406363 },
+    { "lat": -33.0266580, "lon": -71.6408171 },
+    { "lat": -33.0264250, "lon": -71.6407678 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 612408208,
+  "bounds": {
+    "minlat": -33.0548497,
+    "minlon": -71.6403619,
+    "maxlat": -33.0546625,
+    "maxlon": -71.6399421
+  },
+  "geometry": [
+    { "lat": -33.0548497, "lon": -71.6403502 },
+    { "lat": -33.0548296, "lon": -71.6399421 },
+    { "lat": -33.0546625, "lon": -71.6399538 },
+    { "lat": -33.0546826, "lon": -71.6403619 },
+    { "lat": -33.0548497, "lon": -71.6403502 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 612408381,
+  "bounds": {
+    "minlat": -33.0513698,
+    "minlon": -71.6353725,
+    "maxlat": -33.0511234,
+    "maxlon": -71.6350711
+  },
+  "geometry": [
+    { "lat": -33.0513698, "lon": -71.6352635 },
+    { "lat": -33.0512256, "lon": -71.6350711 },
+    { "lat": -33.0511234, "lon": -71.6351801 },
+    { "lat": -33.0512677, "lon": -71.6353725 },
+    { "lat": -33.0513698, "lon": -71.6352635 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "name": "Club Deportivo Santa Teresa"
+  }
+},
+{
+  "type": "way",
+  "id": 612408385,
+  "bounds": {
+    "minlat": -33.0400597,
+    "minlon": -71.6330198,
+    "maxlat": -33.0398751,
+    "maxlon": -71.6327307
+  },
+  "geometry": [
+    { "lat": -33.0400597, "lon": -71.6327792 },
+    { "lat": -33.0399495, "lon": -71.6327307 },
+    { "lat": -33.0398751, "lon": -71.6329714 },
+    { "lat": -33.0399853, "lon": -71.6330198 },
+    { "lat": -33.0400597, "lon": -71.6327792 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 627016858,
+  "bounds": {
+    "minlat": -33.1484886,
+    "minlon": -71.5584663,
+    "maxlat": -33.1482198,
+    "maxlon": -71.5581999
+  },
+  "geometry": [
+    { "lat": -33.1482766, "lon": -71.5584663 },
+    { "lat": -33.1484886, "lon": -71.5583571 },
+    { "lat": -33.1484319, "lon": -71.5581999 },
+    { "lat": -33.1482198, "lon": -71.5583091 },
+    { "lat": -33.1482766, "lon": -71.5584663 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 637676904,
+  "bounds": {
+    "minlat": -33.1424289,
+    "minlon": -71.5772363,
+    "maxlat": -33.1422866,
+    "maxlon": -71.5769179
+  },
+  "geometry": [
+    { "lat": -33.1424289, "lon": -71.5769405 },
+    { "lat": -33.1423775, "lon": -71.5772363 },
+    { "lat": -33.1422866, "lon": -71.5772137 },
+    { "lat": -33.1423381, "lon": -71.5769179 },
+    { "lat": -33.1424289, "lon": -71.5769405 }
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 637676905,
+  "bounds": {
+    "minlat": -33.1423671,
+    "minlon": -71.5775202,
+    "maxlat": -33.1422306,
+    "maxlon": -71.5772348
+  },
+  "geometry": [
+    { "lat": -33.1423671, "lon": -71.5772581 },
+    { "lat": -33.1423180, "lon": -71.5775202 },
+    { "lat": -33.1422306, "lon": -71.5774969 },
+    { "lat": -33.1422797, "lon": -71.5772348 },
+    { "lat": -33.1423671, "lon": -71.5772581 }
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 671889368,
+  "bounds": {
+    "minlat": -33.0640534,
+    "minlon": -71.5829985,
+    "maxlat": -33.0636811,
+    "maxlon": -71.5826647
+  },
+  "geometry": [
+    { "lat": -33.0637392, "lon": -71.5829985 },
+    { "lat": -33.0636811, "lon": -71.5827886 },
+    { "lat": -33.0639953, "lon": -71.5826647 },
+    { "lat": -33.0640534, "lon": -71.5828746 },
+    { "lat": -33.0637392, "lon": -71.5829985 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 671889372,
+  "bounds": {
+    "minlat": -33.0643890,
+    "minlon": -71.5828746,
+    "maxlat": -33.0639953,
+    "maxlon": -71.5825324
+  },
+  "geometry": [
+    { "lat": -33.0640534, "lon": -71.5828746 },
+    { "lat": -33.0639953, "lon": -71.5826647 },
+    { "lat": -33.0643309, "lon": -71.5825324 },
+    { "lat": -33.0643890, "lon": -71.5827423 },
+    { "lat": -33.0640534, "lon": -71.5828746 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 677720915,
+  "bounds": {
+    "minlat": -33.0586487,
+    "minlon": -71.5603074,
+    "maxlat": -33.0582971,
+    "maxlon": -71.5600245
+  },
+  "geometry": [
+    { "lat": -33.0582971, "lon": -71.5602307 },
+    { "lat": -33.0583322, "lon": -71.5600245 },
+    { "lat": -33.0586487, "lon": -71.5601012 },
+    { "lat": -33.0586136, "lon": -71.5603074 },
+    { "lat": -33.0582971, "lon": -71.5602307 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 677741512,
+  "bounds": {
+    "minlat": -33.0528768,
+    "minlon": -71.5603099,
+    "maxlat": -33.0522678,
+    "maxlon": -71.5596923
+  },
+  "geometry": [
+    { "lat": -33.0523962, "lon": -71.5603099 },
+    { "lat": -33.0522678, "lon": -71.5599145 },
+    { "lat": -33.0527484, "lon": -71.5596923 },
+    { "lat": -33.0528768, "lon": -71.5600877 },
+    { "lat": -33.0523962, "lon": -71.5603099 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 677757455,
+  "bounds": {
+    "minlat": -33.0570962,
+    "minlon": -71.5631973,
+    "maxlat": -33.0568895,
+    "maxlon": -71.5630493
+  },
+  "geometry": [
+    { "lat": -33.0568952, "lon": -71.5631973 },
+    { "lat": -33.0568895, "lon": -71.5630614 },
+    { "lat": -33.0570904, "lon": -71.5630493 },
+    { "lat": -33.0570962, "lon": -71.5631852 },
+    { "lat": -33.0568952, "lon": -71.5631973 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 677757500,
+  "bounds": {
+    "minlat": -33.0556062,
+    "minlon": -71.5696975,
+    "maxlat": -33.0553256,
+    "maxlon": -71.5693416
+  },
+  "geometry": [
+    { "lat": -33.0553256, "lon": -71.5695927 },
+    { "lat": -33.0555005, "lon": -71.5693416 },
+    { "lat": -33.0556062, "lon": -71.5694464 },
+    { "lat": -33.0554313, "lon": -71.5696975 },
+    { "lat": -33.0553256, "lon": -71.5695927 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 678746675,
+  "bounds": {
+    "minlat": -33.0568431,
+    "minlon": -71.5666083,
+    "maxlat": -33.0565972,
+    "maxlon": -71.5662943
+  },
+  "geometry": [
+    { "lat": -33.0565972, "lon": -71.5665281 },
+    { "lat": -33.0566875, "lon": -71.5662943 },
+    { "lat": -33.0568431, "lon": -71.5663676 },
+    { "lat": -33.0567528, "lon": -71.5666083 },
+    { "lat": -33.0565972, "lon": -71.5665281 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 678746693,
+  "bounds": {
+    "minlat": -33.0562672,
+    "minlon": -71.5603543,
+    "maxlat": -33.0559455,
+    "maxlon": -71.5600090
+  },
+  "geometry": [
+    { "lat": -33.0560357, "lon": -71.5603543 },
+    { "lat": -33.0562672, "lon": -71.5601908 },
+    { "lat": -33.0561771, "lon": -71.5600090 },
+    { "lat": -33.0559455, "lon": -71.5601725 },
+    { "lat": -33.0560357, "lon": -71.5603543 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 687655584,
+  "bounds": {
+    "minlat": -33.0548239,
+    "minlon": -71.6036134,
+    "maxlat": -33.0545208,
+    "maxlon": -71.6033286
+  },
+  "geometry": [
+    { "lat": -33.0548239, "lon": -71.6035110 },
+    { "lat": -33.0547715, "lon": -71.6033286 },
+    { "lat": -33.0545208, "lon": -71.6034311 },
+    { "lat": -33.0545732, "lon": -71.6036134 },
+    { "lat": -33.0548239, "lon": -71.6035110 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 699143725,
+  "bounds": {
+    "minlat": -33.1086972,
+    "minlon": -71.5801679,
+    "maxlat": -33.1084624,
+    "maxlon": -71.5799414
+  },
+  "geometry": [
+    { "lat": -33.1086972, "lon": -71.5801062 },
+    { "lat": -33.1086613, "lon": -71.5799414 },
+    { "lat": -33.1084624, "lon": -71.5800031 },
+    { "lat": -33.1084983, "lon": -71.5801679 },
+    { "lat": -33.1086972, "lon": -71.5801062 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 719441896,
+  "bounds": {
+    "minlat": -33.0380928,
+    "minlon": -71.5925760,
+    "maxlat": -33.0378348,
+    "maxlon": -71.5922052
+  },
+  "geometry": [
+    { "lat": -33.0380928, "lon": -71.5924887 },
+    { "lat": -33.0379327, "lon": -71.5925760 },
+    { "lat": -33.0378348, "lon": -71.5922901 },
+    { "lat": -33.0379895, "lon": -71.5922052 },
+    { "lat": -33.0380928, "lon": -71.5924887 }
+  ],
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "name": "Cancha de fútbol Esval",
+    "sport": "soccer",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 797745453,
+  "bounds": {
+    "minlat": -33.0637788,
+    "minlon": -71.5836978,
+    "maxlat": -33.0633952,
+    "maxlon": -71.5833819
+  },
+  "geometry": [
+    { "lat": -33.0637788, "lon": -71.5835858 },
+    { "lat": -33.0637311, "lon": -71.5833819 },
+    { "lat": -33.0633952, "lon": -71.5834939 },
+    { "lat": -33.0634430, "lon": -71.5836978 },
+    { "lat": -33.0637788, "lon": -71.5835858 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 799158724,
+  "bounds": {
+    "minlat": -33.1275779,
+    "minlon": -71.5769151,
+    "maxlat": -33.1273499,
+    "maxlon": -71.5765208
+  },
+  "geometry": [
+    { "lat": -33.1274370, "lon": -71.5769151 },
+    { "lat": -33.1273499, "lon": -71.5765718 },
+    { "lat": -33.1274909, "lon": -71.5765208 },
+    { "lat": -33.1275779, "lon": -71.5768642 },
+    { "lat": -33.1274370, "lon": -71.5769151 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 806930944,
+  "bounds": {
+    "minlat": -33.1399218,
+    "minlon": -71.5650425,
+    "maxlat": -33.1385593,
+    "maxlon": -71.5641100
+  },
+  "geometry": [
+    { "lat": -33.1386559, "lon": -71.5643250 },
+    { "lat": -33.1385593, "lon": -71.5643143 },
+    { "lat": -33.1390197, "lon": -71.5650425 },
+    { "lat": -33.1399218, "lon": -71.5647813 },
+    { "lat": -33.1395254, "lon": -71.5641100 },
+    { "lat": -33.1388179, "lon": -71.5642945 },
+    { "lat": -33.1387300, "lon": -71.5643197 },
+    { "lat": -33.1386559, "lon": -71.5643250 }
+  ],
+  "tags": {
+    "addr:city": "Curauma",
+    "addr:country": "CL",
+    "addr:housenumber": "3160",
+    "addr:street": "Avenida Cardenal Samoré",
+    "instagram": "canchassantalaura",
+    "leisure": "sports_centre",
+    "name": "Complejo Deportivo Santa Laura",
+    "phone": "+56987231016",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 819578475,
+  "bounds": {
+    "minlat": -33.1394107,
+    "minlon": -71.5644380,
+    "maxlat": -33.1390615,
+    "maxlon": -71.5641892
+  },
+  "geometry": [
+    { "lat": -33.1390912, "lon": -71.5644380 },
+    { "lat": -33.1390615, "lon": -71.5642694 },
+    { "lat": -33.1393810, "lon": -71.5641892 },
+    { "lat": -33.1394107, "lon": -71.5643578 },
+    { "lat": -33.1390912, "lon": -71.5644380 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 819578476,
+  "bounds": {
+    "minlat": -33.1394366,
+    "minlon": -71.5647114,
+    "maxlat": -33.1390874,
+    "maxlon": -71.5644626
+  },
+  "geometry": [
+    { "lat": -33.1391171, "lon": -71.5647114 },
+    { "lat": -33.1390874, "lon": -71.5645428 },
+    { "lat": -33.1394070, "lon": -71.5644626 },
+    { "lat": -33.1394366, "lon": -71.5646312 },
+    { "lat": -33.1391171, "lon": -71.5647114 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 819578477,
+  "bounds": {
+    "minlat": -33.1397468,
+    "minlon": -71.5648932,
+    "maxlat": -33.1393534,
+    "maxlon": -71.5646007
+  },
+  "geometry": [
+    { "lat": -33.1393903, "lon": -71.5648932 },
+    { "lat": -33.1393534, "lon": -71.5646957 },
+    { "lat": -33.1397099, "lon": -71.5646007 },
+    { "lat": -33.1397468, "lon": -71.5647982 },
+    { "lat": -33.1393903, "lon": -71.5648932 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 819578478,
+  "bounds": {
+    "minlat": -33.1393748,
+    "minlon": -71.5649943,
+    "maxlat": -33.1389814,
+    "maxlon": -71.5647018
+  },
+  "geometry": [
+    { "lat": -33.1390183, "lon": -71.5649943 },
+    { "lat": -33.1389814, "lon": -71.5647968 },
+    { "lat": -33.1393379, "lon": -71.5647018 },
+    { "lat": -33.1393748, "lon": -71.5648993 },
+    { "lat": -33.1390183, "lon": -71.5649943 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 819578487,
+  "bounds": {
+    "minlat": -33.1472881,
+    "minlon": -71.5680623,
+    "maxlat": -33.1470001,
+    "maxlon": -71.5676613
+  },
+  "geometry": [
+    { "lat": -33.1470001, "lon": -71.5679651 },
+    { "lat": -33.1471375, "lon": -71.5676613 },
+    { "lat": -33.1472881, "lon": -71.5677585 },
+    { "lat": -33.1471508, "lon": -71.5680623 },
+    { "lat": -33.1470001, "lon": -71.5679651 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 892863445,
+  "bounds": {
+    "minlat": -33.1083749,
+    "minlon": -71.5726599,
+    "maxlat": -33.1081788,
+    "maxlon": -71.5723400
+  },
+  "geometry": [
+    { "lat": -33.1081788, "lon": -71.5726423 },
+    { "lat": -33.1082003, "lon": -71.5723400 },
+    { "lat": -33.1083749, "lon": -71.5723577 },
+    { "lat": -33.1083585, "lon": -71.5725906 },
+    { "lat": -33.1083535, "lon": -71.5726599 },
+    { "lat": -33.1081788, "lon": -71.5726423 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 906715271,
+  "bounds": {
+    "minlat": -33.0233309,
+    "minlon": -71.6408091,
+    "maxlat": -33.0214635,
+    "maxlon": -71.6387568
+  },
+  "geometry": [
+    { "lat": -33.0222309, "lon": -71.6406492 },
+    { "lat": -33.0219451, "lon": -71.6403957 },
+    { "lat": -33.0217188, "lon": -71.6401951 },
+    { "lat": -33.0217410, "lon": -71.6401595 },
+    { "lat": -33.0216389, "lon": -71.6400563 },
+    { "lat": -33.0215614, "lon": -71.6399579 },
+    { "lat": -33.0215177, "lon": -71.6398447 },
+    { "lat": -33.0214829, "lon": -71.6397088 },
+    { "lat": -33.0214691, "lon": -71.6395962 },
+    { "lat": -33.0214635, "lon": -71.6394726 },
+    { "lat": -33.0214752, "lon": -71.6393497 },
+    { "lat": -33.0215040, "lon": -71.6392308 },
+    { "lat": -33.0215489, "lon": -71.6391193 },
+    { "lat": -33.0216084, "lon": -71.6390190 },
+    { "lat": -33.0216776, "lon": -71.6389352 },
+    { "lat": -33.0217564, "lon": -71.6388660 },
+    { "lat": -33.0218434, "lon": -71.6388124 },
+    { "lat": -33.0219364, "lon": -71.6387758 },
+    { "lat": -33.0220330, "lon": -71.6387572 },
+    { "lat": -33.0221309, "lon": -71.6387568 },
+    { "lat": -33.0222276, "lon": -71.6387749 },
+    { "lat": -33.0223208, "lon": -71.6388108 },
+    { "lat": -33.0224117, "lon": -71.6388661 },
+    { "lat": -33.0231172, "lon": -71.6395149 },
+    { "lat": -33.0231874, "lon": -71.6395996 },
+    { "lat": -33.0232477, "lon": -71.6397025 },
+    { "lat": -33.0232925, "lon": -71.6398161 },
+    { "lat": -33.0233205, "lon": -71.6399371 },
+    { "lat": -33.0233309, "lon": -71.6400620 },
+    { "lat": -33.0233234, "lon": -71.6401872 },
+    { "lat": -33.0232983, "lon": -71.6403091 },
+    { "lat": -33.0232561, "lon": -71.6404241 },
+    { "lat": -33.0231983, "lon": -71.6405290 },
+    { "lat": -33.0231266, "lon": -71.6406205 },
+    { "lat": -33.0230439, "lon": -71.6406954 },
+    { "lat": -33.0229520, "lon": -71.6407528 },
+    { "lat": -33.0228534, "lon": -71.6407910 },
+    { "lat": -33.0227508, "lon": -71.6408091 },
+    { "lat": -33.0226472, "lon": -71.6408065 },
+    { "lat": -33.0225431, "lon": -71.6407940 },
+    { "lat": -33.0224436, "lon": -71.6407536 },
+    { "lat": -33.0223584, "lon": -71.6407055 },
+    { "lat": -33.0222769, "lon": -71.6406443 },
+    { "lat": -33.0222472, "lon": -71.6406230 },
+    { "lat": -33.0222309, "lon": -71.6406492 }
+  ],
+  "tags": {
+    "alt_name": "Estadio Playa Ancha",
+    "leisure": "stadium",
+    "name": "Estadio Elías Figueroa Brander",
+    "old_name": "Estadio Regional Chiledeportes"
+  }
+},
+{
+  "type": "way",
+  "id": 942632408,
+  "bounds": {
+    "minlat": -33.0536987,
+    "minlon": -71.6162975,
+    "maxlat": -33.0533902,
+    "maxlon": -71.6158933
+  },
+  "geometry": [
+    { "lat": -33.0533902, "lon": -71.6161793 },
+    { "lat": -33.0535379, "lon": -71.6158933 },
+    { "lat": -33.0536987, "lon": -71.6160114 },
+    { "lat": -33.0535510, "lon": -71.6162975 },
+    { "lat": -33.0533902, "lon": -71.6161793 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 967340232,
+  "bounds": {
+    "minlat": -33.0459250,
+    "minlon": -71.6029005,
+    "maxlat": -33.0456722,
+    "maxlon": -71.6027258
+  },
+  "geometry": [
+    { "lat": -33.0459250, "lon": -71.6028697 },
+    { "lat": -33.0459120, "lon": -71.6027258 },
+    { "lat": -33.0456722, "lon": -71.6027565 },
+    { "lat": -33.0456851, "lon": -71.6029005 },
+    { "lat": -33.0459250, "lon": -71.6028697 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 998765428,
+  "bounds": {
+    "minlat": -33.0300251,
+    "minlon": -71.6488311,
+    "maxlat": -33.0297567,
+    "maxlon": -71.6484585
+  },
+  "geometry": [
+    { "lat": -33.0297567, "lon": -71.6487415 },
+    { "lat": -33.0299040, "lon": -71.6488311 },
+    { "lat": -33.0300251, "lon": -71.6485481 },
+    { "lat": -33.0298777, "lon": -71.6484585 },
+    { "lat": -33.0297567, "lon": -71.6487415 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 998765429,
+  "bounds": {
+    "minlat": -33.0303978,
+    "minlon": -71.6488288,
+    "maxlat": -33.0300325,
+    "maxlon": -71.6485115
+  },
+  "geometry": [
+    { "lat": -33.0300325, "lon": -71.6486883 },
+    { "lat": -33.0303412, "lon": -71.6488288 },
+    { "lat": -33.0303978, "lon": -71.6486520 },
+    { "lat": -33.0300890, "lon": -71.6485115 },
+    { "lat": -33.0300325, "lon": -71.6486883 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1024659036,
+  "bounds": {
+    "minlat": -33.0590150,
+    "minlon": -71.6418215,
+    "maxlat": -33.0587509,
+    "maxlon": -71.6414424
+  },
+  "geometry": [
+    { "lat": -33.0588980, "lon": -71.6418215 },
+    { "lat": -33.0587509, "lon": -71.6415251 },
+    { "lat": -33.0588679, "lon": -71.6414424 },
+    { "lat": -33.0590150, "lon": -71.6417387 },
+    { "lat": -33.0588980, "lon": -71.6418215 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1041154109,
+  "bounds": {
+    "minlat": -33.1058993,
+    "minlon": -71.6646087,
+    "maxlat": -33.1055462,
+    "maxlon": -71.6642468
+  },
+  "geometry": [
+    { "lat": -33.1055462, "lon": -71.6644608 },
+    { "lat": -33.1058175, "lon": -71.6642468 },
+    { "lat": -33.1058993, "lon": -71.6643948 },
+    { "lat": -33.1056280, "lon": -71.6646087 },
+    { "lat": -33.1055462, "lon": -71.6644608 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1044593803,
+  "bounds": {
+    "minlat": -33.1015650,
+    "minlon": -71.7033911,
+    "maxlat": -33.1013213,
+    "maxlon": -71.7029694
+  },
+  "geometry": [
+    { "lat": -33.1013213, "lon": -71.7033334 },
+    { "lat": -33.1014324, "lon": -71.7029694 },
+    { "lat": -33.1015650, "lon": -71.7030271 },
+    { "lat": -33.1014539, "lon": -71.7033911 },
+    { "lat": -33.1013213, "lon": -71.7033334 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1056479102,
+  "bounds": {
+    "minlat": -33.1181080,
+    "minlon": -71.5723044,
+    "maxlat": -33.1177852,
+    "maxlon": -71.5716437
+  },
+  "geometry": [
+    { "lat": -33.1179709, "lon": -71.5723044 },
+    { "lat": -33.1180656, "lon": -71.5722939 },
+    { "lat": -33.1180893, "lon": -71.5721883 },
+    { "lat": -33.1180693, "lon": -71.5720931 },
+    { "lat": -33.1180992, "lon": -71.5719919 },
+    { "lat": -33.1181080, "lon": -71.5718639 },
+    { "lat": -33.1180619, "lon": -71.5717850 },
+    { "lat": -33.1179858, "lon": -71.5716868 },
+    { "lat": -33.1179459, "lon": -71.5716764 },
+    { "lat": -33.1178936, "lon": -71.5717315 },
+    { "lat": -33.1178400, "lon": -71.5716437 },
+    { "lat": -33.1178213, "lon": -71.5716779 },
+    { "lat": -33.1178101, "lon": -71.5717538 },
+    { "lat": -33.1177852, "lon": -71.5718327 },
+    { "lat": -33.1178375, "lon": -71.5719205 },
+    { "lat": -33.1179011, "lon": -71.5719264 },
+    { "lat": -33.1179235, "lon": -71.5719636 },
+    { "lat": -33.1179185, "lon": -71.5720440 },
+    { "lat": -33.1179459, "lon": -71.5720975 },
+    { "lat": -33.1179584, "lon": -71.5721675 },
+    { "lat": -33.1179609, "lon": -71.5722567 },
+    { "lat": -33.1179709, "lon": -71.5723044 }
+  ],
+  "tags": {
+    "access": "yes",
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "746",
+    "addr:street": "Obispo Francisco Valdés Subercaseaux",
+    "leisure": "pitch",
+    "name": "Skatepark Placilla",
+    "sport": "skateboard;bmx"
+  }
+},
+{
+  "type": "way",
+  "id": 1068564549,
+  "bounds": {
+    "minlat": -33.0521312,
+    "minlon": -71.5697311,
+    "maxlat": -33.0517270,
+    "maxlon": -71.5693631
+  },
+  "geometry": [
+    { "lat": -33.0517270, "lon": -71.5696413 },
+    { "lat": -33.0517765, "lon": -71.5693631 },
+    { "lat": -33.0521312, "lon": -71.5694529 },
+    { "lat": -33.0520817, "lon": -71.5697311 },
+    { "lat": -33.0517270, "lon": -71.5696413 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1089579873,
+  "bounds": {
+    "minlat": -33.0191090,
+    "minlon": -71.6393429,
+    "maxlat": -33.0189257,
+    "maxlon": -71.6391149
+  },
+  "geometry": [
+    { "lat": -33.0189257, "lon": -71.6393429 },
+    { "lat": -33.0189864, "lon": -71.6391149 },
+    { "lat": -33.0190258, "lon": -71.6391363 },
+    { "lat": -33.0190539, "lon": -71.6391605 },
+    { "lat": -33.0190809, "lon": -71.6391913 },
+    { "lat": -33.0191090, "lon": -71.6392423 },
+    { "lat": -33.0189257, "lon": -71.6393429 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 1089579874,
+  "bounds": {
+    "minlat": -33.0193350,
+    "minlon": -71.6391819,
+    "maxlat": -33.0191652,
+    "maxlon": -71.6390478
+  },
+  "geometry": [
+    { "lat": -33.0193350, "lon": -71.6391819 },
+    { "lat": -33.0191652, "lon": -71.6391819 },
+    { "lat": -33.0191652, "lon": -71.6391524 },
+    { "lat": -33.0191686, "lon": -71.6391202 },
+    { "lat": -33.0191776, "lon": -71.6390854 },
+    { "lat": -33.0191945, "lon": -71.6390478 },
+    { "lat": -33.0193350, "lon": -71.6391819 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 1099963137,
+  "bounds": {
+    "minlat": -33.1218719,
+    "minlon": -71.5879390,
+    "maxlat": -33.1217649,
+    "maxlon": -71.5877519
+  },
+  "geometry": [
+    { "lat": -33.1217975, "lon": -71.5879390 },
+    { "lat": -33.1217649, "lon": -71.5877727 },
+    { "lat": -33.1218393, "lon": -71.5877519 },
+    { "lat": -33.1218719, "lon": -71.5879182 },
+    { "lat": -33.1217975, "lon": -71.5879390 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "volleyball"
+  }
+},
+{
+  "type": "way",
+  "id": 1113456667,
+  "bounds": {
+    "minlat": -33.1162178,
+    "minlon": -71.5544616,
+    "maxlat": -33.1157857,
+    "maxlon": -71.5540628
+  },
+  "geometry": [
+    { "lat": -33.1161398, "lon": -71.5544616 },
+    { "lat": -33.1162178, "lon": -71.5542432 },
+    { "lat": -33.1158638, "lon": -71.5540628 },
+    { "lat": -33.1157857, "lon": -71.5542812 },
+    { "lat": -33.1161398, "lon": -71.5544616 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1147166747,
+  "bounds": {
+    "minlat": -33.1171306,
+    "minlon": -71.5833834,
+    "maxlat": -33.1168328,
+    "maxlon": -71.5831069
+  },
+  "geometry": [
+    { "lat": -33.1170825, "lon": -71.5833834 },
+    { "lat": -33.1171306, "lon": -71.5832005 },
+    { "lat": -33.1168809, "lon": -71.5831069 },
+    { "lat": -33.1168328, "lon": -71.5832898 },
+    { "lat": -33.1170825, "lon": -71.5833834 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1147166754,
+  "bounds": {
+    "minlat": -33.1128418,
+    "minlon": -71.5549809,
+    "maxlat": -33.1126182,
+    "maxlon": -71.5546713
+  },
+  "geometry": [
+    { "lat": -33.1127661, "lon": -71.5549809 },
+    { "lat": -33.1126182, "lon": -71.5549155 },
+    { "lat": -33.1126938, "lon": -71.5546713 },
+    { "lat": -33.1127199, "lon": -71.5546828 },
+    { "lat": -33.1128418, "lon": -71.5547366 },
+    { "lat": -33.1127661, "lon": -71.5549809 }
+  ],
+  "tags": {
+    "access": "private",
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1184756878,
+  "bounds": {
+    "minlat": -33.0585571,
+    "minlon": -71.5852785,
+    "maxlat": -33.0582947,
+    "maxlon": -71.5849867
+  },
+  "geometry": [
+    { "lat": -33.0583747, "lon": -71.5852785 },
+    { "lat": -33.0582947, "lon": -71.5851555 },
+    { "lat": -33.0584772, "lon": -71.5849867 },
+    { "lat": -33.0585571, "lon": -71.5851096 },
+    { "lat": -33.0583747, "lon": -71.5852785 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1184756880,
+  "bounds": {
+    "minlat": -33.0579227,
+    "minlon": -71.5853282,
+    "maxlat": -33.0575288,
+    "maxlon": -71.5848702
+  },
+  "geometry": [
+    { "lat": -33.0577919, "lon": -71.5853282 },
+    { "lat": -33.0575288, "lon": -71.5850404 },
+    { "lat": -33.0576597, "lon": -71.5848702 },
+    { "lat": -33.0579227, "lon": -71.5851580 },
+    { "lat": -33.0577919, "lon": -71.5853282 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1184756881,
+  "bounds": {
+    "minlat": -33.0577277,
+    "minlon": -71.5854570,
+    "maxlat": -33.0573001,
+    "maxlon": -71.5849681
+  },
+  "geometry": [
+    { "lat": -33.0575980, "lon": -71.5854570 },
+    { "lat": -33.0573001, "lon": -71.5851437 },
+    { "lat": -33.0574298, "lon": -71.5849681 },
+    { "lat": -33.0577277, "lon": -71.5852814 },
+    { "lat": -33.0575980, "lon": -71.5854570 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1184756882,
+  "bounds": {
+    "minlat": -33.0575062,
+    "minlon": -71.5849214,
+    "maxlat": -33.0571316,
+    "maxlon": -71.5846602
+  },
+  "geometry": [
+    { "lat": -33.0571316, "lon": -71.5848953 },
+    { "lat": -33.0571435, "lon": -71.5846602 },
+    { "lat": -33.0575062, "lon": -71.5846862 },
+    { "lat": -33.0574943, "lon": -71.5849214 },
+    { "lat": -33.0571316, "lon": -71.5848953 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1237297707,
+  "bounds": {
+    "minlat": -33.1263317,
+    "minlon": -71.5762106,
+    "maxlat": -33.1261439,
+    "maxlon": -71.5759229
+  },
+  "geometry": [
+    { "lat": -33.1262071, "lon": -71.5762106 },
+    { "lat": -33.1263317, "lon": -71.5761641 },
+    { "lat": -33.1262686, "lon": -71.5759229 },
+    { "lat": -33.1261439, "lon": -71.5759694 },
+    { "lat": -33.1262071, "lon": -71.5762106 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1278343096,
+  "bounds": {
+    "minlat": -33.0350203,
+    "minlon": -71.5934615,
+    "maxlat": -33.0347651,
+    "maxlon": -71.5931617
+  },
+  "geometry": [
+    { "lat": -33.0348404, "lon": -71.5934615 },
+    { "lat": -33.0347651, "lon": -71.5932550 },
+    { "lat": -33.0349450, "lon": -71.5931617 },
+    { "lat": -33.0350203, "lon": -71.5933683 },
+    { "lat": -33.0348404, "lon": -71.5934615 }
+  ],
+  "tags": {
+    "building": "university",
+    "leisure": "sports_centre",
+    "name": "Edificio M2 - Gimnasio 2"
+  }
+},
+{
+  "type": "way",
+  "id": 1278343121,
+  "bounds": {
+    "minlat": -33.0353922,
+    "minlon": -71.5955315,
+    "maxlat": -33.0350735,
+    "maxlon": -71.5951682
+  },
+  "geometry": [
+    { "lat": -33.0351616, "lon": -71.5955315 },
+    { "lat": -33.0350735, "lon": -71.5952861 },
+    { "lat": -33.0353040, "lon": -71.5951682 },
+    { "lat": -33.0353922, "lon": -71.5954136 },
+    { "lat": -33.0351616, "lon": -71.5955315 }
+  ],
+  "tags": {
+    "building": "university",
+    "leisure": "sports_centre",
+    "name": "Gimnasio 1"
+  }
+},
+{
+  "type": "way",
+  "id": 1278343134,
+  "bounds": {
+    "minlat": -33.0353567,
+    "minlon": -71.5945110,
+    "maxlat": -33.0343172,
+    "maxlon": -71.5934896
+  },
+  "geometry": [
+    { "lat": -33.0345294, "lon": -71.5945110 },
+    { "lat": -33.0343172, "lon": -71.5938952 },
+    { "lat": -33.0351445, "lon": -71.5934896 },
+    { "lat": -33.0353567, "lon": -71.5941054 },
+    { "lat": -33.0345294, "lon": -71.5945110 }
+  ],
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "lit": "yes",
+    "name": "Cancha Universidad Técnica Federico Santa María",
+    "sport": "soccer;rugby_league",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 1290396942,
+  "bounds": {
+    "minlat": -33.0593861,
+    "minlon": -71.5718549,
+    "maxlat": -33.0590744,
+    "maxlon": -71.5715728
+  },
+  "geometry": [
+    { "lat": -33.0590744, "lon": -71.5717361 },
+    { "lat": -33.0591271, "lon": -71.5715728 },
+    { "lat": -33.0593861, "lon": -71.5716917 },
+    { "lat": -33.0593335, "lon": -71.5718549 },
+    { "lat": -33.0590744, "lon": -71.5717361 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1308946297,
+  "bounds": {
+    "minlat": -33.1083835,
+    "minlon": -71.5720009,
+    "maxlat": -33.1082473,
+    "maxlon": -71.5718370
+  },
+  "geometry": [
+    { "lat": -33.1083347, "lon": -71.5720009 },
+    { "lat": -33.1083835, "lon": -71.5719443 },
+    { "lat": -33.1082961, "lon": -71.5718370 },
+    { "lat": -33.1082473, "lon": -71.5718936 },
+    { "lat": -33.1083347, "lon": -71.5720009 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1309531568,
+  "bounds": {
+    "minlat": -33.1160841,
+    "minlon": -71.5771073,
+    "maxlat": -33.1157557,
+    "maxlon": -71.5767989
+  },
+  "geometry": [
+    { "lat": -33.1158065, "lon": -71.5771073 },
+    { "lat": -33.1160841, "lon": -71.5770136 },
+    { "lat": -33.1160332, "lon": -71.5767989 },
+    { "lat": -33.1157557, "lon": -71.5768926 },
+    { "lat": -33.1158065, "lon": -71.5771073 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1329767257,
+  "bounds": {
+    "minlat": -33.0649234,
+    "minlon": -71.5659006,
+    "maxlat": -33.0646297,
+    "maxlon": -71.5655939
+  },
+  "geometry": [
+    { "lat": -33.0647051, "lon": -71.5659006 },
+    { "lat": -33.0646297, "lon": -71.5657561 },
+    { "lat": -33.0648480, "lon": -71.5655939 },
+    { "lat": -33.0649234, "lon": -71.5657384 },
+    { "lat": -33.0647051, "lon": -71.5659006 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1342280945,
+  "bounds": {
+    "minlat": -33.1225923,
+    "minlon": -71.5616850,
+    "maxlat": -33.1224111,
+    "maxlon": -71.5615638
+  },
+  "geometry": [
+    { "lat": -33.1225923, "lon": -71.5615800 },
+    { "lat": -33.1224180, "lon": -71.5615638 },
+    { "lat": -33.1224111, "lon": -71.5616687 },
+    { "lat": -33.1225854, "lon": -71.5616850 },
+    { "lat": -33.1225923, "lon": -71.5615800 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1342280946,
+  "bounds": {
+    "minlat": -33.1225841,
+    "minlon": -71.5618179,
+    "maxlat": -33.1224029,
+    "maxlon": -71.5616970
+  },
+  "geometry": [
+    { "lat": -33.1225841, "lon": -71.5617130 },
+    { "lat": -33.1224097, "lon": -71.5616970 },
+    { "lat": -33.1224029, "lon": -71.5618019 },
+    { "lat": -33.1225774, "lon": -71.5618179 },
+    { "lat": -33.1225841, "lon": -71.5617130 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1342280947,
+  "bounds": {
+    "minlat": -33.1225722,
+    "minlon": -71.5619580,
+    "maxlat": -33.1223905,
+    "maxlon": -71.5618357
+  },
+  "geometry": [
+    { "lat": -33.1225722, "lon": -71.5618530 },
+    { "lat": -33.1223978, "lon": -71.5618357 },
+    { "lat": -33.1223905, "lon": -71.5619406 },
+    { "lat": -33.1225648, "lon": -71.5619580 },
+    { "lat": -33.1225722, "lon": -71.5618530 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1342280948,
+  "bounds": {
+    "minlat": -33.1225619,
+    "minlon": -71.5620955,
+    "maxlat": -33.1223807,
+    "maxlon": -71.5619745
+  },
+  "geometry": [
+    { "lat": -33.1225619, "lon": -71.5619906 },
+    { "lat": -33.1223875, "lon": -71.5619745 },
+    { "lat": -33.1223807, "lon": -71.5620794 },
+    { "lat": -33.1225551, "lon": -71.5620955 },
+    { "lat": -33.1225619, "lon": -71.5619906 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1384790972,
+  "bounds": {
+    "minlat": -33.1487489,
+    "minlon": -71.5660775,
+    "maxlat": -33.1478114,
+    "maxlon": -71.5649170
+  },
+  "geometry": [
+    { "lat": -33.1481443, "lon": -71.5660775 },
+    { "lat": -33.1478114, "lon": -71.5657199 },
+    { "lat": -33.1484162, "lon": -71.5649170 },
+    { "lat": -33.1487489, "lon": -71.5652745 },
+    { "lat": -33.1481443, "lon": -71.5660775 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1395824103,
+  "bounds": {
+    "minlat": -33.0481464,
+    "minlon": -71.6541738,
+    "maxlat": -33.0478840,
+    "maxlon": -71.6538968
+  },
+  "geometry": [
+    { "lat": -33.0478840, "lon": -71.6540096 },
+    { "lat": -33.0479504, "lon": -71.6538968 },
+    { "lat": -33.0481464, "lon": -71.6540611 },
+    { "lat": -33.0480801, "lon": -71.6541738 },
+    { "lat": -33.0478840, "lon": -71.6540096 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "soccer",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 1434438186,
+  "bounds": {
+    "minlat": -33.1180494,
+    "minlon": -71.5770988,
+    "maxlat": -33.1178870,
+    "maxlon": -71.5769203
+  },
+  "geometry": [
+    { "lat": -33.1180494, "lon": -71.5770278 },
+    { "lat": -33.1180034, "lon": -71.5769203 },
+    { "lat": -33.1179160, "lon": -71.5769737 },
+    { "lat": -33.1178870, "lon": -71.5769914 },
+    { "lat": -33.1179329, "lon": -71.5770988 },
+    { "lat": -33.1179851, "lon": -71.5770670 },
+    { "lat": -33.1180494, "lon": -71.5770278 }
+  ],
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1512357889,
+  "bounds": {
+    "minlat": -33.1474061,
+    "minlon": -71.5676986,
+    "maxlat": -33.1470643,
+    "maxlon": -71.5673140
+  },
+  "geometry": [
+    { "lat": -33.1473011, "lon": -71.5676986 },
+    { "lat": -33.1474061, "lon": -71.5674672 },
+    { "lat": -33.1471693, "lon": -71.5673140 },
+    { "lat": -33.1470643, "lon": -71.5675455 },
+    { "lat": -33.1473011, "lon": -71.5676986 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "handball"
+  }
+},
+{
+  "type": "way",
+  "id": 1512357890,
+  "bounds": {
+    "minlat": -33.1476367,
+    "minlon": -71.5671501,
+    "maxlat": -33.1473007,
+    "maxlon": -71.5668145
+  },
+  "geometry": [
+    { "lat": -33.1475609, "lon": -71.5671501 },
+    { "lat": -33.1476367, "lon": -71.5669803 },
+    { "lat": -33.1473766, "lon": -71.5668145 },
+    { "lat": -33.1473007, "lon": -71.5669844 },
+    { "lat": -33.1475609, "lon": -71.5671501 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1512357891,
+  "bounds": {
+    "minlat": -33.1475116,
+    "minlon": -71.5674672,
+    "maxlat": -33.1471693,
+    "maxlon": -71.5670813
+  },
+  "geometry": [
+    { "lat": -33.1474061, "lon": -71.5674672 },
+    { "lat": -33.1475116, "lon": -71.5672348 },
+    { "lat": -33.1472750, "lon": -71.5670813 },
+    { "lat": -33.1471693, "lon": -71.5673140 },
+    { "lat": -33.1474061, "lon": -71.5674672 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "handball"
+  }
+},
+{
+  "type": "way",
+  "id": 1512357892,
+  "bounds": {
+    "minlat": -33.1477167,
+    "minlon": -71.5665305,
+    "maxlat": -33.1474911,
+    "maxlon": -71.5662920
+  },
+  "geometry": [
+    { "lat": -33.1476574, "lon": -71.5665305 },
+    { "lat": -33.1477167, "lon": -71.5663988 },
+    { "lat": -33.1475503, "lon": -71.5662920 },
+    { "lat": -33.1474911, "lon": -71.5664237 },
+    { "lat": -33.1475382, "lon": -71.5664540 },
+    { "lat": -33.1476574, "lon": -71.5665305 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1512357893,
+  "bounds": {
+    "minlat": -33.1477759,
+    "minlon": -71.5663988,
+    "maxlat": -33.1475502,
+    "maxlon": -71.5661603
+  },
+  "geometry": [
+    { "lat": -33.1477167, "lon": -71.5663988 },
+    { "lat": -33.1477759, "lon": -71.5662674 },
+    { "lat": -33.1476094, "lon": -71.5661603 },
+    { "lat": -33.1475502, "lon": -71.5662919 },
+    { "lat": -33.1477167, "lon": -71.5663988 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1512357894,
+  "bounds": {
+    "minlat": -33.1478831,
+    "minlon": -71.5666374,
+    "maxlat": -33.1476574,
+    "maxlon": -71.5663988
+  },
+  "geometry": [
+    { "lat": -33.1478238, "lon": -71.5666374 },
+    { "lat": -33.1478831, "lon": -71.5665058 },
+    { "lat": -33.1477167, "lon": -71.5663988 },
+    { "lat": -33.1476574, "lon": -71.5665305 },
+    { "lat": -33.1477986, "lon": -71.5666212 },
+    { "lat": -33.1478238, "lon": -71.5666374 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1512357895,
+  "bounds": {
+    "minlat": -33.1479420,
+    "minlon": -71.5665057,
+    "maxlat": -33.1477167,
+    "maxlon": -71.5662674
+  },
+  "geometry": [
+    { "lat": -33.1478827, "lon": -71.5665057 },
+    { "lat": -33.1479420, "lon": -71.5663743 },
+    { "lat": -33.1477759, "lon": -71.5662674 },
+    { "lat": -33.1477167, "lon": -71.5663988 },
+    { "lat": -33.1478827, "lon": -71.5665057 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1534728297,
+  "bounds": {
+    "minlat": -33.1619855,
+    "minlon": -71.5530990,
+    "maxlat": -33.1610342,
+    "maxlon": -71.5519760
+  },
+  "geometry": [
+    { "lat": -33.1613131, "lon": -71.5530990 },
+    { "lat": -33.1617627, "lon": -71.5529073 },
+    { "lat": -33.1619855, "lon": -71.5526841 },
+    { "lat": -33.1616909, "lon": -71.5523430 },
+    { "lat": -33.1615005, "lon": -71.5519760 },
+    { "lat": -33.1610342, "lon": -71.5521553 },
+    { "lat": -33.1613131, "lon": -71.5530990 }
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Centro Deportivo Bosque Chacarilla",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1534728298,
+  "bounds": {
+    "minlat": -33.1616895,
+    "minlon": -71.5530153,
+    "maxlat": -33.1610793,
+    "maxlon": -71.5520253
+  },
+  "geometry": [
+    { "lat": -33.1616895, "lon": -71.5528655 },
+    { "lat": -33.1613146, "lon": -71.5530153 },
+    { "lat": -33.1610793, "lon": -71.5521751 },
+    { "lat": -33.1614541, "lon": -71.5520253 },
+    { "lat": -33.1616895, "lon": -71.5528655 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1543347520,
+  "bounds": {
+    "minlat": -33.1145996,
+    "minlon": -71.5782685,
+    "maxlat": -33.1134008,
+    "maxlon": -71.5776366
+  },
+  "geometry": [
+    { "lat": -33.1145996, "lon": -71.5782685 },
+    { "lat": -33.1145511, "lon": -71.5779463 },
+    { "lat": -33.1145522, "lon": -71.5777985 },
+    { "lat": -33.1144561, "lon": -71.5778013 },
+    { "lat": -33.1143933, "lon": -71.5777871 },
+    { "lat": -33.1142638, "lon": -71.5777797 },
+    { "lat": -33.1139616, "lon": -71.5776498 },
+    { "lat": -33.1138827, "lon": -71.5776366 },
+    { "lat": -33.1135336, "lon": -71.5777758 },
+    { "lat": -33.1134008, "lon": -71.5778664 },
+    { "lat": -33.1143559, "lon": -71.5782634 },
+    { "lat": -33.1145996, "lon": -71.5782685 }
+  ],
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 1543347521,
+  "bounds": {
+    "minlat": -33.1144023,
+    "minlon": -71.5782531,
+    "maxlat": -33.1139854,
+    "maxlon": -71.5779047
+  },
+  "geometry": [
+    { "lat": -33.1143437, "lon": -71.5782531 },
+    { "lat": -33.1144023, "lon": -71.5780583 },
+    { "lat": -33.1140440, "lon": -71.5779047 },
+    { "lat": -33.1139854, "lon": -71.5780994 },
+    { "lat": -33.1143437, "lon": -71.5782531 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1543347522,
+  "bounds": {
+    "minlat": -33.1144607,
+    "minlon": -71.5780580,
+    "maxlat": -33.1140438,
+    "maxlon": -71.5777096
+  },
+  "geometry": [
+    { "lat": -33.1144021, "lon": -71.5780580 },
+    { "lat": -33.1144607, "lon": -71.5778632 },
+    { "lat": -33.1141024, "lon": -71.5777096 },
+    { "lat": -33.1140438, "lon": -71.5779043 },
+    { "lat": -33.1144021, "lon": -71.5780580 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1543347523,
+  "bounds": {
+    "minlat": -33.1139888,
+    "minlon": -71.5780777,
+    "maxlat": -33.1138016,
+    "maxlon": -71.5779123
+  },
+  "geometry": [
+    { "lat": -33.1139888, "lon": -71.5779778 },
+    { "lat": -33.1139598, "lon": -71.5780777 },
+    { "lat": -33.1138016, "lon": -71.5780123 },
+    { "lat": -33.1138307, "lon": -71.5779123 },
+    { "lat": -33.1139888, "lon": -71.5779778 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1543347524,
+  "bounds": {
+    "minlat": -33.1140639,
+    "minlon": -71.5778215,
+    "maxlat": -33.1138768,
+    "maxlon": -71.5776560
+  },
+  "geometry": [
+    { "lat": -33.1140639, "lon": -71.5777215 },
+    { "lat": -33.1140349, "lon": -71.5778215 },
+    { "lat": -33.1138768, "lon": -71.5777560 },
+    { "lat": -33.1139058, "lon": -71.5776560 },
+    { "lat": -33.1140639, "lon": -71.5777215 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1543347525,
+  "bounds": {
+    "minlat": -33.1140277,
+    "minlon": -71.5779471,
+    "maxlat": -33.1138405,
+    "maxlon": -71.5777817
+  },
+  "geometry": [
+    { "lat": -33.1140277, "lon": -71.5778471 },
+    { "lat": -33.1139986, "lon": -71.5779471 },
+    { "lat": -33.1138405, "lon": -71.5778817 },
+    { "lat": -33.1138695, "lon": -71.5777817 },
+    { "lat": -33.1140277, "lon": -71.5778471 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1543347526,
+  "bounds": {
+    "minlat": -33.1138214,
+    "minlon": -71.5779299,
+    "maxlat": -33.1136343,
+    "maxlon": -71.5777645
+  },
+  "geometry": [
+    { "lat": -33.1138214, "lon": -71.5778300 },
+    { "lat": -33.1137924, "lon": -71.5779299 },
+    { "lat": -33.1136343, "lon": -71.5778645 },
+    { "lat": -33.1136633, "lon": -71.5777645 },
+    { "lat": -33.1138214, "lon": -71.5778300 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1543939312,
+  "bounds": {
+    "minlat": -33.1376032,
+    "minlon": -71.5638697,
+    "maxlat": -33.1370981,
+    "maxlon": -71.5632070
+  },
+  "geometry": [
+    { "lat": -33.1375144, "lon": -71.5638697 },
+    { "lat": -33.1376032, "lon": -71.5634119 },
+    { "lat": -33.1375141, "lon": -71.5632140 },
+    { "lat": -33.1371790, "lon": -71.5632070 },
+    { "lat": -33.1370981, "lon": -71.5637640 },
+    { "lat": -33.1375144, "lon": -71.5638697 }
+  ],
+  "tags": {
+    "addr:city": "Curauma",
+    "addr:country": "CL",
+    "addr:housenumber": "3063",
+    "addr:street": "Avenida Cardenal Samoré",
+    "instagram": "curaumapadelpark",
+    "leisure": "sports_centre",
+    "name": "Curauma Pádel Park",
+    "phone": "+56983630589",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1543939313,
+  "bounds": {
+    "minlat": -33.1375287,
+    "minlon": -71.5636262,
+    "maxlat": -33.1373479,
+    "maxlon": -71.5634757
+  },
+  "geometry": [
+    { "lat": -33.1375120, "lon": -71.5636262 },
+    { "lat": -33.1375287, "lon": -71.5635089 },
+    { "lat": -33.1373646, "lon": -71.5634757 },
+    { "lat": -33.1373479, "lon": -71.5635929 },
+    { "lat": -33.1375120, "lon": -71.5636262 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1543939314,
+  "bounds": {
+    "minlat": -33.1375462,
+    "minlon": -71.5635066,
+    "maxlat": -33.1373653,
+    "maxlon": -71.5633560
+  },
+  "geometry": [
+    { "lat": -33.1375295, "lon": -71.5635066 },
+    { "lat": -33.1375462, "lon": -71.5633893 },
+    { "lat": -33.1373820, "lon": -71.5633560 },
+    { "lat": -33.1373653, "lon": -71.5634733 },
+    { "lat": -33.1375295, "lon": -71.5635066 }
+  ],
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1543939316,
+  "bounds": {
+    "minlat": -33.1373710,
+    "minlon": -71.5634705,
+    "maxlat": -33.1371902,
+    "maxlon": -71.5633199
+  },
+  "geometry": [
+    { "lat": -33.1373543, "lon": -71.5634705 },
+    { "lat": -33.1373710, "lon": -71.5633532 },
+    { "lat": -33.1372069, "lon": -71.5633199 },
+    { "lat": -33.1371902, "lon": -71.5634372 },
+    { "lat": -33.1373543, "lon": -71.5634705 }
+  ],
+  "tags": {
+    "covered": "yes",
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1543939317,
+  "bounds": {
+    "minlat": -33.1373536,
+    "minlon": -71.5635901,
+    "maxlat": -33.1371727,
+    "maxlon": -71.5634396
+  },
+  "geometry": [
+    { "lat": -33.1373369, "lon": -71.5635901 },
+    { "lat": -33.1373536, "lon": -71.5634728 },
+    { "lat": -33.1371894, "lon": -71.5634396 },
+    { "lat": -33.1371727, "lon": -71.5635568 },
+    { "lat": -33.1373369, "lon": -71.5635901 }
+  ],
+  "tags": {
+    "covered": "yes",
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1543939318,
+  "bounds": {
+    "minlat": -33.1373366,
+    "minlon": -71.5637100,
+    "maxlat": -33.1371558,
+    "maxlon": -71.5635594
+  },
+  "geometry": [
+    { "lat": -33.1373199, "lon": -71.5637100 },
+    { "lat": -33.1373366, "lon": -71.5635927 },
+    { "lat": -33.1371724, "lon": -71.5635594 },
+    { "lat": -33.1371558, "lon": -71.5636767 },
+    { "lat": -33.1373199, "lon": -71.5637100 }
+  ],
+  "tags": {
+    "covered": "yes",
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1557358979,
+  "bounds": {
+    "minlat": -33.0320402,
+    "minlon": -71.5865356,
+    "maxlat": -33.0317009,
+    "maxlon": -71.5861266
+  },
+  "geometry": [
+    { "lat": -33.0317009, "lon": -71.5863488 },
+    { "lat": -33.0318827, "lon": -71.5865356 },
+    { "lat": -33.0319734, "lon": -71.5864060 },
+    { "lat": -33.0320402, "lon": -71.5863103 },
+    { "lat": -33.0318614, "lon": -71.5861266 },
+    { "lat": -33.0317009, "lon": -71.5863488 }
+  ],
+  "tags": {
+    "access": "permissive",
+    "leisure": "pitch",
+    "name": "Cancha techada del Orompollo",
+    "sport": "basketball;soccer;multi"
+  }
+}
+
+  ]
+}

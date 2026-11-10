@@ -16,6 +16,20 @@ ValpoCanchas: proyecto de título (IACC, Técnico Superior en Informática). Cat
 - `datos/`: scripts de importación (catastro IND, OpenStreetMap, planilla manual) y los archivos fuente.
 - `docs/`: plan y decisiones.
 
+## Comandos
+
+```bash
+npm install --prefix admin && npm run dev --prefix admin   # panel web en :5173 (admin/.env.local)
+npm run build --prefix admin && npm run lint --prefix admin
+cd movil && npm install && npx expo start                  # app: escanear el QR con Expo Go (movil/.env.local)
+cd movil && npx tsc --noEmit && npx expo lint              # revisar la app
+python datos/importar_catastro.py                          # regenera supabase/datos/catastro_ind.sql
+python datos/importar_osm.py [--descargar]                 # regenera supabase/datos/catastro_osm.sql
+```
+
+Pruebas de la base: ver `.github/workflows/pruebas-bd.yml` (Postgres 16 + `supabase/tests/`).
+Orden para una base nueva: `supabase/migrations/*.sql` en orden y después `supabase/datos/catastro_ind.sql` y `catastro_osm.sql`.
+
 ## Reglas (no negociables)
 
 - **La base es la fuente de verdad.** Toda escritura en `reservas` pasa por funciones RPC: `solicitar_reserva`, `cancelar_reserva`, `responder_reserva`, `bloquear_horario`, `crear_horario_fijo`, `terminar_horario_fijo`. Los recintos se activan con `activar_recinto`. Nunca insertar ni actualizar `reservas` desde el cliente.

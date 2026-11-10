@@ -26,3 +26,7 @@ Thumbs.db
 !.vscode/extensions.json
 .idea/
 *.log
+
+# Python
+__pycache__/
+*.pyc

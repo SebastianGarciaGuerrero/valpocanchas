@@ -1,0 +1,134 @@
+[
+  {
+    "nombre": "Estadio O'Higgins",
+    "direccion": "Av. Washington 1472 y S / N°",
+    "sector": null,
+    "latitud": -33.057757,
+    "longitud": -71.594996,
+    "fuente_ref": "BA002T0007721-19-estadio-o-higgins-2-partes",
+    "tipo_administracion": "Convenio de Administración",
+    "institucion_administradora": "I. Municipalidad de Valparaiso",
+    "superficie_m2": 22689,
+    "estado_conservacion": "R",
+    "descripcion": "Superficie según catastro IND: Multicancha madera, cancha futbol tierra, pista atletismo tierra.",
+    "canchas": [
+      {
+        "nombre": "Multicancha",
+        "tipo": "multicancha",
+        "superficie": "madera",
+        "techada": true
+      },
+      {
+        "nombre": "Cancha de fútbol",
+        "tipo": "futbol_11",
+        "superficie": "tierra",
+        "techada": false
+      }
+    ]
+  },
+  {
+    "nombre": "Cancha Luis Emilio Recabarren",
+    "direccion": "Luis E. Recabarren s/n Quebrada Verde",
+    "sector": "Quebrada Verde",
+    "latitud": -33.051945,
+    "longitud": -71.65109,
+    "fuente_ref": "BA002T0007721-21-cancha-luis-club-emilio-recabarren",
+    "tipo_administracion": "Convenio de Administración",
+    "institucion_administradora": "I. Municipalidad de Valparaiso",
+    "superficie_m2": 6590,
+    "estado_conservacion": "R",
+    "descripcion": "Superficie según catastro IND: CANCHA DE TIERRA.",
+    "canchas": [
+      {
+        "nombre": "Cancha de fútbol",
+        "tipo": "futbol_11",
+        "superficie": "tierra",
+        "techada": false
+      }
+    ]
+  },
+  {
+    "nombre": "Pobl. Héroes del Mar",
+    "direccion": "San Fco./Avda. Matta (calle Prado s/n, Población Héroes del Mar, cerro Los Placeres)",
+    "sector": "Cerro Los Placeres",
+    "latitud": -33.052573,
+    "longitud": -71.560003,
+    "fuente_ref": "BA002T0007721-22-pobl-heroes-del-mar",
+    "tipo_administracion": "Convenio de Administración",
+    "institucion_administradora": "Junta de Vecinos 143-A, Buque Escuela Esmeralda",
+    "superficie_m2": 14552,
+    "estado_conservacion": "M",
+    "descripcion": "Superficie según catastro IND: Cancha de Tierra.",
+    "canchas": [
+      {
+        "nombre": "Cancha de fútbol",
+        "tipo": "futbol_11",
+        "superficie": "tierra",
+        "techada": false
+      }
+    ]
+  },
+  {
+    "nombre": "Complejo Deportivo Alejo Barrios – Estadio Elias Figueroa",
+    "direccion": "Qavda Hontaneda y subida Carvallo Playa Ancha",
+    "sector": "Playa Ancha",
+    "latitud": -33.022099,
+    "longitud": -71.639801,
+    "fuente_ref": "BA002T0007721-23-estadio-elias-figueroa",
+    "tipo_administracion": "Administración Directa IND",
+    "institucion_administradora": "IND",
+    "superficie_m2": 104000,
+    "estado_conservacion": "B",
+    "descripcion": "Superficie según catastro IND: Cancha de Futbol pasto natural y Pista Atletica sintética.",
+    "canchas": [
+      {
+        "nombre": "Cancha de fútbol",
+        "tipo": "futbol_11",
+        "superficie": "pasto_natural",
+        "techada": false
+      }
+    ]
+  },
+  {
+    "nombre": "Complejo Deportivo Alejo Barrios – Polideportivo",
+    "direccion": "Qavda Hontaneda y subida Carvallo Playa Ancha",
+    "sector": "Playa Ancha",
+    "latitud": -33.020571,
+    "longitud": -71.640344,
+    "fuente_ref": "BA002T0007721-23-polideportivo",
+    "tipo_administracion": "Administración Directa IND",
+    "institucion_administradora": "IND",
+    "superficie_m2": 13584,
+    "estado_conservacion": "B",
+    "descripcion": "Superficie según catastro IND: Multicancha y piscina, salas multiuso.",
+    "canchas": [
+      {
+        "nombre": "Multicancha",
+        "tipo": "multicancha",
+        "superficie": null,
+        "techada": true
+      }
+    ]
+  },
+  {
+    "nombre": "Complejo Deportivo Alejo Barrios – Parque Alejo Barrios",
+    "direccion": "Av. Del Parque",
+    "sector": null,
+    "latitud": -33.02343,
+    "longitud": -71.639198,
+    "fuente_ref": "BA002T0007721-23-parque-alejo-barrios",
+    "tipo_administracion": "Administración Directa IND",
+    "institucion_administradora": "IND",
+    "superficie_m2": null,
+    "estado_conservacion": "R",
+    "descripcion": "Superficie según catastro IND: CANCHA DE TIERRA.",
+    "canchas": [
+      {
+        "nombre": "Cancha de fútbol",
+        "tipo": "futbol_11",
+        "superficie": "tierra",
+        "techada": false
+      }
+    ]
+  }
+]
