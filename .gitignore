@@ -11,6 +11,9 @@ web-build/
 .env
 .env.*
 !.env.example
+# Valores públicos de Supabase (URL y clave publishable): sí se suben.
+!admin/.env
+!movil/.env
 *.keystore
 *.jks
 google-services.json

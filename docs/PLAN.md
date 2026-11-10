@@ -17,10 +17,12 @@ Tiempo disponible: unas 2 horas diarias, cerca de 56 horas en total. Las funcion
 
 ## Semana 1 (9 al 15 de noviembre): cimientos y datos
 
-- [ ] Repo en GitHub, proyecto Supabase de desarrollo (región São Paulo), cuenta Expo y clave de Google Maps para Android.
-- [ ] Aplicar la migración; las pruebas de la base corren en GitHub Actions.
-- [ ] Importar el catastro IND (pasar los enlaces de Google Maps a coordenadas), OpenStreetMap y la planilla de complejos privados.
-- [ ] Esqueleto de `movil/` (Expo Router, TS) y de `admin/` (Vite, TS, Tailwind), con registro e inicio de sesión funcionando.
+- [x] Repo en GitHub, proyecto Supabase (quedó en us-west-2), cuenta Expo y clave de Google Maps para Android.
+- [x] Migraciones aplicadas en Supabase; las pruebas de la base corren en GitHub Actions.
+- [x] Catastro cargado: 6 recintos del IND (coordenadas leídas de sus enlaces de Google Maps) y 45 de OpenStreetMap, 62 canchas.
+- [ ] Planilla de complejos privados (nombre, dirección, teléfono, Instagram, canchas y precios).
+- [x] `movil/` (Expo SDK 58, Expo Router, TS) y `admin/` (Vite, React, TS, Tailwind) con registro, inicio de sesión y recuperar contraseña, probados contra Supabase.
+- [ ] Probar en tu celular con Expo Go y en el navegador; registrarte y quedar como administrador general.
 - **Entregable:** inicio de sesión en web y móvil, y recintos reales en la base.
 
 ## Semana 2 (16 al 22 de noviembre): mapa y ficha en el móvil
@@ -62,6 +64,7 @@ Tiempo disponible: unas 2 horas diarias, cerca de 56 horas en total. Las funcion
 | El catastro IND trae pocos recintos | Complementar con OpenStreetMap y la planilla manual |
 | La transparencia municipal demora hasta 20 días hábiles | Pedirla esta semana |
 | Mala señal 4G en la sala | Video de respaldo de la demo |
+| El correo gratis de Supabase solo envía a tu cuenta y 2 por hora | Confirmación de correo desactivada en el prototipo. Antes de las pruebas con jugadores, configurar un SMTP propio (Brevo o Resend) para recuperar contraseñas y tener los correos en español |
 
 ## Pantallas
 
@@ -92,4 +95,7 @@ Tiempo disponible: unas 2 horas diarias, cerca de 56 horas en total. Las funcion
 - Un jugador puede tener como máximo 3 reservas futuras activas.
 - Se reserva como máximo 30 días hacia adelante.
 - Los bloques parten a la hora de apertura y duran lo que diga la cancha (60, 90 o 120 minutos).
+- Supabase quedó en la región us-west-2 (Oregón): unos 100 a 150 ms más por consulta que São Paulo. Aceptable para el prototipo.
+- La URL y la clave *publishable* de Supabase están en `admin/.env` y `movil/.env`, dentro del repo: son públicas por diseño (van dentro de la app) y la seguridad la dan las políticas RLS. La clave secreta nunca va al repo.
+- El asesor de seguridad de Supabase deja 9 advertencias: son las funciones que la app llama a propósito (reservar, cancelar, responder, bloquear, horas fijas, activar recinto y disponibilidad). Cada una valida por dentro quién la llama. Las funciones internas están en el esquema `privado`, que la API no publica.
 - Mapa: Google Maps en la app y OpenStreetMap en el panel web. En Android el mapa sin Map ID no se cobra por carga; Google solo pide una cuenta de facturación. El catastro es independiente del proveedor de mapas, así que más adelante se puede pasar a MapLibre + OpenStreetMap sin tocar los datos.

@@ -2,7 +2,7 @@
 
 Parte del repo ValpoCanchas: las reglas del proyecto están en `../CLAUDE.md` y valen también aquí.
 
-- Variables en `movil/.env.local` (copiar `.env.example`): `EXPO_PUBLIC_SUPABASE_URL` y `EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY`.
+- Variables en `movil/.env` (valores públicos, están en el repo): `EXPO_PUBLIC_SUPABASE_URL` y `EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY`. Para otro proyecto, `movil/.env.local`.
 - Cliente Supabase en `src/lib/supabase.ts`: la sesión se guarda con `expo-sqlite/localStorage` (recomendación de Expo SDK 58).
 - Rutas en `src/app/`: el inicio es público (catastro); `ingresar`, `registro` y `recuperar` solo sin sesión; `perfil` solo con sesión (`Stack.Protected` en `_layout.tsx`).
 - Colores en `src/tema.ts` (claro y oscuro según el sistema). Áreas táctiles de al menos `TACTIL` px.

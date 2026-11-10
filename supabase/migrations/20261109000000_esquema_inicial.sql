@@ -6,7 +6,9 @@
 --   * Sin DELETE para los usuarios: se desactiva (activa = false / estado = 'oculto').
 --   * Fechas en timestamptz; los bloques se arman en hora de Chile (America/Santiago).
 
-create extension if not exists btree_gist;
+-- En su propio esquema, como recomienda Supabase (no en public).
+create schema if not exists extensions;
+create extension if not exists btree_gist with schema extensions;
 
 -- ---------------------------------------------------------------------------
 -- Tipos

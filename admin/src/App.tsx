@@ -32,8 +32,8 @@ export default function App() {
     return (
       <MarcoAcceso titulo="Falta configurar Supabase">
         <Aviso tono="error">
-          Crea el archivo <code>admin/.env.local</code> con <code>VITE_SUPABASE_URL</code> y{' '}
-          <code>VITE_SUPABASE_PUBLISHABLE_KEY</code> (copia <code>.env.example</code>) y reinicia <code>npm run dev</code>.
+          Faltan <code>VITE_SUPABASE_URL</code> y <code>VITE_SUPABASE_PUBLISHABLE_KEY</code> en{' '}
+          <code>admin/.env</code>. Revisa ese archivo y reinicia <code>npm run dev</code>.
         </Aviso>
       </MarcoAcceso>
     )

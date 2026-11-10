@@ -19,9 +19,9 @@ ValpoCanchas: proyecto de título (IACC, Técnico Superior en Informática). Cat
 ## Comandos
 
 ```bash
-npm install --prefix admin && npm run dev --prefix admin   # panel web en :5173 (admin/.env.local)
+npm install --prefix admin && npm run dev --prefix admin   # panel web en :5173 (lee admin/.env)
 npm run build --prefix admin && npm run lint --prefix admin
-cd movil && npm install && npx expo start                  # app: escanear el QR con Expo Go (movil/.env.local)
+cd movil && npm install && npx expo start                  # app: escanear el QR con Expo Go (lee movil/.env)
 cd movil && npx tsc --noEmit && npx expo lint              # revisar la app
 python datos/importar_catastro.py                          # regenera supabase/datos/catastro_ind.sql
 python datos/importar_osm.py [--descargar]                 # regenera supabase/datos/catastro_osm.sql

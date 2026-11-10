@@ -49,7 +49,7 @@ export default function Inicio() {
       <Stack.Screen options={{ headerRight: () => <BotonEncabezado /> }} />
       {!supabaseConfigurado ? (
         <Text style={[estilos.mensaje, { color: c.error }]}>
-          Falta configurar Supabase: crea movil/.env.local a partir de .env.example y reinicia la app.
+          Falta configurar Supabase: revisa movil/.env y reinicia la app.
         </Text>
       ) : recintos.isPending ? (
         <ActivityIndicator style={{ marginTop: 40 }} color={c.primario} />
