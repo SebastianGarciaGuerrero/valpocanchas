@@ -7,6 +7,14 @@ Parte del repo ValpoCanchas: las reglas del proyecto están en `../CLAUDE.md` y 
 - Rutas en `src/app/`: el inicio es público (catastro); `ingresar`, `registro` y `recuperar` solo sin sesión; `perfil` solo con sesión (`Stack.Protected` en `_layout.tsx`).
 - Colores en `src/tema.ts` (claro y oscuro según el sistema). Áreas táctiles de al menos `TACTIL` px.
 - Recuperar contraseña manda el enlace al panel web (Site URL de Supabase); ahí se crea la contraseña nueva.
+- Mapa en `src/componentes/MapaRecintos.tsx`: `react-native-maps` con Google en Android, agrupación con `supercluster`, pines como imágenes (`assets/pines/`, relleno = recibe reservas, hueco = catastro) y estilo oscuro local (`estiloMapaOscuro.ts`). No usar Map ID.
+- `src/lib/recintos.ts`: una sola consulta (`useRecintos`) alimenta el mapa, la lista y la ficha; ahí están los filtros y los nombres de tipos y superficies.
+- Ficha en `src/app/recinto/[id].tsx`, presentada como `formSheet` (panel inferior nativo). En Android el panel no muestra encabezado: título y cierre van en el contenido.
+- APK: `app.config.js` toma `GOOGLE_MAPS_API_KEY` del entorno. Pasos, desde `movil/`:
+  1. `npx eas-cli@latest login` y `npx eas-cli@latest init` (una vez).
+  2. `npx eas-cli@latest env:set --name GOOGLE_MAPS_API_KEY --value <clave> --environment preview --visibility sensitive`
+  3. `npx eas-cli@latest build -p android --profile preview` (entrega un enlace para descargar el APK).
+  4. En Google Cloud, restringir la clave a "Apps para Android" con el paquete `cl.valpocanchas.app` y la huella SHA-1 que muestra `npx eas-cli@latest credentials`.
 - Antes de dar algo por terminado: `npx tsc --noEmit`, `npx expo lint` y `npx expo export --platform android`.
 
 ---

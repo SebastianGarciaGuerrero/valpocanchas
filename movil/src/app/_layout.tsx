@@ -32,6 +32,19 @@ function Navegacion() {
     >
       {/* El mapa (inicio) es público: cualquiera ve el catastro. Reservar exige sesión. */}
       <Stack.Screen name="index" options={{ title: 'ValpoCanchas' }} />
+      {/* Ficha del recinto: panel inferior nativo, a media pantalla y ampliable. */}
+      <Stack.Screen
+        name="recinto/[id]"
+        options={{
+          presentation: 'formSheet',
+          sheetAllowedDetents: [0.55, 0.95],
+          sheetInitialDetentIndex: 0,
+          sheetGrabberVisible: true,
+          sheetCornerRadius: 20,
+          headerShown: false,
+          contentStyle: { backgroundColor: c.superficie },
+        }}
+      />
       <Stack.Protected guard={!sesion}>
         <Stack.Screen name="ingresar" options={{ title: 'Ingresar' }} />
         <Stack.Screen name="registro" options={{ title: 'Crear cuenta' }} />

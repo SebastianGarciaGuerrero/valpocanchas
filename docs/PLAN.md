@@ -27,10 +27,11 @@ Tiempo disponible: unas 2 horas diarias, cerca de 56 horas en total. Las funcion
 
 ## Semana 2 (16 al 22 de noviembre): mapa y ficha en el móvil
 
-- [ ] Mapa centrado en Valparaíso sin esperar el GPS; pines distintos para recintos activos y de catastro; agrupación de pines.
-- [ ] Ficha en un panel inferior: foto, canchas (tipo, superficie, techada, precio), horario y contacto (llamar o WhatsApp) si el recinto no está activo.
-- [ ] Filtros: tipo de cancha, superficie, solo reservables.
-- [ ] Primer APK instalado en el Xiaomi 11T.
+- [x] Mapa centrado en Valparaíso sin esperar el GPS; pines distintos para recintos activos (relleno) y de catastro (hueco); agrupación de pines; botón "Mi ubicación"; modo oscuro; vista de lista alternativa.
+- [x] Ficha en un panel inferior: canchas (tipo, superficie, techada, iluminación, precio), administración, "Cómo llegar" y contacto (llamar o WhatsApp) cuando hay teléfono. Falta la foto.
+- [x] Filtros: reservables, tipo de cancha, superficie, techada e iluminación.
+- [ ] Probar el mapa en el celular con Expo Go y corregir lo que aparezca.
+- [ ] Primer APK instalado en el Xiaomi 11T (`eas build`, pasos en `movil/CLAUDE.md`).
 - **Entregable:** APK n.º 1 con el mapa real.
 
 ## Semana 3 (23 al 29 de noviembre): reservas de punta a punta
