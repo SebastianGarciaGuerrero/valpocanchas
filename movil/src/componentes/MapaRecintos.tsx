@@ -6,23 +6,28 @@ import Supercluster from 'supercluster'
 import type { Recinto } from '../lib/recintos'
 import { TACTIL, useTema } from '../tema'
 import { ESTILO_MAPA_OSCURO } from './estiloMapaOscuro'
+import { Icono, Punto } from './Icono'
 
 // Centro de Valparaíso: el mapa abre aquí al instante, sin esperar el GPS (RNF-01).
 const VALPARAISO: Region = { latitude: -33.0472, longitude: -71.6127, latitudeDelta: 0.09, longitudeDelta: 0.09 }
 
 const PIN_ACTIVO = require('../../assets/pines/pin-activo.png')
 const PIN_CATASTRO = require('../../assets/pines/pin-catastro.png')
+const PIN_ACTIVO_SEL = require('../../assets/pines/pin-activo-sel.png')
+const PIN_CATASTRO_SEL = require('../../assets/pines/pin-catastro-sel.png')
 
 const zoomDe = (region: Region) => Math.max(0, Math.min(20, Math.round(Math.log2(360 / region.longitudeDelta))))
 
 interface Props {
   recintos: Recinto[]
+  /** Recinto con la ficha abierta: su pin se dibuja más grande. */
+  seleccionado: number | null
   onAbrir: (id: number) => void
-  /** Espacio que tapan los filtros arriba, para no esconder controles del mapa. */
-  margenSuperior: number
+  /** Se tocó el mapa fuera de un pin. */
+  onTocarMapa: () => void
 }
 
-export default function MapaRecintos({ recintos, onAbrir, margenSuperior }: Props) {
+export default function MapaRecintos({ recintos, seleccionado, onAbrir, onTocarMapa }: Props) {
   const c = useTema()
   const oscuro = useColorScheme() === 'dark'
   const mapa = useRef<MapView>(null)
@@ -55,6 +60,20 @@ export default function MapaRecintos({ recintos, onAbrir, margenSuperior }: Prop
     const zoom = Math.min(indice.getClusterExpansionZoom(idGrupo) + 0.5, 17)
     const delta = 360 / 2 ** zoom
     mapa.current?.animateToRegion({ latitude: latitud, longitude: longitud, latitudeDelta: delta, longitudeDelta: delta }, 350)
+  }
+
+  function abrirRecinto(r: Recinto) {
+    onAbrir(r.id)
+    // Deja el pin en el tercio superior, para que la ficha no lo tape.
+    mapa.current?.animateToRegion(
+      {
+        latitude: r.latitud - region.latitudeDelta * 0.22,
+        longitude: r.longitud,
+        latitudeDelta: region.latitudeDelta,
+        longitudeDelta: region.longitudeDelta,
+      },
+      300,
+    )
   }
 
   async function irAMiUbicacion() {
@@ -92,7 +111,10 @@ export default function MapaRecintos({ recintos, onAbrir, margenSuperior }: Prop
         showsMyLocationButton={false}
         toolbarEnabled={false}
         moveOnMarkerPress={false}
-        mapPadding={{ top: margenSuperior, right: 0, bottom: 0, left: 0 }}
+        onPress={(e) => {
+          // En iOS tocar un pin también dispara este evento; en ese caso no se cierra la ficha.
+          if (e.nativeEvent.action !== 'marker-press') onTocarMapa()
+        }}
       >
         {grupos.map((g) => {
           const [longitud, latitud] = g.geometry.coordinates
@@ -113,29 +135,39 @@ export default function MapaRecintos({ recintos, onAbrir, margenSuperior }: Prop
             )
           }
           const r = (g.properties as { recinto: Recinto }).recinto
+          const elegido = r.id === seleccionado
+          const activo = r.estado === 'activo'
           return (
             <Marker
-              key={`recinto-${r.id}`}
+              // La clave cambia al seleccionar para que Android vuelva a dibujar el pin con la imagen nueva.
+              key={`recinto-${r.id}-${elegido ? 'sel' : 'normal'}`}
               coordinate={{ latitude: latitud, longitude: longitud }}
-              image={r.estado === 'activo' ? PIN_ACTIVO : PIN_CATASTRO}
+              image={elegido ? (activo ? PIN_ACTIVO_SEL : PIN_CATASTRO_SEL) : activo ? PIN_ACTIVO : PIN_CATASTRO}
+              zIndex={elegido ? 10 : 1}
               tracksViewChanges={false}
-              onPress={() => onAbrir(r.id)}
-              accessibilityLabel={`${r.nombre}. ${r.estado === 'activo' ? 'Recibe reservas' : 'Solo información'}.`}
+              onPress={() => abrirRecinto(r)}
+              accessibilityLabel={`${r.nombre}. ${activo ? 'Recibe reservas' : 'Solo información'}.`}
             />
           )
         })}
       </MapView>
 
       {aviso && (
-        <View style={[estilos.aviso, { backgroundColor: c.superficie, borderColor: c.borde, top: margenSuperior + 8 }]}>
+        <View style={[estilos.aviso, { backgroundColor: c.superficie, borderColor: c.borde }]}>
           <Text style={{ color: c.texto, fontSize: 14 }}>{aviso}</Text>
         </View>
       )}
 
       {/* Leyenda: los estados se distinguen por forma (relleno / hueco) y por texto, no solo por color. */}
       <View style={[estilos.leyenda, { backgroundColor: c.superficie, borderColor: c.borde }]}>
-        <Text style={{ color: c.texto, fontSize: 12 }}>● Reserva en la app</Text>
-        <Text style={{ color: c.textoSuave, fontSize: 12 }}>○ Solo información</Text>
+        <View style={estilos.leyendaFila}>
+          <Punto relleno color={c.primario} />
+          <Text style={{ color: c.texto, fontSize: 12 }}>Reserva en la app</Text>
+        </View>
+        <View style={estilos.leyendaFila}>
+          <Punto relleno={false} color={c.primario} />
+          <Text style={{ color: c.texto, fontSize: 12 }}>Solo información</Text>
+        </View>
       </View>
 
       <Pressable
@@ -148,7 +180,7 @@ export default function MapaRecintos({ recintos, onAbrir, margenSuperior }: Prop
           pressed && { opacity: 0.7 },
         ]}
       >
-        <Text style={{ fontSize: 22, color: c.primario }}>◎</Text>
+        <Icono nombre="ubicacion" color={c.primario} tam={24} />
       </Pressable>
     </View>
   )
@@ -165,8 +197,9 @@ const estilos = StyleSheet.create({
     paddingHorizontal: 8,
   },
   grupoTexto: { fontSize: 15, fontWeight: '700' },
-  aviso: { position: 'absolute', left: 16, right: 16, borderWidth: 1, borderRadius: 10, padding: 12 },
-  leyenda: { position: 'absolute', left: 12, bottom: 24, borderWidth: 1, borderRadius: 10, paddingVertical: 6, paddingHorizontal: 10, gap: 2 },
+  aviso: { position: 'absolute', top: 12, left: 16, right: 16, borderWidth: 1, borderRadius: 10, padding: 12 },
+  leyenda: { position: 'absolute', left: 12, bottom: 24, borderWidth: 1, borderRadius: 10, paddingVertical: 8, paddingHorizontal: 10, gap: 4 },
+  leyendaFila: { flexDirection: 'row', alignItems: 'center', gap: 8 },
   botonUbicacion: {
     position: 'absolute',
     right: 16,

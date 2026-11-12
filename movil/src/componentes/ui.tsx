@@ -12,6 +12,7 @@ import {
   type TextInputProps,
 } from 'react-native'
 import { TACTIL, useTema } from '../tema'
+import { Icono, type NombreIcono } from './Icono'
 
 /** Pantalla con scroll que no queda tapada por el teclado. */
 export function Formulario({ children }: { children: ReactNode }) {
@@ -59,9 +60,10 @@ interface BotonProps {
   onPress: () => void
   cargando?: boolean
   variante?: 'primario' | 'secundario'
+  icono?: NombreIcono
 }
 
-export function Boton({ texto, onPress, cargando, variante = 'primario' }: BotonProps) {
+export function Boton({ texto, onPress, cargando, variante = 'primario', icono }: BotonProps) {
   const c = useTema()
   const primario = variante === 'primario'
   return (
@@ -79,7 +81,12 @@ export function Boton({ texto, onPress, cargando, variante = 'primario' }: Boton
       {cargando ? (
         <ActivityIndicator color={primario ? c.primarioTexto : c.texto} />
       ) : (
-        <Text style={[estilos.botonTexto, { color: primario ? c.primarioTexto : c.texto }]}>{texto}</Text>
+        <>
+          {icono && <Icono nombre={icono} color={primario ? c.primarioTexto : c.texto} tam={20} />}
+          <Text style={[estilos.botonTexto, { color: primario ? c.primarioTexto : c.texto }]} numberOfLines={1}>
+            {texto}
+          </Text>
+        </>
       )}
     </Pressable>
   )
@@ -113,7 +120,7 @@ const estilos = StyleSheet.create({
   campo: { gap: 6 },
   etiqueta: { fontSize: 14, fontWeight: '600' },
   input: { minHeight: TACTIL, borderWidth: 1, borderRadius: 10, paddingHorizontal: 14, fontSize: 16 },
-  boton: { minHeight: TACTIL, borderRadius: 10, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 16 },
+  boton: { minHeight: TACTIL, borderRadius: 10, flexDirection: 'row', gap: 8, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 16 },
   botonTexto: { fontSize: 16, fontWeight: '600' },
   aviso: { borderRadius: 10, padding: 12 },
   enlace: { minHeight: TACTIL, alignItems: 'center', justifyContent: 'center' },

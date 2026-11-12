@@ -1,6 +1,7 @@
-import { FlatList, Pressable, StyleSheet, Text } from 'react-native'
+import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native'
 import { resumenCanchas, type Recinto } from '../lib/recintos'
 import { useTema } from '../tema'
+import { Punto } from './Icono'
 
 export default function ListaRecintos({ recintos, onAbrir }: { recintos: Recinto[]; onAbrir: (id: number) => void }) {
   const c = useTema()
@@ -28,9 +29,12 @@ export default function ListaRecintos({ recintos, onAbrir }: { recintos: Recinto
           >
             <Text style={[estilos.nombre, { color: c.texto }]}>{item.nombre}</Text>
             <Text style={{ color: c.textoSuave }}>{[item.sector, resumenCanchas(item)].filter(Boolean).join(' · ')}</Text>
-            <Text style={{ color: activo ? c.primario : c.textoSuave, fontWeight: '600', marginTop: 4 }}>
-              {activo ? '● Reserva en la app' : '○ Solo información y contacto'}
-            </Text>
+            <View style={estilos.estado}>
+              <Punto relleno={activo} color={activo ? c.primario : c.textoSuave} />
+              <Text style={{ color: activo ? c.primario : c.textoSuave, fontWeight: '600' }}>
+                {activo ? 'Reserva en la app' : 'Solo información'}
+              </Text>
+            </View>
           </Pressable>
         )
       }}
@@ -41,4 +45,5 @@ export default function ListaRecintos({ recintos, onAbrir }: { recintos: Recinto
 const estilos = StyleSheet.create({
   tarjeta: { borderWidth: 1, borderRadius: 12, padding: 14, gap: 2 },
   nombre: { fontSize: 16, fontWeight: '600' },
+  estado: { flexDirection: 'row', alignItems: 'center', gap: 8, marginTop: 4 },
 })

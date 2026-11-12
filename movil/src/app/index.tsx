@@ -2,8 +2,10 @@ import { router, Stack } from 'expo-router'
 import { useState } from 'react'
 import { ActivityIndicator, Pressable, StyleSheet, Text, View } from 'react-native'
 import BarraFiltros from '../componentes/BarraFiltros'
+import { Icono } from '../componentes/Icono'
 import ListaRecintos from '../componentes/ListaRecintos'
 import MapaRecintos from '../componentes/MapaRecintos'
+import PanelRecinto from '../componentes/PanelRecinto'
 import { Boton } from '../componentes/ui'
 import { filtrar, SIN_FILTROS, useRecintos, type Filtros } from '../lib/recintos'
 import { useSesion } from '../lib/sesion'
@@ -30,8 +32,7 @@ export default function Inicio() {
   const recintos = useRecintos()
   const [filtros, setFiltros] = useState<Filtros>(SIN_FILTROS)
   const [vista, setVista] = useState<'mapa' | 'lista'>('mapa')
-
-  const abrir = (id: number) => router.push({ pathname: '/recinto/[id]', params: { id: String(id) } })
+  const [seleccionado, setSeleccionado] = useState<number | null>(null)
 
   let contenido
   if (!supabaseConfigurado) {
@@ -47,31 +48,41 @@ export default function Inicio() {
     )
   } else {
     const visibles = filtrar(recintos.data, filtros)
+    // Si un filtro esconde el recinto abierto, su ficha se cierra sola.
+    const abierto = visibles.find((r) => r.id === seleccionado) ?? null
     contenido = (
       <>
-        <BarraFiltros
-          recintos={recintos.data}
-          filtros={filtros}
-          onCambiar={setFiltros}
-          vista={vista}
-          onCambiarVista={() => setVista(vista === 'mapa' ? 'lista' : 'mapa')}
-        />
+        <BarraFiltros recintos={recintos.data} filtros={filtros} onCambiar={setFiltros} />
+
+        <View style={[estilos.franja, { borderBottomColor: c.borde }]}>
+          <Text style={{ color: c.textoSuave, fontSize: 14 }} accessibilityLiveRegion="polite">
+            {visibles.length === recintos.data.length
+              ? `${visibles.length} recintos`
+              : `${visibles.length} de ${recintos.data.length} recintos`}
+          </Text>
+          <Pressable
+            accessibilityRole="button"
+            onPress={() => setVista(vista === 'mapa' ? 'lista' : 'mapa')}
+            hitSlop={8}
+            style={({ pressed }) => [estilos.cambiarVista, { borderColor: c.borde, backgroundColor: c.superficie }, pressed && { opacity: 0.7 }]}
+          >
+            <Icono nombre={vista === 'mapa' ? 'lista' : 'mapa'} color={c.texto} tam={18} />
+            <Text style={{ color: c.texto, fontSize: 14, fontWeight: '600' }}>{vista === 'mapa' ? 'Ver lista' : 'Ver mapa'}</Text>
+          </Pressable>
+        </View>
+
         <View style={{ flex: 1 }}>
           {vista === 'mapa' ? (
-            <MapaRecintos recintos={visibles} onAbrir={abrir} margenSuperior={36} />
+            <MapaRecintos
+              recintos={visibles}
+              seleccionado={abierto?.id ?? null}
+              onAbrir={setSeleccionado}
+              onTocarMapa={() => setSeleccionado(null)}
+            />
           ) : (
-            <ListaRecintos recintos={visibles} onAbrir={abrir} />
+            <ListaRecintos recintos={visibles} onAbrir={setSeleccionado} />
           )}
-          {/* Cuántos recintos se ven con los filtros actuales. */}
-          {vista === 'mapa' && (
-            <View pointerEvents="none" style={estilos.contadorCaja}>
-              <Text style={[estilos.contador, { backgroundColor: c.superficie, color: c.texto, borderColor: c.borde }]}>
-                {visibles.length === recintos.data.length
-                  ? `${visibles.length} recintos`
-                  : `${visibles.length} de ${recintos.data.length} recintos`}
-              </Text>
-            </View>
-          )}
+          {abierto && <PanelRecinto recinto={abierto} onCerrar={() => setSeleccionado(null)} />}
         </View>
       </>
     )
@@ -87,6 +98,13 @@ export default function Inicio() {
 
 const estilos = StyleSheet.create({
   mensaje: { padding: 24, fontSize: 16, textAlign: 'center' },
-  contadorCaja: { position: 'absolute', top: 8, left: 0, right: 0, alignItems: 'center' },
-  contador: { fontSize: 13, fontWeight: '600', borderWidth: 1, borderRadius: 14, paddingHorizontal: 12, paddingVertical: 4, overflow: 'hidden' },
+  franja: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    borderBottomWidth: StyleSheet.hairlineWidth,
+  },
+  cambiarVista: { minHeight: 36, borderWidth: 1, borderRadius: 18, paddingHorizontal: 14, flexDirection: 'row', gap: 6, alignItems: 'center', justifyContent: 'center' },
 })

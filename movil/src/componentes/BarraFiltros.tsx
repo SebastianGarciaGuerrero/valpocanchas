@@ -10,6 +10,7 @@ import {
   type TipoCancha,
 } from '../lib/recintos'
 import { useTema } from '../tema'
+import { Icono } from './Icono'
 
 const ALTO_FILTROS = 60
 
@@ -17,20 +18,19 @@ interface Props {
   recintos: Recinto[]
   filtros: Filtros
   onCambiar: (f: Filtros) => void
-  vista: 'mapa' | 'lista'
-  onCambiarVista: () => void
 }
 
 function alternar<T>(lista: T[], valor: T): T[] {
   return lista.includes(valor) ? lista.filter((v) => v !== valor) : [...lista, valor]
 }
 
-function Chip({ texto, activo, onPress, fijo }: { texto: string; activo: boolean; onPress: () => void; fijo?: boolean }) {
+function Chip({ texto, activo, onPress, limpiar }: { texto: string; activo: boolean; onPress: () => void; limpiar?: boolean }) {
   const c = useTema()
+  const colorTexto = activo ? c.primarioTexto : c.texto
   return (
     <Pressable
-      accessibilityRole={fijo ? 'button' : 'checkbox'}
-      accessibilityState={fijo ? undefined : { checked: activo }}
+      accessibilityRole={limpiar ? 'button' : 'checkbox'}
+      accessibilityState={limpiar ? undefined : { checked: activo }}
       onPress={onPress}
       hitSlop={{ top: 6, bottom: 6 }}
       style={({ pressed }) => [
@@ -39,16 +39,15 @@ function Chip({ texto, activo, onPress, fijo }: { texto: string; activo: boolean
         pressed && { opacity: 0.7 },
       ]}
     >
-      {/* La marca ✓ acompaña al color para indicar que el filtro está activo. */}
-      <Text style={{ color: activo ? c.primarioTexto : c.texto, fontSize: 14, fontWeight: '600' }}>
-        {activo && !fijo ? '✓ ' : ''}
-        {texto}
-      </Text>
+      {/* El ícono acompaña al color: un filtro activo lleva un visto bueno. */}
+      {limpiar && <Icono nombre="cerrar" color={colorTexto} tam={16} />}
+      {activo && <Icono nombre="listo" color={colorTexto} tam={16} />}
+      <Text style={{ color: colorTexto, fontSize: 14, fontWeight: '600' }}>{texto}</Text>
     </Pressable>
   )
 }
 
-export default function BarraFiltros({ recintos, filtros, onCambiar, vista, onCambiarVista }: Props) {
+export default function BarraFiltros({ recintos, filtros, onCambiar }: Props) {
   const c = useTema()
   // Solo se ofrecen los tipos y superficies que existen en el catastro.
   const canchas = recintos.flatMap((r) => r.canchas)
@@ -58,8 +57,7 @@ export default function BarraFiltros({ recintos, filtros, onCambiar, vista, onCa
   return (
     <View style={[estilos.barra, { backgroundColor: c.fondo, borderBottomColor: c.borde }]}>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={estilos.contenido} keyboardShouldPersistTaps="handled">
-        <Chip texto={vista === 'mapa' ? '☰ Lista' : '⌖ Mapa'} activo fijo onPress={onCambiarVista} />
-        {hayFiltros(filtros) && <Chip texto="✕ Limpiar" activo={false} fijo onPress={() => onCambiar(SIN_FILTROS)} />}
+        {hayFiltros(filtros) && <Chip texto="Limpiar" activo={false} limpiar onPress={() => onCambiar(SIN_FILTROS)} />}
         <Chip
           texto="Reserva en la app"
           activo={filtros.soloReservables}
@@ -91,5 +89,5 @@ export default function BarraFiltros({ recintos, filtros, onCambiar, vista, onCa
 const estilos = StyleSheet.create({
   barra: { height: ALTO_FILTROS, borderBottomWidth: StyleSheet.hairlineWidth },
   contenido: { paddingHorizontal: 12, gap: 8, alignItems: 'center' },
-  chip: { minHeight: 40, borderWidth: 1, borderRadius: 20, paddingHorizontal: 14, justifyContent: 'center' },
+  chip: { minHeight: 40, borderWidth: 1, borderRadius: 20, paddingHorizontal: 14, flexDirection: 'row', gap: 6, alignItems: 'center', justifyContent: 'center' },
 })

@@ -9,7 +9,9 @@ Parte del repo ValpoCanchas: las reglas del proyecto están en `../CLAUDE.md` y 
 - Recuperar contraseña manda el enlace al panel web (Site URL de Supabase); ahí se crea la contraseña nueva.
 - Mapa en `src/componentes/MapaRecintos.tsx`: `react-native-maps` con Google en Android, agrupación con `supercluster`, pines como imágenes (`assets/pines/`, relleno = recibe reservas, hueco = catastro) y estilo oscuro local (`estiloMapaOscuro.ts`). No usar Map ID.
 - `src/lib/recintos.ts`: una sola consulta (`useRecintos`) alimenta el mapa, la lista y la ficha; ahí están los filtros y los nombres de tipos y superficies.
-- Ficha en `src/app/recinto/[id].tsx`, presentada como `formSheet` (panel inferior nativo). En Android el panel no muestra encabezado: título y cierre van en el contenido.
+- Ficha en `src/componentes/PanelRecinto.tsx`: panel inferior dibujado dentro de la pantalla del mapa, sin navegación. El recinto elegido es estado de `src/app/index.tsx`; el botón atrás de Android y tocar el mapa lo cierran. No volver a `presentation: 'formSheet'`: esa versión falló en el teléfono de prueba (aparecía un menú extraño y la app quedaba pegada).
+- Íconos con `Icono` y estados con `Punto` (`src/componentes/Icono.tsx`, sobre `expo-symbols`). No usar símbolos de texto (☰, ✕, ●…) como íconos: cambian según la fuente del teléfono.
+- Para revisar el diseño sin teléfono: `npx expo export --platform web` y servir la carpeta `dist`. En web el mapa es un esquema de puntos (`MapaRecintos.web.tsx`); el resto de la pantalla es igual.
 - APK: `app.config.js` toma `GOOGLE_MAPS_API_KEY` del entorno. Pasos, desde `movil/`:
   1. `npx eas-cli@latest login` y `npx eas-cli@latest init` (una vez).
   2. `npx eas-cli@latest env:set --name GOOGLE_MAPS_API_KEY --value <clave> --environment preview --visibility sensitive`
