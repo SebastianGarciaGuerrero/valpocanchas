@@ -207,6 +207,30 @@ select pg_temp.afirma(
   (select count(*) from reservas where horario_fijo_id = :fijo1 and estado = 'cancelada') = 4,
   'terminar la hora fija libera las semanas que no se han jugado');
 
+-- ---------------------------------------------------------------- activar por correo y cambiar estado
+select pg_temp.espera_error(format('select activar_recinto_por_correo(%s, %L)', :r3, 'dueno1@valpo.test'),
+  'Solo el administrador general', 'un dueño no puede activar recintos por correo');
+select pg_temp.espera_error(format('select cambiar_estado_recinto(%s, ''oculto'')', :r1),
+  'Solo el administrador general', 'un dueño no puede cambiar el estado de un recinto');
+
+select set_config('request.jwt.claim.sub', :'super', false) \g /dev/null
+insert into recintos (nombre, latitud, longitud, estado, fuente)
+values ('Cuarto Recinto', -33.06, -71.61, 'catastro', 'manual');
+select id as r4 from recintos where nombre = 'Cuarto Recinto' \gset
+select pg_temp.espera_error(format('select activar_recinto_por_correo(%s, %L)', :r4, 'nadie@valpo.test'),
+  'No existe una cuenta', 'activar con un correo sin cuenta avisa que debe registrarse');
+select estado as r4_estado, admin_id as r4_admin from activar_recinto_por_correo(:r4, '  DUENO1@valpo.test ') \gset
+select pg_temp.afirma(:'r4_estado' = 'activo' and :'r4_admin' = :'dueno1',
+  'activar por correo asigna al dueño (sin importar mayúsculas ni espacios)');
+select pg_temp.espera_error(format('select cambiar_estado_recinto(%s, ''activo'')', :r3),
+  'primero asígnale un dueño', 'no se reactiva un recinto sin dueño ni ubicación');
+select estado as r4_estado from cambiar_estado_recinto(:r4, 'catastro') \gset
+select pg_temp.afirma(:'r4_estado' = 'catastro', 'el administrador general devuelve un recinto al catastro');
+select estado as r4_estado from cambiar_estado_recinto(:r4, 'activo') \gset
+select pg_temp.afirma(:'r4_estado' = 'activo', 'y lo reactiva, porque ya tiene dueño');
+select estado as r4_estado from cambiar_estado_recinto(:r4, 'oculto') \gset
+select pg_temp.afirma(:'r4_estado' = 'oculto', 'o lo oculta del catastro');
+
 -- ---------------------------------------------------------------- visitante sin sesión
 reset role;
 select set_config('request.jwt.claim.sub', '', false) \g /dev/null
